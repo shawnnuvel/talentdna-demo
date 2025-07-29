@@ -211,7 +211,7 @@ with col2:
 # Footer
 st.divider()
 st.markdown("### Ready to unlock the full power of TalentDNA?")
-st.markdown("📧 Contact: hello@nuvel.ai)
+st.markdown("📧 Contact: hello@nuvel.ai")
 st.markdown("*Currently in private beta - Limited spots available*")
 
 # Hidden tracking
