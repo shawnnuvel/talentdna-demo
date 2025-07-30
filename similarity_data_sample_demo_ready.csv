@@ -1,394 +1,162 @@
-source_name,source_title,source_company,source_location,similar_name,similar_title,similar_company,similar_location,similarity_score,source_category,similar_category
-Jj Espinoza,Global Account Operations Manager,Hewlett-Packard,"Roseville, CA",Sena Tudisco,"Senior Vice President, Retail Merchandising",Bath & Body Works,"Sonoma, CA",87.6,general,executive
-Jj Espinoza,Global Account Operations Manager,Hewlett-Packard,"Roseville, CA",Samuel Kim,Marketing Science Partner,Facebook,Los Angeles Metropolitan Area,79.8,general,marketing
-Sunitha Sankar,Principal Software Engineer,Technology Company,Not specified,Vishal Saraswat,Distributed Storage Engineer,Technology Company,Not specified,95.0,software_engineer,software_engineer
-Sunitha Sankar,Principal Software Engineer,Technology Company,Not specified,Arpan Chowdhry,Engineering Leader - Performance engineering,Technology Company,Not specified,89.7,software_engineer,software_engineer
-Bruce Floyd,Field Service Technician,PepsiCo,"Colorado Springs, CO",Ryan Luster,Crew Trainer,Culver's Restaurants,Greater Colorado Springs Area,94.4,general,general
-Bruce Floyd,Field Service Technician,PepsiCo,"Colorado Springs, CO",Charlie Blum,pallet builder,PepsiCo - Pepsi Beverages Company,"Fort Mitchell, KY",95.0,general,general
-Nadine Livingstone,Senior Vice President,FinTrU,United Kingdom,Kevin O'Neill,Field Services Manager,Echo Managed Services,Belfast Metropolitan Area,76.8,executive,general
-Nadine Livingstone,Senior Vice President,FinTrU,United Kingdom,"Mark Hay, FCIBS",Academic Associate,the Chartered Banker Institute of Scotland,Dunblane,79.4,executive,general
-Sharneel Sandeep Kumar,Assistant Manager,Nagsun Apparel Fiji Limited,Fiji,Josefa Wesley,Digital Retail Consultant,Bank of South Pacific Ltd,Fiji,87.4,general,general
-Sharneel Sandeep Kumar,Assistant Manager,Nagsun Apparel Fiji Limited,Fiji,Daniel Gukirewa,Student,The University of the South Pacific,Suva,87.9,general,general
-M. Ammar Akram,"Lecturer,Mechanical Engineering","HITEC University.
-
-PhD in process, Thermal Energy Engineering ( USPCASE NUST)",Pakistan,Atif Abbas,Data Analyst & Scrutiny Officer,Sindh Building Control Authority (SBCA),Pakistan,85.0,software_engineer,general
-M. Ammar Akram,"Lecturer,Mechanical Engineering","HITEC University.
-
-PhD in process, Thermal Energy Engineering ( USPCASE NUST)",Pakistan,Syed Sajid Raza,Finance and Administration Manager,Asiatic Public Relations Network (Pvt.) Ltd.,Pakistan,77.2,software_engineer,general
-Shreyans Shah,Product Manager,ICICI Bank,Kurla,Rajbir Singh,Senior Manager - Product and Strategy,L&T Financial Services,Mumbai,89.8,product_manager,product_manager
-Shreyans Shah,Product Manager,ICICI Bank,Kurla,Ishan Srivastava,Product Manager,Technology Company,Pune,85.0,product_manager,product_manager
-Priyanshi Parsana,Software Engineer Intern,University of Windsor,"Windsor, ON",Parthvi Patel,Actively searching for full-time opportunities starting from January 2021,Technology Company,"Windsor, ON",93.4,software_engineer,software_engineer
-Priyanshi Parsana,Software Engineer Intern,University of Windsor,"Windsor, ON",Shristi Tiwari,Associate Consultant,Ultragenic Research and Technologies,Not specified,85.5,software_engineer,general
-RAJ BASFORE,Unskill worker,"SAMEER (R&D of DIT, Govt of India)",Hajo,Karthik K,"FEA, NVH Senior Engineer with Simulation driven Product development",Bosch,منطقة شتوتغارت,76.7,general,software_engineer
-RAJ BASFORE,Unskill worker,"SAMEER (R&D of DIT, Govt of India)",Hajo,Harry Davies,"Phd student in Signal Processing, Machine Learning and Wearable Health Technology",Imperial College London,لندن,83.2,general,data_scientist
-Holly Angus,Student,Carlisle College,Wigton,Ezekiel Thorp,Student,University of Central Lancashire,Warrington,93.3,general,general
-Holly Angus,Student,Carlisle College,Wigton,Samantha Sandilands,PhD student,"the University of Birmingham, developing a career in academia as Senior Lecturer at Ravensbourne University. Particular interest in social enterprise and food waste research, marketing and digital culture.",Royal Leamington Spa,84.3,general,marketing
-vaishali patel,Performance Test Engineer,Comcast,"King of Prussia, PA",Chandrika Patel,Corporate Access Associate,Handelsbanken Capital Markets,London,76.8,software_engineer,general
-vaishali patel,Performance Test Engineer,Comcast,"King of Prussia, PA",Nimesh Patel,Business Analyst,Deutsche Bank,London,82.6,software_engineer,general
-Vera Pajovic,Founder of EcoStory,Technology Company,"Lilyfield, NSW",Megan Old,Tour & Event Designer,Leisure Time Group NZ,Hamilton,81.9,marketing,general
-Vera Pajovic,Founder of EcoStory,Technology Company,"Lilyfield, NSW",David Bradley,Senior CRM & Insight Manager,Everton Football Club,London,85.4,marketing,general
-Brett Hiemenz,Hub Manager,Technology Company,Greater Duluth Area,Micah DeSchepper,"Agile, Fintech, Digital, EX, Chief Digital Office",U.S. Bank,Dallas-Fort Worth Metroplex,87.6,executive,general
-Brett Hiemenz,Hub Manager,Technology Company,Greater Duluth Area,Jeff Rajanen,"Omnichannel Manager - Unilever Target Team, Drug, Value & Emerging eCommerce Channels",Technology Company,Greater Minneapolis-St. Paul Area,92.0,executive,general
-Nicholas Hoffman,Student,"University of Tennessee, Knoxville",Knoxville Metropolitan Area,Mint Christopher,CTC Manager,Walden Security,Greater Chattanooga,80.3,general,general
-Nicholas Hoffman,Student,"University of Tennessee, Knoxville",Knoxville Metropolitan Area,Sarah Sanders,Assistant Director - Head of Business Development,SAGE OUTPATIENT SERVICES,"Baton Rouge, LA",79.2,general,product_manager
-Yuvraj Bagle,Regional  Manager - Document & Information Management,Technology Company,Mumbai,Vamshi M N,Head -Business Development,"Ventois, Inc",Hyderabad,84.1,general,product_manager
-Yuvraj Bagle,Regional  Manager - Document & Information Management,Technology Company,Mumbai,Kavitha Mohan,Software Engineer,eMids Technologies,Bangalore Urban,81.7,general,software_engineer
-Tanvi Gupta,Audit Manager,PwC UK,Manchester,Gareth Amison,Senior Manager,PwC,London,95.0,general,general
-Tanvi Gupta,Audit Manager,PwC UK,Manchester,"Ravi Mandhan, CFA, ACCA",Assistant Manager,KPMG UK,London,80.6,general,product_manager
-Ariba Ahmed,Software Engineer Intern,Siemens,Hisar,Apoorve Goyal,SWE Intern 2 @HackerRank,Technology Company,Aligarh,91.3,software_engineer,software_engineer
-Ariba Ahmed,Software Engineer Intern,Siemens,Hisar,Raj Vikramaditya,Software Engineer @ Google,Technology Company,Kolkata,83.3,software_engineer,software_engineer
-MAHADEV DEVKATE,Sr. Design Engineer At Mahle Engineering services Pvt Ltd,Technology Company,Pune,Naveen kumar Challa,Sr-Engineer- HVAC Projects,Technology Company,Pune,91.5,software_engineer,software_engineer
-MAHADEV DEVKATE,Sr. Design Engineer At Mahle Engineering services Pvt Ltd,Technology Company,Pune,Veenit Ankam,Design Engineer,MAHLE,Pune,93.1,software_engineer,software_engineer
-Glory Deepti,Talent Acquisition - Human Resources,Cast and Crew,Not specified,Mani Krishna Pandiri,System specialist Fujitsu- Oracle apps Dba,Technology Company,Not specified,95.0,general,general
-Glory Deepti,Talent Acquisition - Human Resources,Cast and Crew,Not specified,Archana Davineni,HR Manager - Recruitment & Operations,CAPS Payroll (A Cast & Crew Entertainment Company),Not specified,85.1,general,general
-jagapathi korllapati,Fresher  searching for job,fresher,Hyderabad,Divakar Reddy G,working as maintenance manager,Technology Company,Tsundur,90.5,general,general
-jagapathi korllapati,Fresher  searching for job,fresher,Hyderabad,Gopichand Alla,Mechanical Engineer,Cervini Farms North Carolina Inc,"Farmington, MI",77.2,general,software_engineer
-Doaa I.Saleh,Senior Regional HUB Recruiter,Eni International Resources Ltd,مصر,Akram Al Abweh,International R&M Supervisor,"Well Logging Energy Technology Co.,LTD",شيان,84.0,general,general
-Doaa I.Saleh,Senior Regional HUB Recruiter,Eni International Resources Ltd,مصر,Abdallah Almakkawy,Ass. Gen. Mgr,Agiba petroleum co.,مصر,86.1,general,general
-Mike Harris,Technical Director,AF Switchgear Ltd.,Greater Nottingham,Edyta Rybak,"Application Engineer,  Rail and Underground, TSO, Technology and Data",Transport for London,London,80.0,executive,software_engineer
-Mike Harris,Technical Director,AF Switchgear Ltd.,Greater Nottingham,NITIN KUMAR,Credit Underwriter,Hero FinCorp.,West Delhi,83.0,executive,general
-David Wallace,Restaurant Owner,Mexican Restaurant,"Cumming, GA",Twinkle Leroy,Restaurant owner,Frankie's Italian,"Woodstock, GA",87.8,general,general
-David Wallace,Restaurant Owner,Mexican Restaurant,"Cumming, GA",I.R.B.E./Orlando Rivera,CEO/Owner,International Restaurant and Bakery Equipment,"Carrollton, GA",80.2,general,product_manager
-Binoy Shah,Engineer,British Gas,"London Area, United Kingdom",Susana Mendonca,Desktop Support Analyst,Arthur J. Gallagher & Co.,London,88.4,software_engineer,general
-Binoy Shah,Engineer,British Gas,"London Area, United Kingdom",David Jones,Desktop Support Analyst,UNKNOWN,London,86.0,software_engineer,general
-Whitney Bloom,Client Partner,Facebook & Instagram,"Greater Toronto Area, Canada",Tracey G. Ingram,"Content Marketing Copywriter - Helping businesses build relationships, generate more leads and sales-  #Video Script Writer  #Content Marketing Specialist",Technology Company,Greater Chicago Area,77.2,general,sales
-Whitney Bloom,Client Partner,Facebook & Instagram,"Greater Toronto Area, Canada",Mark Foglia,"Construction Lending Coach, NMLS#1995108","Residential Mortgage Services, Inc. -- NMLS#1760","Salem, NH",88.8,general,general
-Mohamed Elabbas,Energy Planning intern,IRENA,The Hague,Cédric Lagarde-Gillot,Director - Europe,Technology Company,Aix-en-Provence,76.5,general,executive
-Mohamed Elabbas,Energy Planning intern,IRENA,The Hague,Bobby Nagle,Building the sales development team,Payfit UK,Wooburn Green,87.1,general,product_manager
-Narein Chenthivelnathan,Biology and Computing Student,the University of Waterloo,"Baden, ON",Kevin Ke,Student,University of Waterloo,"Waterloo, ON",95.0,general,general
-Narein Chenthivelnathan,Biology and Computing Student,the University of Waterloo,"Baden, ON",Redwan Mohammed,Student,the University of Waterloo,"Calgary, AB",89.7,general,general
-Vanja Zezelic,Executive Producer,PlanetSport,Croatia,Leonarda Pavić,Sports Journalist,PlanetSport/ArenaSport,Croatia,92.7,general,general
-Vanja Zezelic,Executive Producer,PlanetSport,Croatia,Tajana Škoro,Community Manager,Nova TV,Zagreb,80.5,general,general
-Vladislav Baginskiy,CTO,Via.Delivery (ex Via Sarcina),Moscow,Stanislav Savciuc,Lead Back End Developer,Fluz Fluz Global,New York City Metropolitan Area,77.9,executive,software_engineer
-Vladislav Baginskiy,CTO,Via.Delivery (ex Via Sarcina),Moscow,Sue Giggey,Procurement Manager,U.S. Army Network Enterprise Technology Command,"San Leandro, CA",89.5,executive,general
-ben curtis,Student,the riverina anglican college,Greater Sydney Area,Bryan Wu,Education student,UNSW Sydney,Australia,81.0,general,general
-ben curtis,Student,the riverina anglican college,Greater Sydney Area,Kara Olsen-Merillo,Business Analyst,Westpac,Greater Sydney Area,81.4,general,general
-Audrey Ann Manzano,Mobile Software Engineer,Technology Company,Greater Sydney Area,Daniel Ralph,Owner,PressStopProductions,Greater Adelaide Area,76.3,software_engineer,product_manager
-Audrey Ann Manzano,Mobile Software Engineer,Technology Company,Greater Sydney Area,Craig Zheng,iOS Developer since 2012,Technology Company,Greater Sydney Area,89.6,software_engineer,software_engineer
-Chloë O’Hanlon,CLO Middle office Analyst,U.S. Bank,Wexford,Kevin Murphy,Client Associate,Clearstream Global Security Services,Cork,82.8,general,general
-Chloë O’Hanlon,CLO Middle office Analyst,U.S. Bank,Wexford,Joe Whelton,Front End Javascript Developer,Clearstream,Ireland,87.8,general,software_engineer
-Anthony Walsh,Communications Specialist,Royal Navy,Fareham,Stuart Harvey,Submarine Escape Rescue Abandonment Survival Instructor,Royal Navy,Lee-on-the-Solent,81.4,general,executive
-Anthony Walsh,Communications Specialist,Royal Navy,Fareham,Joshua Chesman,Trainee Duty Manager,Superbowl UK,Hull,95.0,general,general
-Damien Ziomek,Leasing Consultant,Autopia,Greater Brisbane Area,Peter Truong,Customer Platform Specialist,Stockland,"Sydney, NSW",90.6,general,general
-Damien Ziomek,Leasing Consultant,Autopia,Greater Brisbane Area,Jaime Mizrahi,eCommerce Analyst II,Teikametrics,Miami-Fort Lauderdale Area,83.4,general,general
-Melissa Flaherty,Manufacters Representative to the Design Trade - M Design Home,Technology Company,"Nashville, TN",Lori Whitaker,Owner/Senior Advisor,A Source for Excellence,Not specified,87.4,general,general
-Melissa Flaherty,Manufacters Representative to the Design Trade - M Design Home,Technology Company,"Nashville, TN",Nicholas Bucha,Outside Sales Representative,North East Technical Sales,"Norristown, PA",88.2,general,sales
-Sakthikumar Muthusamy,Senior Associate,J.P. Morgan,Bengaluru,Raghu Ravi,Senior Software Engineer,Sift,San Francisco Bay Area,87.2,general,software_engineer
-Sakthikumar Muthusamy,Senior Associate,J.P. Morgan,Bengaluru,Anthony Thielen,Senior SWE - Payments Experience,Best Buy,Greater Minneapolis-St. Paul Area,89.5,general,software_engineer
-SkillAbility Universe,Education Professional,Groupe MRP India Private Limited,"Luanda, Angola",Annie Wong,Customer Service Representative,Paragon Testing Enterprises Inc,Canada,94.7,general,general
-SkillAbility Universe,Education Professional,Groupe MRP India Private Limited,"Luanda, Angola",GroupHEALTH Marketing,Marketing Team,GroupHEALTH Benefit Solutions,Canada,82.1,general,marketing
-Cameron Deuel,"Manager, Social Media Marketing",The Pokémon Company International,"Seattle, WA",Jamie Wilcher,Marketing Director,Aegis Living,"Sammamish, WA",76.1,marketing,executive
-Cameron Deuel,"Manager, Social Media Marketing",The Pokémon Company International,"Seattle, WA","Ebrima Gomez, MHA",General Manager,Aegis Living,Greater Seattle Area,89.5,marketing,general
-Nikhil Bhatia,Motor Assessing Team Manager,Technology Company,Greater Sydney Area,David Wong-Tung,Chairman,Infinitewater (New Zealand) Limited,Auckland,84.7,general,general
-Nikhil Bhatia,Motor Assessing Team Manager,Technology Company,Greater Sydney Area,Troy Danfield,Specialist Motor Assessor,IAG,Greater Newcastle Area,84.2,general,general
-tony tierney,Key Account Manager,DHL Global Mail UK Limited,Slough,Zahir Iqbal,First Line Manager,DHL,Birmingham,87.1,sales,general
-tony tierney,Key Account Manager,DHL Global Mail UK Limited,Slough,David Bell,Business Development Manager,TY Logistics,London,85.8,sales,product_manager
-Quintin Foster,Student,The University of Waikato,Hamilton,Andrew Keenan,Mechanical Design Engineer,Alton Drilling LTD,"Waikato, New Zealand",85.2,general,software_engineer
-Quintin Foster,Student,The University of Waikato,Hamilton,Ben Marsh,Manufacturing Manager,Golden Bay Cement,"Northland, New Zealand",91.0,general,general
-Samuel A. Lincoln IV,Senior Accounting Manager,Utopian Luxury Vacation Homes,"Park City, UT","Brian Heard, CMI",Complex Industrial Director,Technology Company,"Houston, TX",86.1,general,executive
-Samuel A. Lincoln IV,Senior Accounting Manager,Utopian Luxury Vacation Homes,"Park City, UT",Karen M L.,Office Manager,Confidential,"Yonkers, NY",84.3,general,general
-Anna Denne,Producer,Discovery Communications,United Kingdom,Georgina Pike,Admin Accounts,Pikes Services,Tonbridge,93.1,general,general
-Anna Denne,Producer,Discovery Communications,United Kingdom,Audrey Cowie,Non Executive Director,Technology Company,Edinburgh,82.5,general,executive
-Darran Huang,Night Auditor,Marriott Hotels,"Honolulu County, HI",Stefania Maresca,Student,University of Central Florida,"Winter Garden, FL",90.5,general,general
-Darran Huang,Night Auditor,Marriott Hotels,"Honolulu County, HI",Alexis Williamson,"BS, Hospitality and Tourism Management Student",Florida State University,Greater Orlando,83.2,general,general
-"Rhadie Mendoza, RCh, MS",Country Manager - Wacker Chemicals South Asia Philippine Representative Office,Technology Company,Metro Manila,Sweeny Samarawickrama,Communications Manager - MEA Region,Technology Company,"Dubai, Vereinigte Arabische Emirate",89.7,general,marketing
-"Rhadie Mendoza, RCh, MS",Country Manager - Wacker Chemicals South Asia Philippine Representative Office,Technology Company,Metro Manila,Devrim Turkmen,BEKO PLC şirketinde IT Manager,Technology Company,Watford,90.7,general,general
-Tiffany Jung,"VP, Strategy & Operations",Commit,Canada,Ted Maduri,"Partner and Chair, Canadian Corporate Group",DLA Piper (Canada) LLP,Not specified,83.9,executive,general
-Tiffany Jung,"VP, Strategy & Operations",Commit,Canada,David Kent,Partner,McMillan LLP,"Toronto, ON",88.9,executive,general
-Bobby Bennett,Engineering Test Manager,Technology Company,"Niceville, FL",Annie Zimmerman,Communications Coordinator,Potomac Appalachian Trail Club,"Vienna, VA",82.7,software_engineer,general
-Bobby Bennett,Engineering Test Manager,Technology Company,"Niceville, FL",Ryan Stevens,Government Affairs Coordinator,Duane Morris Government Strategies,"Harrisburg, PA",85.1,software_engineer,general
-Karen Keller,Business Development,Ready to Support Your Business,"Clarence Center, NY",John Booth,Business Development,Mail Works,"Perrysburg, OH",85.2,product_manager,product_manager
-Karen Keller,Business Development,Ready to Support Your Business,"Clarence Center, NY",Giles Smith,Managing Director,Printing & Graphic Machinery Ltd,Bourne End,78.0,product_manager,executive
-Florent Mei Yi 梅贻,Management Consultant,McKinsey & Company,静安区,Nupur Thakker,PHD Student,"Senses Lab, Department of Computer Science, University of Rome ""La Sapienza""",罗马,91.0,general,general
-Florent Mei Yi 梅贻,Management Consultant,McKinsey & Company,静安区,Ruby Ruolin Wang,Associate,Welltower™ Inc. (NYSE:WELL),"紐約, NY",91.9,general,general
-Jacob Gravenmier,Customer Service Representative,Chewy,Dallas-Fort Worth Metroplex,Jason Zullo,Professional Photographer,Zlight Photography,"South Lake Tahoe, CA",95.0,general,general
-Jacob Gravenmier,Customer Service Representative,Chewy,Dallas-Fort Worth Metroplex,Theron Hill,MARKET MANAGER / TRAINER,Technology Company,"Birmingham, AL",81.7,general,general
-Mike Teague,Assistant Fire Chief,Boone Fire Department,"Boone, NC",Michael Jervis,Engineering Technician,Texas Instruments,"McKinney, TX",88.4,general,software_engineer
-Mike Teague,Assistant Fire Chief,Boone Fire Department,"Boone, NC",Jeremy Munoz,Field Services Engineer,Unisys,"McKinney, TX",83.4,general,software_engineer
-Tracey Lee,Associate Nurse Director Workforce Planning,Technology Company,"County Dublin, Ireland",Emmanuel Bernardo,Health Care Assistant,Mater Misericordiae University Hospital,Ireland,87.4,executive,general
-Tracey Lee,Associate Nurse Director Workforce Planning,Technology Company,"County Dublin, Ireland",Patricia Noone,Clinical nurse manager,CareChoice Group Ireland,Ireland,88.0,executive,general
-"Abby Lie, PMP",Head Program Management Office,Nikola Motor Company,"Phoenix, AZ",Raul gonzalez,Sr. Vehicle Engineering Mechanical Technician,Nikola Motor Company,Greater Phoenix Area,89.0,general,software_engineer
-"Abby Lie, PMP",Head Program Management Office,Nikola Motor Company,"Phoenix, AZ",Emily Campbell,Executive Assistant,Nikola Motor Company,"Gilbert, AZ",85.3,general,general
-Petra Cizkova,architect,Feilden+Mawson,"Prague, Czechia",Xuan Luo,Assistant Architect,Chapman Taylor,Nottinghamshire,83.8,general,product_manager
-Petra Cizkova,architect,Feilden+Mawson,"Prague, Czechia",Gordon Montague,Consultant,Feilden+Mawson,London,92.9,general,general
-SUKI BOYNTON,Designer,Penguin Random House,New York City Metropolitan Area,Michele Natale,Graphic Design & Marketing Specialist,Technology Company,"Los Angeles, CA",81.7,general,marketing
-SUKI BOYNTON,Designer,Penguin Random House,New York City Metropolitan Area,Robert Hyman,Sr. Product Designer,Emerge,"Broomfield, CO",77.9,general,product_manager
-Inessa Khodak,Senior Accountant,Positive Venture Group Inc.,Greater Ottawa Metropolitan Area,Kenzie Bryson-Clarke,Office Manager/Accountant,Point to Point Communications Ltd.,"Barrie, ON",92.0,general,general
-Inessa Khodak,Senior Accountant,Positive Venture Group Inc.,Greater Ottawa Metropolitan Area,Alma Mendoza,AP Specialist,Positive Venture Group,Greater Ottawa Metropolitan Area,86.6,general,general
-Christopher Riddle,Applications Coordinator,The University of Tennessee at Chattanooga,"Chattanooga, TN",Nick Leal,Mental Health Technician,Lakeside Behavioral Health Sys,"Memphis, TN",83.6,general,general
-Christopher Riddle,Applications Coordinator,The University of Tennessee at Chattanooga,"Chattanooga, TN",Blake Stayton,Student,The University of Memphis,"Germantown, TN",91.5,general,general
-Graham Overton,Computer Software Consultant and Contractor,Technology Company,"Raymond, AB",Stéphane Caron,Director General Linux/Unix Operation,Shared Services Canada,"Ottawa, ON",84.0,executive,executive
-Graham Overton,Computer Software Consultant and Contractor,Technology Company,"Raymond, AB",Jermaine A. Pusey,Senior System Administrator,CRH Canada,"Greater Toronto Area, Canada",84.1,executive,general
-Bobby (Bob) Rice,Realtor,"Forest Hill Real Estate Brokerage: Boutique --
-Humber College Music Faculty","Toronto, ON",Anthuan Woods,Developer / Systems Analyst,Technology Company,"Greater Toronto Area, Canada",77.2,general,software_engineer
-Bobby (Bob) Rice,Realtor,"Forest Hill Real Estate Brokerage: Boutique --
-Humber College Music Faculty","Toronto, ON",Jose Urbina,Web Application Developer,Technology Company,"Mississauga, ON",77.2,general,software_engineer
-Joseph Acquafredda,Portfolio Manager,Independent Brokers FX,"Baldwin, NY",Marcio Lima,Senior Sales Consultant,Christian Louboutin,London,89.2,general,sales
-Joseph Acquafredda,Portfolio Manager,Independent Brokers FX,"Baldwin, NY",Adam Muskett,Operations Manager,CaravanCloud,Tenby,82.9,general,general
-Manuel Aymerich,Technical Customer Success Manager,Azure,Dublin,Kevin Lieu,Enterprise Architect,MATRIXX Software,Greater Melbourne Area,85.0,general,general
-Manuel Aymerich,Technical Customer Success Manager,Azure,Dublin,Amir Moin,Senior BSS Specialist,Globalive Communications Corp.,"Mississauga, ON",95.0,general,general
-Aubrey Minckler,Project Manager,NextGen Healthcare,"Wentzville, MO",client Service,Client Services Manager,DiJiFi,"Brooklyn, NY",84.2,general,general
-Aubrey Minckler,Project Manager,NextGen Healthcare,"Wentzville, MO",Karissa Searock,HRIS Manager,Christmas Tree Shops,"Nazareth, PA",89.8,general,general
-Carmen Ferris,Director of Operations,Essential Skills Manitoba,"Winnipeg, MB",Dave Conrad,technical support representative,Blue ocean contact centers,"Halifax, NS",88.2,executive,general
-Carmen Ferris,Director of Operations,Essential Skills Manitoba,"Winnipeg, MB",Jen Deschambeault,"Manager, Talent Acquisition Medavie Blue Cross / Croix Bleue Medavie",Technology Company,"Moncton, NB",84.3,executive,general
-Michelle Beckham,Regional Director of Sales-skilled nursing,Brookdale Senior Living,"Kansas City, MO",Nicki Beausoleil,"Director Of Rehabilitation, Ensign Sevices",Technology Company,"Olathe, KS",86.7,executive,executive
-Michelle Beckham,Regional Director of Sales-skilled nursing,Brookdale Senior Living,"Kansas City, MO",Jordan Wagner,Sales/Account Manager for Guardian Pharmacy,Technology Company,Kansas City Metropolitan Area,78.9,executive,sales
-Sadam Fadl,Warehouse Team Member,KFC,Greater Sheffield Area,James Alexander,Manager,Turtle Bay Restaurants,London,82.4,general,general
-Sadam Fadl,Warehouse Team Member,KFC,Greater Sheffield Area,Alex Dingley,Deputy Manager,AMBIENTE TAPAS LIMITED,York,84.2,general,general
-Tuyen Dang,Customer Service Specialist,Commonwealth Bank,Greater Melbourne Area,Tina Gillespie,Customer Experience and Marketing,Tyro Payments,Greater Sydney Area,85.4,general,marketing
-Tuyen Dang,Customer Service Specialist,Commonwealth Bank,Greater Melbourne Area,Nektarea Cameron-Smith,Head of Customer Experience,Up,Greater Melbourne Area,88.9,general,executive
-Emma Munube,Audit Associate,Deloitte,London,Jae Won Hong,General Manager,F45 Training Gwanghwamun,"Seoul, South Korea",91.8,general,general
-Emma Munube,Audit Associate,Deloitte,London,James Heyburn,Student,Loughborough University,Hersham,81.5,general,general
-Sean Cordasco,Associate Director Of Sales,"The Beekman, a Thompson Hotel","New York, NY",Whitney Flores,Vice President of Rooms Operations,White Lodging Services,"Merrillville, IN",84.3,executive,executive
-Sean Cordasco,Associate Director Of Sales,"The Beekman, a Thompson Hotel","New York, NY",Scott O'Gorman,Corporate VP Food and Beverage,Gila River Hotels & Casinos,Greater Phoenix Area,85.0,executive,executive
-Mike Allan,Senior Consultant,Figure 8 New Zealand,Auckland,Samuel Raj,IT Operations Lead,Figure8 New Zealand,Auckland,91.2,general,general
-Mike Allan,Senior Consultant,Figure 8 New Zealand,Auckland,James Edgar,Director - Producer - Architect,Technology Company,Auckland,89.4,general,executive
-Nadya Collantes Gladkow,Mechanical Engineering MEng (Hons) student,University of Bath,Pamplona,Ulla Reicela Alekse,Senior Receptionist,The Ivy Collection and Full Time student at the University of Bath,United Kingdom,81.3,software_engineer,general
-Nadya Collantes Gladkow,Mechanical Engineering MEng (Hons) student,University of Bath,Pamplona,Shivansh Vij,Summer Intern,Jindal Saw Limited,Bath,77.4,software_engineer,general
-Aidee Rocha,Care Navigator,WellMed Medical Management,"San Antonio, TX",Rob Maxwell,Director Of Operations,Fresenius Medical Care North America,Greater Harrisburg Area,87.6,general,executive
-Aidee Rocha,Care Navigator,WellMed Medical Management,"San Antonio, TX",Yvette Estebane,Clinic Administrator,WellMed Medical Management,"San Antonio, Texas Metropolitan Area",90.1,general,general
-Irene Kinyanguli,Associate Consultant,Dalberg,"Dar es Salaam, Tanzania",Trevor Donovan,Chief Growth Officer,"PennyDrops, Economics and International Development Student at McGill University","Arlington, MA",80.8,general,product_manager
-Irene Kinyanguli,Associate Consultant,Dalberg,"Dar es Salaam, Tanzania","Ghada Abdel Rahman, CPA, CIA, CFE",Finance Director,EDC (Education Development Center),Egypt,78.5,general,product_manager
-Ben Wilson,Close Protection Officer and Maritime Security Consultant,Technology Company,Dalton,John Taylor,Marine Instructor,Clyde Training Solutions,Rutherglen,87.4,general,executive
-Ben Wilson,Close Protection Officer and Maritime Security Consultant,Technology Company,Dalton,Gareth Davies,Director,Vigor Doors Limited,Barton,89.2,general,executive
-Mark Sanuita,Director of Program Management,SYNCREON,"Murfreesboro, TN","Aaron M. Musgrave, CPA",Operations Director,Crossroads Christian Church,"Newburgh, IN",89.3,executive,executive
-Mark Sanuita,Director of Program Management,SYNCREON,"Murfreesboro, TN",Rhonnie Isingoma,Sales Cashier,ARMY & AIRFORCE EXCHANGE SERVICE - AAFES,Afghanistan,77.4,executive,sales
-Helena Forberg Hampton,Managing Director,Global Creative at EF Education First,"Zürich, Schweiz",Serge Konter,Director of Product Management,Technology Company,Metropolregion Lausanne,77.9,executive,product_manager
-Helena Forberg Hampton,Managing Director,Global Creative at EF Education First,"Zürich, Schweiz",Mike Staal,Senior Product & UX Consultant,Technology Company,"Zürich, Schweiz",82.3,executive,product_manager
-Helena Forberg Hampton,Managing Director,Global Creative at EF Education First,"Zürich, Schweiz",Kevin Werren,Sales Manager SMB bei Ricoh Schweiz AG,Technology Company,Seuzach,85.0,executive,sales
-Alynna L,Student,Benedictine University,"Plano, IL",Ramon Montoya,Personal Shopper,Walmart and Student at Aurora University,Greater Chicago Area,84.1,general,general
-Alynna L,Student,Benedictine University,"Plano, IL",Alec Tisberger,Delivery Specialist,Cooper Home Furnishings,Greater Chicago Area,91.8,general,general
-"Anthony Poon, CPA",Financial Analyst,Government of Canada,Greater Ottawa Metropolitan Area,"Nona Paramanov MBA,CPA,CGA, ACCA(UK)",Founder,Accounting Re-Imagined,"Vancouver, BC",85.3,general,general
-"Anthony Poon, CPA",Financial Analyst,Government of Canada,Greater Ottawa Metropolitan Area,Joel Morales,Business Owner,Morales & Co,"Perth East, ON",95.0,general,general
-Alla Platonova,Junior digital manager - dentsu international,Technology Company,"Sea Cliff, NY",Courtney Smith,Director Of Communications,Greenwood Community Church,"Parker, CO",79.6,general,executive
-Alla Platonova,Junior digital manager - dentsu international,Technology Company,"Sea Cliff, NY",Elinor Beltrone,Creative Director,Madwell,"New York, NY",87.2,general,executive
-Ben Rowbotham,Air Conditioning Engineer,Salisbury Group,Hyde,Ian McFarlane,Export Sales Manager,Thales,West Linton,83.7,software_engineer,sales
-Ben Rowbotham,Air Conditioning Engineer,Salisbury Group,Hyde,Jonathan Gough,Senior Software Developer,iVendi Limited,Manchester,85.7,software_engineer,software_engineer
-Brett Baker,Associate Account Manager,Yardi,"Dallas, TX",Michael Taysom AAMS® CRPC ®,Financial Advisor,Edward Jones,Dallas-Fort Worth Metroplex,89.1,sales,general
-Brett Baker,Associate Account Manager,Yardi,"Dallas, TX",Marvin Johnson,Sales Representative,FiltrationPlus MARVIN@CLEANAIRMATTERS.COM,"Kaufman, TX",85.4,sales,sales
-Chris Zalitis,Senior Scientist,Johnson Matthey,Reading,"Sandy Rodriguez, MBA, SHRM-CP",Sr. HR Advisor,Johnson Matthey,"Washington, NJ",89.9,general,general
-Chris Zalitis,Senior Scientist,Johnson Matthey,Reading,Steve Howell,Lean Leader,"Johnson Matthey Refinery & Chemicals, West Deptford, NJ",Greater Philadelphia,95.0,general,general
-Dominique Le Sage,"Assistant Manager, Operations - Irvine Company",Technology Company,"Orange County, CA",Katie Pyle,"If you're here looking for an advertising creative, thank you for your consideration, but please also consider the great talent",CreativeWomenofColor.com for some much-needed perspective in the industry,"San Francisco, CA",93.4,general,general
-Dominique Le Sage,"Assistant Manager, Operations - Irvine Company",Technology Company,"Orange County, CA",Kelly Bortolussi,"Owner, Hairstylist, Makeup and Extension specialist",Kelly Bortolussi Beauty Bar/ Sola Salons Irvine studio 10,"Irvine, CA",89.8,general,general
-Robert Salamanca,Switchman/Engineer,Watco Companies LLC,Greater Kennewick Area,Mauro Biefeni,Head of Information Technology,"Mondetta Canada, Inc.",Greater Winnipeg Metropolitan Area,88.8,software_engineer,executive
-Robert Salamanca,Switchman/Engineer,Watco Companies LLC,Greater Kennewick Area,Deena Christopher,Revenue Accounting Specialist,Watco Companies LLC,"Liberty, MO",79.0,software_engineer,general
-Nitin Agarwal,"Data Science, ML and AI @ Microsoft",Technology Company,Not specified,Salem Adra,Principal Applied Science Manager- Artificial Intelligence and Research,Microsoft,Not specified,87.2,data_scientist,general
-Nitin Agarwal,"Data Science, ML and AI @ Microsoft",Technology Company,Not specified,Ioannis G.,Senior Software Engineer,Microsoft,Not specified,78.3,data_scientist,software_engineer
-Nitin Agarwal,"Data Science, ML and AI @ Microsoft",Technology Company,Not specified,Jordan Spooner,Software Engineer,Microsoft,Not specified,77.0,data_scientist,software_engineer
-Ken Paskins,"CEO, Operator, Integrator & Coach.  I am an expert",helping business Owners and Visionaries get the results they desire and achieve their VTO period!,"Alpharetta, GA",David J. Kron,"Private Wealth Financial Advisor
-PIM® Portfolio Manager 
-Managing Director - Investments",Technology Company,Greater Philadelphia,89.6,executive,executive
-Ken Paskins,"CEO, Operator, Integrator & Coach.  I am an expert",helping business Owners and Visionaries get the results they desire and achieve their VTO period!,"Alpharetta, GA",Bob Frein,Territory Representative for Benco Dental,Technology Company,"Burbank, CA",80.2,executive,general
-Sonya Collett,Licensed Strata Manager,Technology Company,Greater Sydney Area,Raymond Tang,Strata Manager,Strata Sense,Greater Sydney Area,90.2,general,general
-Sonya Collett,Licensed Strata Manager,Technology Company,Greater Sydney Area,Kelly McMahon,Senior Strata Manager,Bright & Duggan                                   - 2020-2021 SCA Australasia Strata Community Manager Finalist- 2020 SCA (ACT) Strata Community Manager Winner,"Canberra, CT",91.1,general,general
-Jeremy Olinyk,Field Sales Execution Manager,Labatt Breweries of Canada,"Alberta, Canada","Michael Cunningham, MIR","Senior Consultant, Risk Advisory Services",BDO Canada,"Ottawa, ON",82.1,sales,general
-Jeremy Olinyk,Field Sales Execution Manager,Labatt Breweries of Canada,"Alberta, Canada",Martin Pilar,Director & District Manager,"Roynat Capital, Southwestern Ontario","Kitchener, ON",80.1,sales,executive
-William Engar,"Field Service / Clinical Engineer, Diagnostica Stago",Technology Company,Not specified,Joel Dorn,Engineer Union Pacific Railroad,Technology Company,Not specified,95.0,software_engineer,software_engineer
-William Engar,"Field Service / Clinical Engineer, Diagnostica Stago",Technology Company,Not specified,Stephanie Drake,Clinical Engineer Manager,Intermountain Healthcare,Not specified,87.3,software_engineer,software_engineer
-Stuart Haddad,Information Technology Manager,IT Strategic,"Tasmania, Australia",John Bul,IT Support Level 2 & Level 3,Unisys,"Canberra, CT",79.9,general,general
-Stuart Haddad,Information Technology Manager,IT Strategic,"Tasmania, Australia",Paul F.,Managed Services Specialist,Centra Networks,"Burpengary, QL",88.3,general,general
-Jake Youngblood Dobbs,Executive Director of Business Development,"The Corsair Executive Group, LLC",Not specified,Scott Messmore,Founder,"TropicStar Films, Inc.",Not specified,80.8,product_manager,general
-Jake Youngblood Dobbs,Executive Director of Business Development,"The Corsair Executive Group, LLC",Not specified,🗽 Dante E. Daly 🇺🇸🇫🇷🇬🇧,"Founder & Executive Director @ The Inclusive Societies For Fair Markets: A Female Mentorship Network And Fund For National Unity; A Torch For Freedom And Torch For Equality, Advocating At Board Of Directors Meetings.",Technology Company,Not specified,85.5,product_manager,executive
-Hannah Arnold,Energy Advisor,Make it Cheaper Australia,Australia,Rio-Jade McCarthy,Fashion Management & Marketing Graduate,Technology Company,London,83.4,general,marketing
-Hannah Arnold,Energy Advisor,Make it Cheaper Australia,Australia,Praag Dogra,CyberSOC Junior Security Analyst,Orange Cyberdefense,Maidstone,83.4,general,general
-Claire Walklate,Deskside Support Engineer III,Hewlett Packard CDS Ltd - Enterprise Infrastructure Services.,Greater Derby Area,Kieron Newman,Support Analyst,University of Kent,Canterbury,83.8,software_engineer,general
-Claire Walklate,Deskside Support Engineer III,Hewlett Packard CDS Ltd - Enterprise Infrastructure Services.,Greater Derby Area,Dan Keen,3rd Line Support Engineer,ADM Computing,Margate,91.2,software_engineer,software_engineer
-Ariel Levy,Co-Founder @ Gen Two,Technology Company,London,Jane Rae,Chief Operating Officer,"SPS Conferences, the European Pension Fund Investment Forum and PIA",London,83.0,software_engineer,general
-Ariel Levy,Co-Founder @ Gen Two,Technology Company,London,Cameron Fraser,"Director of Property, Fund Manager",Henderson Global Investors,London,77.0,software_engineer,executive
-Paul Pallon,VP Human Resources-Outdoor and Recreation Division,Newell Brands,"Fountain Hills, AZ",Dana Rapp,National Account Manager,Newell Brands,"Orange County, CA",81.9,executive,sales
-Paul Pallon,VP Human Resources-Outdoor and Recreation Division,Newell Brands,"Fountain Hills, AZ",Mike Obradovich,Key Account Manager,Newell Brands,"Minneapolis, MN",94.2,executive,sales
-Kimberly Keefe,Membership Recruitment Manager,"Girl Scouts, Hornets'​ Nest Council","Fort Mill, SC",Michael Barnes,Assistant Supervisor,LINCOLN COUNTY EMS,"Charlotte, NC",86.9,general,general
-Kimberly Keefe,Membership Recruitment Manager,"Girl Scouts, Hornets'​ Nest Council","Fort Mill, SC",David Zobel,Officer,"Greensfelder, Hemker & Gale, P.C.","St Louis, MO",92.9,general,general
-Luke Squires,Visual support manager,JD Sports Fashion plc,Wakefield,Keval Patel,Senior Manager,Hays Specialist Recruitment,London,95.0,general,general
-Luke Squires,Visual support manager,JD Sports Fashion plc,Wakefield,"Manuel Ravizza ACA, PRINCE2",Senior Programme Manager,HSBC,Kingston upon Thames,91.9,general,general
-Ruth Kaiser,Video Intern,Miami HEAT,"Miami, FL",Ronnie Bedrosian,Minor League Video Intern,Milwaukee Brewers,"San Antonio, Texas Metropolitan Area",84.9,general,general
-Ruth Kaiser,Video Intern,Miami HEAT,"Miami, FL",Lincoln Ficek,Minor League Video Intern,Tampa Bay Rays,"Columbus, OH",91.3,general,general
-Keith O. Browne Jr.,Sr Loan Officer,CMG Financial,Not specified,DINA SCHMIDT,Mortgage Loan Officer,CMG Home Loans #403859,Not specified,95.0,general,general
-Keith O. Browne Jr.,Sr Loan Officer,CMG Financial,Not specified,"Julia A Garriott, MBA",Mortgage Loan Originator/Your Mortgage Gal,CMG Financial Inc. NMLS #487451,Not specified,95.0,general,general
-Jonathan Witherley,Maintenance Technician,"DS Smith, Plastics Division",Sunderland,Matthew Thickett,Director,Oscar Compliance Solutions,Stockport,83.8,general,executive
-Jonathan Witherley,Maintenance Technician,"DS Smith, Plastics Division",Sunderland,Trevor Thomas Ross,Engineering Specialist,Babcock International Group,Edinburgh,79.7,general,software_engineer
-Sarah Parker,AV Design Engineer,E2 Optics,"Denver, CO",Tom Sutcliffe,"Program Manager, Vendor Management, US Services",Technology Company,"Carolina, RI",80.4,software_engineer,general
-Sarah Parker,AV Design Engineer,E2 Optics,"Denver, CO",Mark Gobrial,Security Design Engineer,E2 Optics,Denver Metropolitan Area,91.6,software_engineer,software_engineer
-Suraj Iyer,Web developer,Careeristic,Thane,sonal dhavale,Student,University of Pune,Pune,79.0,software_engineer,general
-Suraj Iyer,Web developer,Careeristic,Thane,Ajay Mekhiya,Asst. Manager - HR,"Famy Care Ltd., Sarigam",Valsad,81.1,software_engineer,general
-John R Ramonez Sr.,Musician/Band leader,Retroactive,Not specified,Wes Hertel,Maintenance Manager II,Rise Baking Company,"York, PA",89.3,general,general
-John R Ramonez Sr.,Musician/Band leader,Retroactive,Not specified,Michelle Stuck,Senior Specialist - HR Technology,Arconic,"Lancaster, PA",84.1,general,general
-Steven Hogarth,Consultant,K&H Precision Products Inc.,"Honeoye Falls, NY",Mike Davis,General Manager,MetALLsource LLC.,United States,86.9,product_manager,general
-Steven Hogarth,Consultant,K&H Precision Products Inc.,"Honeoye Falls, NY",Dan Holder,Production Shift Supervisor,Seneca Foods Corporation,"Janesville, WI",82.5,product_manager,product_manager
-Patrick Lydon,Associate - Business Analyst,JPMorgan Chase & Co.,"Columbus, OH",Samuel Harrison,recruitment agent,..,Perth,86.9,product_manager,general
-Patrick Lydon,Associate - Business Analyst,JPMorgan Chase & Co.,"Columbus, OH",Kerry Reid,Sales and Events,"MCKAYS HOTEL, BAR AND RESTAURANT LIMITED",Perth,81.3,product_manager,sales
-Alexis Stastny,Merchant Services Specialist,Bank of North Dakota,"Bismarck, ND",Kevin Rico,Credit Manager,Hummert International,"St Charles, MO",89.1,general,general
-Alexis Stastny,Merchant Services Specialist,Bank of North Dakota,"Bismarck, ND",David Falkenstein,Lending Project Specialist,Bank of North Dakota,"Bismarck, ND",92.9,general,general
-Josh Droy,Director,Swiss ILC Services DMCC (Swissgroup.ae),United Arab Emirates,Jade Ashpole,Managing Consultant,CCL - Governance Risk Compliance,United Arab Emirates,86.2,executive,general
-Josh Droy,Director,Swiss ILC Services DMCC (Swissgroup.ae),United Arab Emirates,Paul Stanczyk,Freelance Business Development Consultant,Technology Company,London,88.5,executive,product_manager
-Aleksa Popadić,Prosvetni savetnik,"Ministarstvo prosvete, nauke i tehnološkog razvoja, Školska uprava Kruševac",صربيا,Romel Gomez,Senior Structural Engineer,Technology Company,السعودية,81.6,general,software_engineer
-Aleksa Popadić,Prosvetni savetnik,"Ministarstvo prosvete, nauke i tehnološkog razvoja, Školska uprava Kruševac",صربيا,David Averilla,Project Coordinator,Ranhill Worley Parsons,الفلبين,84.0,general,general
-Justin Muccigrosso,Analyst,Morgan Stanley,"New York, NY",Irene Hendrick,Senior Vice President,RGP,New York City Metropolitan Area,78.3,general,executive
-Justin Muccigrosso,Analyst,Morgan Stanley,"New York, NY",Amy LaBella Rossi,"Director of Marketing and Communications, Capital Markets",Technology Company,New York City Metropolitan Area,83.7,general,executive
-John Hirnikl,Production Manager,Babcox Publications LLC,"Akron, OH",Laureen Beresh,CRM Specialist/Biller,Babcox Media,"Akron, OH",80.9,product_manager,general
-John Hirnikl,Production Manager,Babcox Publications LLC,"Akron, OH",Andrew sharifzadeh,animal care,Petco,"Grants Pass, OR",90.0,product_manager,general
-Sandra Maddox,"Program/Project Manager – expert in leading large-scale, complex software implementations and migration projects",Technology Company,Not specified,Frederico DeSouza,"Owner of Flashpoint Lasertag and Project Manager, Systems",HSBC Bank Bermuda Limited,Not specified,83.3,general,general
-Sandra Maddox,"Program/Project Manager – expert in leading large-scale, complex software implementations and migration projects",Technology Company,Not specified,David Briggs,Service Cloud Manager,John Lewis Partnership,Letchworth,88.7,general,general
-Soon Chin (Assoc CIPD),Senior HR Business Partner,Robert Bosch Power Tools,Bayan Lepas,Vengkat Naidu,Regional Brand Manager,Bosch Power Tools,Petaling Jaya,87.1,general,marketing
-Soon Chin (Assoc CIPD),Senior HR Business Partner,Robert Bosch Power Tools,Bayan Lepas,Nesrin Abd Elhakim,Senior Talent Management And Employer Branding Specialist,Technology Company,Gise,81.0,general,marketing
-Corrie Devenger,Sr. Principal Quality Engineer,BAE Systems,"Massachusetts, United States",Vince King,"Product Engineer, Sanmina, Owego, NY",Technology Company,"New York, United States",89.5,software_engineer,software_engineer
-Corrie Devenger,Sr. Principal Quality Engineer,BAE Systems,"Massachusetts, United States",Daniel Martino,Site Engineering Manager,Moog Inc.,"Salt Lake City, UT",93.7,software_engineer,software_engineer
-Eduardo Hernandez,Director of Front Office Operations,"Hotel 50 Bowery, a Joie de Vivre Hotels at Hyatt Hotels Corporation",United States,Joe Seiler,IT Specialist,Quest Diagnostics Inc,"Venus, PA",87.4,executive,general
-Eduardo Hernandez,Director of Front Office Operations,"Hotel 50 Bowery, a Joie de Vivre Hotels at Hyatt Hotels Corporation",United States,Joe Seiler,Account Manager,"ADNET Technologies, Inc.","Suffield, CT",89.2,executive,sales
-Revanth Somavarapu,IT Project Manager,GSA,"Washington, DC",Alejandro Ocasio,Pre-Sales Functional Solution Architect,HSO,Greater Pittsburgh Region,80.0,general,sales
-Revanth Somavarapu,IT Project Manager,GSA,"Washington, DC",Melanie Beckton,VP Compliance Program Manager Sr,PNC,"Pittsburgh, PA",78.6,general,executive
-Andy John,immigration,police department,Grenada,Karen Stephens,Detective Constable,Police Federation of England and Wales,Stevenage,93.4,general,general
-Andy John,immigration,police department,Grenada,Eddie Cowan,Inspector,Dyfed-Powys Police,United Kingdom,80.3,general,executive
-Marjorie Gowan-Pusey,Monitoring Support Officer,Capita,Greenwich,Miriam K,Learning Support Assistant,Capita,London,89.6,general,general
-Marjorie Gowan-Pusey,Monitoring Support Officer,Capita,Greenwich,Clare Bradley-Smith,Digital Executive,Capita,London,85.7,general,general
-"Alex Rusinov, CISSP, CISA",Technology Risk Senior Manager,"Ameriprise Financial Services, Inc.","Minneapolis, MN",Melissa Yue,"Audit Manager, GRC Program","Ameriprise Financial Services, Inc.","Minneapolis, MN",95.0,general,general
-"Alex Rusinov, CISSP, CISA",Technology Risk Senior Manager,"Ameriprise Financial Services, Inc.","Minneapolis, MN",Vanessa Sanchez,"SVP, Audit Director",Bank of America,"Rock Hill, SC",87.1,general,executive
-Jared France,Environmental Engineer 2,Indiana Department of Environmental Management,Greater Indianapolis,Todd Davis,Environmental Manager,State of Indiana,"Indianapolis, IN",87.1,software_engineer,general
-Jared France,Environmental Engineer 2,Indiana Department of Environmental Management,Greater Indianapolis,Daniel Walterman,Environmental Manager,Indiana Department of Environmental Management,Greater Indianapolis,87.2,software_engineer,general
-Samuel Carrington,Head of People,KILLSTAR,"Galesburg, IL",Hazell Wooton,Digital Assistant,KILLSTAR,Derby,81.8,executive,general
-Samuel Carrington,Head of People,KILLSTAR,"Galesburg, IL",Lynne Thomson,Merchandiser,KILLSTAR,Hamilton,91.6,executive,general
-Jen Klein (she/her),Director of Talent Acquisition,Avalign Technologies,Greater Chicago Area,Autumn Benson,Diabetes Prevention Program Coach Educator,WellSpark,"Mead, OK",85.3,executive,general
-Jen Klein (she/her),Director of Talent Acquisition,Avalign Technologies,Greater Chicago Area,Kimberly (Kim) Kann,"AVP, Public Relations & Corporate Communications",ConnectiCare & WellSpark Health,"Farmington, CT",82.3,executive,executive
-"Jana Meyer, MPH, RD",Assistant Medical Center Administrator,Kaiser Permanente,"Los Angeles, CA","Norma De Rueda, MHA",Senior Regulatory Consultant,Kaiser Foundation Health Plan,"Pasadena, CA",89.5,general,general
-"Jana Meyer, MPH, RD",Assistant Medical Center Administrator,Kaiser Permanente,"Los Angeles, CA",Ethan Fischer,Senior Staff Software Engineer,Disney Interactive Media Group,"Los Angeles County, CA",76.3,general,software_engineer
-Craig Coulson,Senior Project Manager,Specific Environments Ltd,Newcastle upon Tyne,Greg Smith,Vertical Transportation Consulting Engineer,Technology Company,Greater Brisbane Area,81.7,general,software_engineer
-Craig Coulson,Senior Project Manager,Specific Environments Ltd,Newcastle upon Tyne,Paul Wilde,Now Retired,"Not employed,i’m retired",Brighouse,83.7,general,general
-Michael Bogdan,"Managing Director, Alternative Capital Markets & Strategy Group, Goldman Sachs Merchant Banking Division",Technology Company,United Kingdom,Andrew Burder,Financial Controller,17Capital,United Kingdom,87.1,executive,general
-Michael Bogdan,"Managing Director, Alternative Capital Markets & Strategy Group, Goldman Sachs Merchant Banking Division",Technology Company,United Kingdom,Roxane d'Alès,Associate,17Capital,London,84.1,executive,general
-Brian H Pratt,"Project Manager, Development and Capital Projects",Calgary Drop In & Rehab Centre Society,"Calgary, AB",kam sayain,Machine Operator,Shawcor,"Toronto, ON",78.7,product_manager,general
-Brian H Pratt,"Project Manager, Development and Capital Projects",Calgary Drop In & Rehab Centre Society,"Calgary, AB",Ajaykumar Likhar,System Analyst,Canadian Natural Resources Limited (CNRL),"Calgary, AB",81.1,product_manager,general
-Brian H Pratt,"Project Manager, Development and Capital Projects",Calgary Drop In & Rehab Centre Society,"Calgary, AB",Polyanna David,"Business Systems Analyst, SAFe Agilist, ITIL, Maximo, SAP PM/FICO, OIA, PI System",Technology Company,"Calgary, AB",86.4,product_manager,product_manager
-JOSEPH MULLEN,System Analyst,ServicePower,"Baltimore City County, MD",Uma Subramanian,Senior Program Manager,Microsoft,Greater Chicago Area,91.1,general,general
-JOSEPH MULLEN,System Analyst,ServicePower,"Baltimore City County, MD",Lei Liu,Core Engineer,Dyson Network,San Francisco Bay Area,88.0,general,software_engineer
-Shaqualana Tolefree,Manufacturing Technician,Tesla,"Tracy, CA",Anh Nguyen,Sr. Dyno Technician,SF Motors Inc,"San Jose, CA",81.2,general,general
-Shaqualana Tolefree,Manufacturing Technician,Tesla,"Tracy, CA",Arnel Cortez,AST - Seating and Safety Engineering,Tesla,San Francisco Bay Area,86.9,general,software_engineer
-Nicole Cooper,Global Supply Planner,Lubrizol,"Strongsville, OH",Cindy Berman,National Call Center Manager,After Hours Formalwear,"Atlanta, GA",95.0,general,general
-Nicole Cooper,Global Supply Planner,Lubrizol,"Strongsville, OH",Adam Hockley,Senior Account Manager,Inspired Thinking Group (ITG),Hertford,77.9,general,sales
-Sean Mayer,Software Engineer,Capula,Stone,Ursula Catterall,Senior Project Manager,Capula,Shrewsbury,89.1,software_engineer,general
-Sean Mayer,Software Engineer,Capula,Stone,Michael Lloyd,Senior EC&I Engineer,Capula,Telford,95.0,software_engineer,software_engineer
-Heather Sanders,Bursar,Bournes Green Infant School,Southend-on-Sea,Ali Mohammed Ali,"Principal Consultant, Materials",Technology Company,St. Albans,83.1,general,general
-Heather Sanders,Bursar,Bournes Green Infant School,Southend-on-Sea,Darius Stanaitis,shuttering,Getjar Limited,London,87.8,general,general
-Landon Fokens,Enterprise Account Executive,Dell EMC,"Marietta, GA",Candis Gould,Executive Assistant,Constant Contact,"Longmont, CO",86.7,general,general
-Landon Fokens,Enterprise Account Executive,Dell EMC,"Marietta, GA",Olivia Bonneville,Customer Success Manager,Morningstar,"Chicago, IL",94.2,general,general
-Sarah Nuttall-Worsley,Wellness Coach - Invigorate Nutrition/PT,Unit8 Gym,Greater Plymouth Area,Phil Stoneham,"Print editor, Herald Sport",The Plymouth Herald,United Kingdom,95.0,general,general
-Sarah Nuttall-Worsley,Wellness Coach - Invigorate Nutrition/PT,Unit8 Gym,Greater Plymouth Area,Alison King,Office Manager,KDP Tools Ltd,Willand,92.3,general,general
-Lei V,Hairstylist,Boulder,"Arvada, CO",John Temp,Jewelry Designer,Jewelry Time,"Arvada, CO",82.9,general,general
-Lei V,Hairstylist,Boulder,"Arvada, CO",Reece Salinas,Owner & Designer,Reece Salinas Art Co.,"Arvada, CO",94.3,general,general
-Yi Penna,Client Manager,Adrians Chartered Accountants,Greater Brisbane Area,Walter McNally,Tax & Business Consultant,Technology Company,Greater Melbourne Area,86.7,general,general
-Yi Penna,Client Manager,Adrians Chartered Accountants,Greater Brisbane Area,Warren Knowles,Vice President of Product Management,Intapp,Greater Minneapolis-St. Paul Area,78.7,general,product_manager
-LuAnn DeBruin-Ziebell,Accountant,Oshkosh/Winnebago County Housing Authority,"Neenah, WI",Susan Zelman,Executive director,Ohio Department of Education,"Columbus, OH",87.2,general,executive
-LuAnn DeBruin-Ziebell,Accountant,Oshkosh/Winnebago County Housing Authority,"Neenah, WI","Jeffery Schulz, Registered Architect, AIA, NCARB",Campus Facilities Planner,University of Wisconsin - Green Bay,"Green Bay, WI",84.3,general,general
-Beth Hoffmann,Director of Operations,Hoffmann Hospice,"Bakersfield, CA","Eric Samuelson, MD",Anesthesia Resident Physician,Vanderbilt University Medical Center,"Nashville, TN",85.4,executive,general
-Beth Hoffmann,Director of Operations,Hoffmann Hospice,"Bakersfield, CA",Casey Knecht,Health Systems Account Manager,McKesson,"Houston, TX",82.0,executive,sales
-Cricket Brewer,Customer Service Representative,Pratt Industries,"Greenville, OH",David Carlsen,Co-Founder,"IceStorm LLC
-Innovative solutions for the information age of exploration","Phoenix, AZ",89.9,general,general
-Cricket Brewer,Customer Service Representative,Pratt Industries,"Greenville, OH",Annette Liuzza,Certified Tour Director & Guide Independent Meeting & Event Management,Technology Company,United States,83.9,general,executive
-Pratap Joseph Chandar,Senior Software Engineer,Microsoft,"Snohomish, WA",Abd Alrhman Kabbash,Cloud support Engineer,Amazon Web Services (AWS),Dallas-Fort Worth Metroplex,89.7,software_engineer,software_engineer
-Pratap Joseph Chandar,Senior Software Engineer,Microsoft,"Snohomish, WA",Sangeetha Sourirajan,Senior Manager,Accenture,Hyderabad,84.5,software_engineer,general
-Sandra TARDY-CALANDRAS,Finance Director / Novasep,Technology Company,France,Guido Beschi,IT Application Manager,Technology Company,Mantoue,84.8,executive,general
-Sandra TARDY-CALANDRAS,Finance Director / Novasep,Technology Company,France,Emmanuelle massot,OFFICE MANAGER chez abrdn,Technology Company,Paris et périphérie,87.4,executive,general
-Craig Messing,Consultant,Encore Business Solutions,Canada,Nagesh babu Nama,Director,Laxmi computer services,Hyderabad,78.5,general,executive
-Craig Messing,Consultant,Encore Business Solutions,Canada,Felix Hütter,Senior New Business Strategist bei Google,Technology Company,Ireland,83.3,general,general
-Pat Marckx Wessels,Director,Top Compliance (Pty)Ltd - Occupational Health and Safety Consultancy and Training,City of Johannesburg,Mike Gossmann,Business Owner,Amlec,City of Cape Town,83.3,executive,general
-Pat Marckx Wessels,Director,Top Compliance (Pty)Ltd - Occupational Health and Safety Consultancy and Training,City of Johannesburg,Simo Masondo,"VP Government Affairs & Trade Development SA, SSA, CQCIL & CGA",Cipla,City of Cape Town,80.0,executive,product_manager
-Agata Loks,Compliance Assurance Engineer w EPAM Systems,Technology Company,Krakow Metropolitan Area,Lynden Howie,European Head of Equity Finance,CANTOR FITZGERALD EUROPE,London,80.0,software_engineer,executive
-Agata Loks,Compliance Assurance Engineer w EPAM Systems,Technology Company,Krakow Metropolitan Area,Nerida Dalton,Senior Government Relations Adviser,UNSW,Greater Sydney Area,89.1,software_engineer,general
-Bridget McLaughlin,Concessions Supervisor,Citizens Bank Park,"Philadelphia, PA",Andrew Dropp,Program Coordinator,GE Healthcare,"Atlanta, GA",85.4,general,general
-Bridget McLaughlin,Concessions Supervisor,Citizens Bank Park,"Philadelphia, PA",Eric Demler,Biomedical Equipment Technician,CACI International Inc,"Okinawa, Japan",82.1,general,product_manager
-Brittney Wilganowski,Data driven Install Base Sales and Customer Success leader,Technology Company,"Austin, TX",Matthew Wertzberger,Director of Coca-Cola Freestyle Sales and Commercialization,The Coca-Cola Company,Kansas City Metropolitan Area,84.0,sales,executive
-Brittney Wilganowski,Data driven Install Base Sales and Customer Success leader,Technology Company,"Austin, TX",Morgan Paterson,Global Sales Operations,Notified,"Chicago, IL",93.4,sales,sales
-Harnoor Kalsi,Student,PANORAMA RIDGE SECONDARY,"Surrey, BC",Daya Brar,Truck Driver,Sunrise Kitchens Ltd.,"Surrey, BC",82.4,general,general
-Harnoor Kalsi,Student,PANORAMA RIDGE SECONDARY,"Surrey, BC",Neil Van Duyne,Technical Support,Seon,Canada,90.8,general,general
-"Thomas Jackson, CDMP","Manager, Enterprise Content Management and Development",Hillsborough County,Not specified,Tathagata .,Messaging and Collaboration Administrator,Tata Consultancy Services,"Jharkhand, India",80.9,product_manager,general
-"Thomas Jackson, CDMP","Manager, Enterprise Content Management and Development",Hillsborough County,Not specified,Courtney Alexander,Solutions Engineer,Hillsborough County,Not specified,87.1,product_manager,software_engineer
-Simona Lazareva,Loyalty marketing consultant,Technology Company,Sofia,Momchil Barros-Mitov,Director - Data Services,Dynamo Software,Greater Boston,80.8,marketing,executive
-Simona Lazareva,Loyalty marketing consultant,Technology Company,Sofia,Ivan Panushev,"Principal Partner Solutions Architect - Engineering, Construction & Real Estate",Amazon Web Services (AWS),"New York, NY",86.8,marketing,software_engineer
-Ilyes Cheikh,Engineering student,National School of Computer Science (ENSI),Qeebiyyah,Dayna Moss,Owner,The Vintage Nation,"Schofields, NS",88.9,software_engineer,general
-Ilyes Cheikh,Engineering student,National School of Computer Science (ENSI),Qeebiyyah,Anouchka Amarasekara,"Health &Beauty Consultant,Interested in Entrepreneurship",Technology Company,Greater Melbourne Area,77.1,software_engineer,general
-Jim Lindstrom,"VP, Product & Engineering",Augintel,Not specified,Guanghua Z.,Software Engineer,Google,"Ames, IA",93.2,software_engineer,software_engineer
-Jim Lindstrom,"VP, Product & Engineering",Augintel,Not specified,Borrisz Stanislav,Lead Software Developer,"Expedia, Inc.",Not specified,81.3,software_engineer,software_engineer
-Wasim Shaikh,Research Executive,Feedback Business Consulting,Mumbai,Vivek Mishra,Analyst,AGR knowledge services pvt ltd,Mumbai,95.0,general,general
-Wasim Shaikh,Research Executive,Feedback Business Consulting,Mumbai,Ankita Jaiswal,Senior Executive,Feedback Advisory,Mumbai,85.5,general,general
-Oumar Awan,Sales Executive,Mercedes-Benz Retail Group,London,Raghav .,Student,"Guru Nanak Dev University, Amritsar",Palampur,79.5,sales,general
-Oumar Awan,Sales Executive,Mercedes-Benz Retail Group,London,Freya Chapman,Digital Health Operations Manager,Janssen,London,87.8,sales,general
-Gretchen Ghrist,Chemical Engineer,Technology Company,Medford-Grants Pass Area,Tristine Prieto,Quality Assurance Technician,PRO Unlimited,"Columbia Cross Roads, PA",85.8,software_engineer,general
-Gretchen Ghrist,Chemical Engineer,Technology Company,Medford-Grants Pass Area,Jessica Heaton,Program and Management Analyst (Remote),Technology Company,United States,83.5,software_engineer,general
-Jacob Wilcox,Graphic Designer,Blade HQ,"Pleasant Grove, UT",Jordan Gressel,Senior Analytics Manager - North America Value Stores Insights,Nike,Not specified,87.8,general,data_scientist
-Jacob Wilcox,Graphic Designer,Blade HQ,"Pleasant Grove, UT",Elise Wilcox,Student Advocate,Oak Canyon Junior High School,"Pleasant Grove, UT",90.3,general,general
-Daniel Mitchell,Technical Sales Account Manager,Convergint Technologies,Greater Dublin,Kevin Kudlik,Construction Project Manager,Northland Controls Inc,"Hayward, CA",86.3,sales,general
-Daniel Mitchell,Technical Sales Account Manager,Convergint Technologies,Greater Dublin,Xavier Gendrot,Sales Business Development chez Convergint Technologies,Technology Company,Paris,84.1,sales,product_manager
-Daniel Cox,Manager of Strategic Planning,"Bridgestone Retail Operations, LLC","Nashville, TN",Chris Magana,"Vice President & GM, Original Equipment,  NA",The Goodyear Tire & Rubber Company,"Uniontown, OH",89.3,general,product_manager
-Daniel Cox,Manager of Strategic Planning,"Bridgestone Retail Operations, LLC","Nashville, TN",Stephen Leu,Director of Marketing @ Nitto Tire,Technology Company,"Los Angeles, CA",77.9,general,executive
-Rajneesh singh,Assistant Project Manager,NIT'S CONSTRUCTION LTD,"London Area, United Kingdom",Alok Samartha,Consultant,Atos Syntel,Glasgow,90.6,general,general
-Rajneesh singh,Assistant Project Manager,NIT'S CONSTRUCTION LTD,"London Area, United Kingdom",Neeraj kr. joshi,Data Analyst At Perfality Business Solutions,Technology Company,Not specified,95.0,general,general
-Vijay Kumar Dalhod,Sr. Manager Manufacturing Engineering,Tata Motor Ltd,"Uttarakhand, India",Chandan Yadav,Engine testing Engineer,Tata motors Ltd.,"Jharkhand, India",86.3,software_engineer,software_engineer
-Vijay Kumar Dalhod,Sr. Manager Manufacturing Engineering,Tata Motor Ltd,"Uttarakhand, India",Dhritiman Dutta Baruah,Student,"Indian Institute of Technology, Guwahati","Assam, India",86.3,software_engineer,general
-Rithu Rajagopala,Brand Intern with Native,Procter & Gamble,Cincinnati Metropolitan Area,Prarthana Pradhan,Machine Leader,Procter & Gamble,"Cape Girardeau, MO",83.7,marketing,general
-Rithu Rajagopala,Brand Intern with Native,Procter & Gamble,Cincinnati Metropolitan Area,Ian Duncan,Associate Underwriter,HDI Global SE,Greater Chicago Area,79.8,marketing,general
-Simon Yu,Sr. Quality Auditor – APAC Regional,Zoetis Inc.,"上海市, 中国",Fiona Ge,Legal Counsel,Pharmaron Group,"北京市, 中国",93.9,general,general
-Simon Yu,Sr. Quality Auditor – APAC Regional,Zoetis Inc.,"上海市, 中国",LI LU,Legal Counsel,CARVAL INVESTORS ASSETS CONSULTING (BEIJING) LTD.,"北京市, 中国",85.3,general,general
-Renee Bauman,Quality Assurance Coordinator,Diversey,"Sturtevant, WI",Daniel Pares,Especialista en Higiene Alimentaria y TCOs del Sector Bebidas en Diversey España,Technology Company,Greater Barcelona Metropolitan Area,88.4,general,executive
-Renee Bauman,Quality Assurance Coordinator,Diversey,"Sturtevant, WI",Maria Martinez,Marketing en IMAGINETELECOM,Technology Company,Benidorm,88.0,general,marketing
-Lukáš Fiala,Civil Engineer,YIT Slovakia,Slovakia,Peter Misura,Sales manager,Schüco International KG,"Kosice, Slovakia",82.5,software_engineer,sales
-Lukáš Fiala,Civil Engineer,YIT Slovakia,Slovakia,Richa Phogat,Application Specialist,Viva Energy Australia,"Melbourne, VIC",81.0,software_engineer,general
-Ali Paydar,Business Owner,MNP LTD,Ankara,"Michelle Williams, CPA, CA","Director, Financial Planning and Analysis",Teranet Inc.,"Toronto, ON",81.6,general,executive
-Ali Paydar,Business Owner,MNP LTD,Ankara,Walter Siegel,Facilities Manager,Irdeto,Greater Ottawa Metropolitan Area,90.3,general,general
-Neeraj Maxwell,"IDS Specimen Management Marketing Manager - Middle East, North Africa and Turkey",Technology Company,Not specified,Nina Mullan,Sr. Loyalty Operations Manager,"Expedia, Inc.",Not specified,81.9,marketing,general
-Neeraj Maxwell,"IDS Specimen Management Marketing Manager - Middle East, North Africa and Turkey",Technology Company,Not specified,Elliott Anderson,"Senior Manager, Partnerships",QuoteWizard by LendingTree,Not specified,79.7,marketing,general
-Sean Towery,COO,BioRepublic SkinCare,"Atlanta, GA",Erica Villamayor,M.Arch Student,The University of Kansas,"St Louis, MO",87.7,general,general
-Sean Towery,COO,BioRepublic SkinCare,"Atlanta, GA",Hilary A. Miners,Project Director,Brand Bureau (An AvroKO Company),New York City Metropolitan Area,76.9,general,executive
-Xiao Guo,Fullstack Software Engineer,Technology Company,"Seattle, WA",Alison Shikada,Product Manager,tastyworks,"Chicago, IL",88.6,software_engineer,product_manager
-Xiao Guo,Fullstack Software Engineer,Technology Company,"Seattle, WA",Somesh Dube,Software Engineer,Amazon,"Seattle, WA",89.7,software_engineer,software_engineer
-Fahad It,Analyst,Ooredoo Qatar,Qatar,Mazin Barmare,General Manager,World Oriental Trading & Cont.,Qatar,95.0,general,general
-Fahad It,Analyst,Ooredoo Qatar,Qatar,Dushyant Khosla,Enterprise Data Science Manager,Technology Company,Amsterdam,82.2,general,data_scientist
-Mark Berglund,Process Engineering,Technology Company,"Woodridge, IL",Nicole Sura,Product Manager,Levi Strauss & Co.,"San Francisco, CA",82.9,software_engineer,product_manager
-Mark Berglund,Process Engineering,Technology Company,"Woodridge, IL",Justin Spagg,"Vice President, Festival Operations & Experience",Insomniac Events,"Los Angeles, CA",90.0,software_engineer,executive
-Alan Cogill,Senior Client Executive,Tableau Software,"Toronto, ON",Douglas Grote,Strategic Alliance Manager,Entrust,"Omaha, NE",90.3,general,general
-Alan Cogill,Senior Client Executive,Tableau Software,"Toronto, ON",Austin Winters,Senior Principal Solutions Consultant,ACI Worldwide,"Westminster, MD",84.8,general,general
-Graeme Mann,Senior Relationship Manager Commercial Banking,The Royal Bank of Scotland,Edinburgh,Elizabeth Russell,Intermediate Procurement Specialist,Vertex Downhole,"Olds, AB",95.0,general,general
-Graeme Mann,Senior Relationship Manager Commercial Banking,The Royal Bank of Scotland,Edinburgh,Robert Collier,Director,Adepto Technical Recruitment Limited,Warrington,82.4,general,executive
-Jacqueline Camargo,Administrative Assistant,the University of Texas at Dallas,"Plano, TX",Hongbing Lu,"Professor, & Louis A. Beecherl Jr. Chair, Mechanical Engineering, The University of Texas",Dallas,"Richardson, TX",88.3,general,software_engineer
-Jacqueline Camargo,Administrative Assistant,the University of Texas at Dallas,"Plano, TX",Fatemeh Hassanipour,Associate Professor,The University of Texas at Dallas,United States,91.7,general,general
-Jeremy Nichol,Student,University of Alberta,Greater Edmonton Metropolitan Area,Asya Swenia,Student,University of Alberta,"Edmonton, AB",93.6,general,general
-Jeremy Nichol,Student,University of Alberta,Greater Edmonton Metropolitan Area,Jason Lam,Student,University of Alberta,"Edmonton, AB",95.0,general,general
-Jeremy Nichol,Student,University of Alberta,Greater Edmonton Metropolitan Area,Reese Simoneau,Student,University of Alberta,"Edmonton, AB",95.0,general,general
-Drew Brungard,"Director, Human Resources",Mount Nittany Health,"State College, PA",Danielle Conover,Purchasing Project Manager,St. Luke's University Health Network,"Allentown, PA",88.0,executive,general
-Drew Brungard,"Director, Human Resources",Mount Nittany Health,"State College, PA",John Petrosino,Human Resources Business Partner,Tufts Medical Center,Greater Boston,78.8,executive,general
-Boneiba Couso,Community Operation Analyst,Covalen,Frankfurt,Sinead Dempsey,Quality Manager,St Vincent's Private Hospital,Ireland,91.6,general,general
-Boneiba Couso,Community Operation Analyst,Covalen,Frankfurt,Sinéad Dempsey,Senior Homewares lifestyle buyer,Michael Murphy Home Furnishing,Ireland,84.4,general,general
-Mia Dioluin,Primary School Teacher,Rush N.S,Ireland,Luke Lennon,Primary School Teacher,Balbriggan Educate Together,Ireland,93.4,general,general
-Mia Dioluin,Primary School Teacher,Rush N.S,Ireland,Áine Cullen,Primary School Teacher,Department Of Eduacation,Greater Dublin,82.2,general,general
-Mojalefa Maeneche,Retail Sales Consultant,Truworths,South Africa,Rhys Kendall,Digital Director,triyoga uk,Not specified,89.8,sales,executive
-Mojalefa Maeneche,Retail Sales Consultant,Truworths,South Africa,Christopher Onguolo,Chief Executive Officer,EBM AFRICA INSURANCE,Not specified,76.2,sales,general
-Misykah Warman,Management Consultant,Accenture,"Banten, Indonesia",Rosita Sulistyono,Country HR Lead,Accenture Indonesia,Jakarta,95.0,general,general
-Misykah Warman,Management Consultant,Accenture,"Banten, Indonesia",B Budiono,"Managing Director - Accenture Applied Intelligence, Indonesia",Technology Company,Jakarta,88.2,general,executive
-Denise Bonilla,QS Manager,Integra LifeSciences,Puerto Rico,Nancy Currie-Gregg,Experienced Aerospace Engineering & Safety Leader; Former Astronaut,Technology Company,"College Station, TX",80.0,general,software_engineer
-Denise Bonilla,QS Manager,Integra LifeSciences,Puerto Rico,Jeffrey Hojnicki,Senior Electrical Engineer,NASA Glenn Research Center,"Avon, OH",81.8,general,software_engineer
-cheng kai,"sinter filter technic co .,Ltd sales",Technology Company,Not specified,Gordon Kroegenberg,Service Manager,Levi Strauss & Co.,"Portland, Oregon Metropolitan Area",89.5,sales,general
-cheng kai,"sinter filter technic co .,Ltd sales",Technology Company,Not specified,Tobias Hans,"Sales Manager - Construction, Agriculture",Technology Company,Constance,86.4,sales,sales
-Brandon Levin,Trader,JANA Partners LLC,"New York, NY",Stephanie Naratil,Investor Relations,Tiger Global Management,"New York, NY",95.0,general,general
-Brandon Levin,Trader,JANA Partners LLC,"New York, NY",John Dolan,Managing Director of Investor Relations,Summit Partners,"Boston, MA",77.3,general,executive
-Ed Henry,Regional Operating Director,"Greenberg Traurig, LLP",New York City Metropolitan Area,Betsy Kwon,Senior Director of Administration,ArentFox Schiff LLP,"Boston, MA",91.6,executive,executive
-Ed Henry,Regional Operating Director,"Greenberg Traurig, LLP",New York City Metropolitan Area,Scott Dinner,Associate,Nixon Peabody LLP,"Vienna, VA",83.7,executive,general
-rich chiulli,principal software engineer,Fidelity Investments,"Reading, MA",Donna Harvey,Principal Software Engineer/Developer,Fidelity Investments,"Boston, MA",94.1,software_engineer,software_engineer
-rich chiulli,principal software engineer,Fidelity Investments,"Reading, MA",Anbazhagan Murugesan,Principal Software Engineer,Fidelity Investments,Chennai,88.1,software_engineer,software_engineer
-Ryan Black,Integrated Logistic Support Manager,Soucy Defense,Warrington,phillip orr,resin floor layer,phillip orr flooring,"Kingston upon Hull, England Metropolitan Area",81.0,general,general
-Ryan Black,Integrated Logistic Support Manager,Soucy Defense,Warrington,Lee Bishop,Security and Access Manager,ECO SURREY LTD,Watford,94.5,general,general
-Aquiles Martinez,Fire alarm Technician,JCI,San Francisco Bay Area,Steve Wetzel,Engineer,SimplexGrinnell,"Westlake, OH",80.8,general,software_engineer
-Aquiles Martinez,Fire alarm Technician,JCI,San Francisco Bay Area,Vinny Cervantes,Field Service Technician,Redhawk Fire and Security,"Los Angeles, CA",88.5,general,general
-"Alice McMahan, MBA",Healthcare Revenue Cycle Consultant,Technology Company,"Dallas, TX",Upchurch Steve,OPERATIONS TECHNICIAN 3,CenturyLink,"Denver, CO",95.0,general,general
-"Alice McMahan, MBA",Healthcare Revenue Cycle Consultant,Technology Company,"Dallas, TX",David Magleby,Systems Test Specalist,Avid Technology,"Mountain View, CA",93.9,general,general
-David Beales,Senior Claims Adjuster,Enstar Group,London,Trina Gore,Director of UK Client Relations,YOUNG & Associates,Essex,79.9,general,executive
-David Beales,Senior Claims Adjuster,Enstar Group,London,Andrew Rose,Senior Claims Underwriter,HAMILTON UNDERWRITING LIMITED,Enfield,88.3,general,general
-Kashivishwanath Routhu,Senior Principal Clinical Database Programmer,Parexel,Hyderabad,Raja P,Sr. CDM Programmer ll,PPD,Bangalore Urban,80.2,product_manager,general
-Kashivishwanath Routhu,Senior Principal Clinical Database Programmer,Parexel,Hyderabad,Dr. Pradeep Kumar Pasumarthy,Licensed Pharmacy Researcher,Cerner Corporation,Bangalore Urban,87.5,product_manager,general
-Katie DiRaimondo,Scheduling Program Manager,Technology Company,"Rochester, New York Metropolitan Area",Chelsea Montemayor,Regional Manager - Division Operations Manager Trainer,Technology Company,Greater Sacramento,89.0,general,general
-Katie DiRaimondo,Scheduling Program Manager,Technology Company,"Rochester, New York Metropolitan Area",Jessica Rojo,Clinical Director/Lead BCBA,"Kadiant, LLC.","Sacramento, CA",83.8,general,executive
-Matt Keogh,Operations Manager,Lacrosse Victoria,Greater Melbourne Area,David McLean,"Manager, Financial Operations",The University of Notre Dame Australia,"Fremantle, WA",82.7,executive,general
-Matt Keogh,Operations Manager,Lacrosse Victoria,Greater Melbourne Area,Andrew Johnston,Sports Manager,Coles Little Athletics Australia,Greater Melbourne Area,89.0,executive,general
-Richard Kneller,Professor of economics,The University of Nottingham,Greater Nottingham,Severus Prince-Snape,Professor Emeritus,Hogwarts School of Witchcraft and Wizardry,Coventry,81.8,general,general
-Richard Kneller,Professor of economics,The University of Nottingham,Greater Nottingham,Hermione Granger,Minister of Magic,MAGIC,Greater Cleveland,94.4,general,general
-Joe Felder,Mechanical Engineer,Advanced Energy,Not specified,Matt Gunderson,Mechanical Engineer,Cincinnati Milacron,Not specified,91.6,software_engineer,software_engineer
-Joe Felder,Mechanical Engineer,Advanced Energy,Not specified,Maddie Lamkins,Senior Program Assistant - Canine Recreation,City of Durham,"Knightdale, NC",78.8,software_engineer,general
-Kevin Lassiter,Freelance Graphic Designer,Self Employed,"Ewing, NJ",Olga Romashova,Graphic Designer,Maximilian Communications,"Hightstown, NJ",90.6,general,general
-Kevin Lassiter,Freelance Graphic Designer,Self Employed,"Ewing, NJ",Nick Whartenby,Junior Graphic Designer,Genesis Biotechnology Group,"Trenton, NJ",91.6,general,general
+source_name,source_title,source_company,source_location,similar_name,similar_title,similar_company,similar_location,similarity_score,category
+Rahul Pratap,Tech Lead,H3-Technologies,"San Francisco, CA",Prabhu Sundararajan,Professional,Technology Company,Coimbatore,79.5,general
+Rahul Pratap,Tech Lead,H3-Technologies,"San Francisco, CA",WAHDA CHARITABLE FOUNDATION,Professional,Technology Company,"سلاغور, ماليزيا",82.4,general
+Rahul Pratap,Tech Lead,H3-Technologies,"San Francisco, CA",Kratika Sharma,Professional,Technology Company,Pune,83.2,general
+Rahul Pratap,Tech Lead,H3-Technologies,"San Francisco, CA",Mahadi Hassan Taiab,Professional,Technology Company,Bangladesh,85.1,general
+Rahul Pratap,Tech Lead,H3-Technologies,"San Francisco, CA",Luneta Tajblova,Trauma Informed Practitioner,Barnardo's Tiger Light Service,"San Francisco, CA",87.1,general
+Rahul Pratap,Tech Lead,H3-Technologies,"San Francisco, CA",Алексей Чурин,Professional,Technology Company,Санкт-Петербург,87.6,general
+Rahul Pratap,Tech Lead,H3-Technologies,"San Francisco, CA",Kaye Cardin,Senior Customer Service Officer,City of Darebin,Greater Melbourne Area,82.4,general
+Rahul Pratap,Tech Lead,H3-Technologies,"San Francisco, CA",Lara Flannery,Sustainability Graduate,JLL,"Region London, Vereinigtes Königreich",86.6,general
+Rahul Pratap,Tech Lead,H3-Technologies,"San Francisco, CA",Peter Boyle,Jr. Security Administrator,Horizontal Talent,"Austin, TX",79.7,general
+Rahul Pratap,Tech Lead,H3-Technologies,"San Francisco, CA",Malak Ibrahim Nofal,Teacher,Alhussan group,Saudi Arabia,84.4,general
+Mohammad Mehdi m_faramarzi,Professional,Technology Company,Iran,Leo Liu,Business Development Manager,Brighten,"Burwood East, VI",78.2,product_manager
+Mohammad Mehdi m_faramarzi,Professional,Technology Company,Iran,Jay Dankoff,"Aviation Safety Inspector, PPM",Federal Aviation Administration,"Colorado Springs, CO",79.5,product_manager
+Mohammad Mehdi m_faramarzi,Professional,Technology Company,Iran,Dayne Foresman,"Epic Integration - Senior, UPMC",Technology Company,"Williamsport, PA",91.6,product_manager
+Mohammad Mehdi m_faramarzi,Professional,Technology Company,Iran,Ulla Norri,Senior Development Manager - Procure to Pay,UPM - The Biofore Company,"San Francisco, CA",83.4,product_manager
+Mohammad Mehdi m_faramarzi,Professional,Technology Company,Iran,Angela Hackett,Professional,Technology Company,London,92.5,product_manager
+Mohammad Mehdi m_faramarzi,Professional,Technology Company,Iran,Muhamad Zaki Abdul Karim,Business Development,KG Information Systems Sdn Bhd,Subang Jaya,83.4,product_manager
+Mohammad Mehdi m_faramarzi,Professional,Technology Company,Iran,Petric M.,Cross Functional Program Lead @ Apple,Technology Company,"San Francisco, CA",92.1,product_manager
+Mohammad Mehdi m_faramarzi,Professional,Technology Company,Iran,Shalinee Chakre,Business Development Executive,Digitalzone Business Consulting,Mumbai,84.4,product_manager
+Mohammad Mehdi m_faramarzi,Professional,Technology Company,Iran,Avinash Ghatbale,Assistant Manager - Business Development,Fibre Foils Ltd,Mumbai,84.2,product_manager
+Mohammad Mehdi m_faramarzi,Professional,Technology Company,Iran,Jason Collins,Professional,Technology Company,Greater Pittsburgh Region,85.1,product_manager
+Bruce Li,Professional,Technology Company,Foshan,Mohit Negi,Management Sales Trainee,Dr Lal PathLabs,New Delhi,78.3,sales
+Bruce Li,Professional,Technology Company,Foshan,Emma Bailey,Agency Sales Executive,Volkswagen Group Ireland,Drogheda,86.7,sales
+Bruce Li,Professional,Technology Company,Foshan,Aly Shapanus,Sales Support Administrator,Cenorin,Greater Seattle Area,83.6,sales
+Bruce Li,Professional,Technology Company,Foshan,Aaron Carter,Professional,Technology Company,"San Francisco, CA",90.2,sales
+Bruce Li,Professional,Technology Company,Foshan,ALI AHMED,National Sales Manager (NSM,Karnaphuli Automobiles Limited,Bangladesh,78.4,sales
+Bruce Li,Professional,Technology Company,Foshan,steve mcgrath,Sales Specialist,Music Retail,"Ottawa, ON",79.5,sales
+Bruce Li,Professional,Technology Company,Foshan,Travis Tharp,Technical Account Manager,Tableau,"San Francisco, CA",79.3,sales
+Bruce Li,Professional,Technology Company,Foshan,Saif Islam,Sales,Superhuman,"San Francisco, CA",83.8,sales
+Bruce Li,Professional,Technology Company,Foshan,Randy Kirk,Professional,Technology Company,"San Francisco, CA",89.4,sales
+Bruce Li,Professional,Technology Company,Foshan,Donald McDavid,Professional,Technology Company,"Tomball, TX",94.0,sales
+James 'Hoody' Hood AM,Professional,Technology Company,"Melbourne, VI",Nicole Tsang,Service Year Design Senior Director,City Year,New York City Metropolitan Area,86.2,executive
+James 'Hoody' Hood AM,Professional,Technology Company,"Melbourne, VI",Ольга Новикова,Professional,Technology Company,Москва,91.7,executive
+James 'Hoody' Hood AM,Professional,Technology Company,"Melbourne, VI",Terri Turner Murray,VP of Customer Service & Sales Operations,Turning Point Solutions,"San Francisco, CA",79.8,executive
+James 'Hoody' Hood AM,Professional,Technology Company,"Melbourne, VI",Santosh Babu,Vice President,Axis Bank,Mumbai,86.8,executive
+James 'Hoody' Hood AM,Professional,Technology Company,"Melbourne, VI",Corey Maillette,Program Director,2U,Denver Metropolitan Area,78.7,executive
+James 'Hoody' Hood AM,Professional,Technology Company,"Melbourne, VI",Shanna Ramsey,Professional,Technology Company,"Lake Mary, FL",93.3,executive
+James 'Hoody' Hood AM,Professional,Technology Company,"Melbourne, VI",Benjamin Boyd,Co-Founder/Director of Photography,JUNK Films,Los Angeles Metropolitan Area,78.1,executive
+James 'Hoody' Hood AM,Professional,Technology Company,"Melbourne, VI",Aiym Shorman,Professional,Technology Company,Kazakhstan,93.9,executive
+James 'Hoody' Hood AM,Professional,Technology Company,"Melbourne, VI",Ben Fox,"Director, Pulmonary Institute",Asaf Harofeh Medical Center,Israel,86.7,executive
+James 'Hoody' Hood AM,Professional,Technology Company,"Melbourne, VI",Bryce Vernon,"Director of Course Operations, Liftoff",Write of Passage,"San Francisco, CA",83.1,executive
+Sonam Sharma,Professional,Technology Company,"San Francisco, CA",Kanika Manchanda,Professional,Technology Company,Sahibzada Ajit Singh Nagar,94.0,software_engineer
+Sonam Sharma,Professional,Technology Company,"San Francisco, CA",Ivan Bahatka,Professional,Technology Company,Wrocław,87.0,software_engineer
+Sonam Sharma,Professional,Technology Company,"San Francisco, CA",Sharan Athiyadath,Sr Front end developer,Technology Company,Bangalore Urban,94.0,software_engineer
+Sonam Sharma,Professional,Technology Company,"San Francisco, CA",Rouben Meschian,Programmer,Technology Company,"San Francisco, CA",87.7,software_engineer
+Sonam Sharma,Professional,Technology Company,"San Francisco, CA",Piyush Bante,System Engineer(C++ / C# Developer,Tata Consultancy Services,"San Francisco, CA",80.5,software_engineer
+Sonam Sharma,Professional,Technology Company,"San Francisco, CA",Ankita Singh,Software Developer In Test,Paytm,Mumbai,87.7,software_engineer
+Sonam Sharma,Professional,Technology Company,"San Francisco, CA",Kingsley Knight,Web Developer,ao.com,"Manchester Area, United Kingdom",81.6,software_engineer
+Sonam Sharma,Professional,Technology Company,"San Francisco, CA",Zafar Abbas,Front End Developer and Angular and React JS,Capgemini,Manchester,87.7,software_engineer
+Sonam Sharma,Professional,Technology Company,"San Francisco, CA",Pavithiran R,MERN Stack Developer,Technology Company,"San Francisco, CA",90.9,software_engineer
+Sonam Sharma,Professional,Technology Company,"San Francisco, CA",azwar salal,Professional,Technology Company,"San Francisco, CA",88.1,software_engineer
+Henry Huang,"Manager, Digital Marketing",Hudson's Bay Company,"Markham, ON",Kubilay Kadioglu,Accelerating Business Growth,Technology Company,"San Francisco, CA",80.3,marketing
+Henry Huang,"Manager, Digital Marketing",Hudson's Bay Company,"Markham, ON",Meraj Sasoli,Founder - CEO @MassEditx,Technology Company,"San Francisco, CA",78.8,marketing
+Henry Huang,"Manager, Digital Marketing",Hudson's Bay Company,"Markham, ON",Sarah Baggaley,HE & Adult Learning Marketing Manager,Bridgwater & Taunton College,"San Francisco, CA",80.8,marketing
+Henry Huang,"Manager, Digital Marketing",Hudson's Bay Company,"Markham, ON",Gabriel T.,Professional,Technology Company,"San Francisco, CA",83.3,marketing
+Henry Huang,"Manager, Digital Marketing",Hudson's Bay Company,"Markham, ON",Mohamed Abdelmonem,Professional,Technology Company,مصر,84.0,marketing
+Henry Huang,"Manager, Digital Marketing",Hudson's Bay Company,"Markham, ON",Ishpreet Kaur (she/her/hers),Senior Manger - FP&A and Market Research,DNA Growth,Chandigarh,86.5,marketing
+Henry Huang,"Manager, Digital Marketing",Hudson's Bay Company,"Markham, ON",Mohammed Mahmoud,Professional,Technology Company,"San Francisco, CA",86.6,marketing
+Henry Huang,"Manager, Digital Marketing",Hudson's Bay Company,"Markham, ON",Kaylee Tyeryar,Professional,Technology Company,Washington DC-Baltimore Area,79.7,marketing
+Henry Huang,"Manager, Digital Marketing",Hudson's Bay Company,"Markham, ON",Nadia Riccardi,Professional,Technology Company,"San Francisco, CA",81.9,marketing
+Henry Huang,"Manager, Digital Marketing",Hudson's Bay Company,"Markham, ON",Paul Chandler,"Sector Growth Lead - Government Operations, Commerce, & Global Citizen Services",GDIT,"San Francisco, CA",84.1,marketing
+Kabir Goel,Data Science and Business Economics,University of Chicago,"San Francisco, CA",Abby Keller,Graduate Student,Technology Company,"Chicago, IL",84.1,data_scientist
+Kabir Goel,Data Science and Business Economics,University of Chicago,"San Francisco, CA",Ashrithaa J S,M.Sc (Integrated) in Software Systems • PSG College of Technology,Technology Company,"San Francisco, CA",78.4,data_scientist
+Kabir Goel,Data Science and Business Economics,University of Chicago,"San Francisco, CA",Burhan Aijaz,Professional,Technology Company,"San Francisco, CA",85.9,data_scientist
+Kabir Goel,Data Science and Business Economics,University of Chicago,"San Francisco, CA",Ludovic Halleux,Professional,Technology Company,"San Francisco, CA",78.5,data_scientist
+Kabir Goel,Data Science and Business Economics,University of Chicago,"San Francisco, CA",Weronika Nowicka,Senior Machine Learning Scientist,Raymarine,"San Francisco, CA",82.3,data_scientist
+Kabir Goel,Data Science and Business Economics,University of Chicago,"San Francisco, CA",Chinmay Pathak,Professional,Technology Company,"San Francisco, CA",79.5,data_scientist
+Kabir Goel,Data Science and Business Economics,University of Chicago,"San Francisco, CA",Muhammad Bilal,Cyber Security Researcher,Technology Company,"San Francisco, CA",87.0,data_scientist
+Kabir Goel,Data Science and Business Economics,University of Chicago,"San Francisco, CA",Noor Abuelrub,Data Scientist,the University of Kansas Medical Center,"Overland Park, KS",86.9,data_scientist
+Kabir Goel,Data Science and Business Economics,University of Chicago,"San Francisco, CA",Shuai C.,Professional,Technology Company,Greater Boston,78.5,data_scientist
+Kabir Goel,Data Science and Business Economics,University of Chicago,"San Francisco, CA",Karthika Pradeep,Consultant,Fractal Analytics,Mumbai,78.6,data_scientist
+Raghu Murthy,Principal software engineer,Microsoft Corporation,"Redmond, WA",Shubham Gupta,SWE Intern @Coforge,Technology Company,"San Francisco, CA",84.9,software_engineer_faang
+Raghu Murthy,Principal software engineer,Microsoft Corporation,"Redmond, WA",Shilpesh A P,Software Engineer,Google,Metropolregion San Francisco Bay Area,89.9,software_engineer_faang
+Raghu Murthy,Principal software engineer,Microsoft Corporation,"Redmond, WA",Trent Lavoie,Tech Lead (Sr. Software Engineer,Amazon,"San Francisco, CA",88.0,software_engineer_faang
+Raghu Murthy,Principal software engineer,Microsoft Corporation,"Redmond, WA",Deepthi Narkuti,Software Engineer II,Microsoft,"Seattle, WA",92.9,software_engineer_faang
+Raghu Murthy,Principal software engineer,Microsoft Corporation,"Redmond, WA",Qingqing Wang,Software Engineer,Google,"San Francisco, CA",87.7,software_engineer_faang
+Raghu Murthy,Principal software engineer,Microsoft Corporation,"Redmond, WA",Maelle Vance,Software Engineer,Microsoft,"Seattle, WA",91.0,software_engineer_faang
+Raghu Murthy,Principal software engineer,Microsoft Corporation,"Redmond, WA",Oran Leber,Junior Software Developer,Technology Company,"San Francisco, CA",89.9,software_engineer_faang
+Raghu Murthy,Principal software engineer,Microsoft Corporation,"Redmond, WA",Sindoora Ravikumar Murthy,Professional,Technology Company,"San Francisco, CA",87.4,software_engineer_faang
+Raghu Murthy,Principal software engineer,Microsoft Corporation,"Redmond, WA",Smriti Nisha,Software Engineer 2,Microsoft,"San Francisco, CA",92.0,software_engineer_faang
+Raghu Murthy,Principal software engineer,Microsoft Corporation,"Redmond, WA",Ershad Khan,Project Code,Technology Company,"San Francisco, CA",84.7,software_engineer_faang
+Rahul Pratap,Tech Lead,H3-Technologies,"San Francisco, CA",Mohammad Mehdi m_faramarzi,Professional,Technology Company,Iran,84.4,general
+Malak Ibrahim Nofal,Teacher,Alhussan group,Saudi Arabia,Yuchen (Joshua) Peng,Senior Account Manager - Oceania,Atradius Australia,"Melbourne, VI",84.9,general
+Malak Ibrahim Nofal,Teacher,Alhussan group,Saudi Arabia,Atharwa Choudhari,Professional,Technology Company,"San Francisco, CA",79.6,general
+Malak Ibrahim Nofal,Teacher,Alhussan group,Saudi Arabia,Jithin Paul,Professional,Technology Company,"San Francisco, CA",80.9,general
+Malak Ibrahim Nofal,Teacher,Alhussan group,Saudi Arabia,Anantsimran Singh,Student,CDI College,"Brampton, ON",86.1,general
+Malak Ibrahim Nofal,Teacher,Alhussan group,Saudi Arabia,Leo Liu,Business Development Manager,Brighten,"Burwood East, VI",85.1,general
+Malak Ibrahim Nofal,Teacher,Alhussan group,Saudi Arabia,Nidhi Roy,Student,MANGALMAY INSTITUTE OF MANAGEMENT AND TECHNOLOGY,Patna,82.5,general
+Malak Ibrahim Nofal,Teacher,Alhussan group,Saudi Arabia,Griffin Naczi,Student,The University of Georgia,"Athens, GA",78.1,general
+Malak Ibrahim Nofal,Teacher,Alhussan group,Saudi Arabia,Dan Sorenson,Transportation Coordinator,JM Swank,"North Liberty, IA",82.5,general
+Malak Ibrahim Nofal,Teacher,Alhussan group,Saudi Arabia,Jay Dankoff,"Aviation Safety Inspector, PPM",Federal Aviation Administration,"Colorado Springs, CO",80.8,general
+Malak Ibrahim Nofal,Teacher,Alhussan group,Saudi Arabia,Srishti Mishra,Senior Talent Acquisition,Tech Mahindra,Noida,78.2,general
+Bruce Li,Professional,Technology Company,Foshan,Lavanya anjee,Analog Circuit Design Engineer Intern,Texas Instruments,Freising,87.5,general
+Bruce Li,Professional,Technology Company,Foshan,James 'Hoody' Hood AM,Professional,Technology Company,"Melbourne, VI",94.0,general
+Bruce Li,Professional,Technology Company,Foshan,Sonam Sharma,Professional,Technology Company,"San Francisco, CA",91.0,general
+Bruce Li,Professional,Technology Company,Foshan,Ryan Gandy,Heavy industrial Electrician,Crushing Services International,"Western Australia, Australia",85.5,general
+Bruce Li,Professional,Technology Company,Foshan,Gemma Lopez,Student,Texas A&M University-Commerce,Dallas-Fort Worth Metroplex,78.4,general
+Bruce Li,Professional,Technology Company,Foshan,Leon Semper,Football Presenter,"Views Entertainment Ltd 
+& Self Employed Mortgage Adviser",London,86.6,general
+Bruce Li,Professional,Technology Company,Foshan,Khatejul Kubra,Professional,Technology Company,"Scarborough, ON",94.0,general
+Bruce Li,Professional,Technology Company,Foshan,Brenda Tsatsu,Professional,Technology Company,Courbevoie,88.8,general
+Bruce Li,Professional,Technology Company,Foshan,Angela Barnett,Associate Attorney,Rosen Thompson Rosen,Denver Metropolitan Area,79.3,general
+Alexander Bridges,Senior Consultant,Blue Chip Consulting Group®,"Cleveland, OH",Henry Huang,"Manager, Digital Marketing",Hudson's Bay Company,"Markham, ON",88.0,general
+Alexander Bridges,Senior Consultant,Blue Chip Consulting Group®,"Cleveland, OH",Malcolm Duncan,Professional,Technology Company,Slough,78.5,general
+Alexander Bridges,Senior Consultant,Blue Chip Consulting Group®,"Cleveland, OH",Aaquil Shaikh,"Manager Digital & Technology, Microsoft 365",General Mills,"San Francisco, CA",80.8,general
+Alexander Bridges,Senior Consultant,Blue Chip Consulting Group®,"Cleveland, OH",Shreshth Bhatnagar,Student,the University School of Law and Legal Studies,"San Francisco, CA",79.0,general
+Alexander Bridges,Senior Consultant,Blue Chip Consulting Group®,"Cleveland, OH",Nathan Kanelis,Professional,Technology Company,"San Francisco, CA",82.6,general
+Alexander Bridges,Senior Consultant,Blue Chip Consulting Group®,"Cleveland, OH",Dušan Kastrevc,Area Manager,Parker Hannifin,Slovenia,79.8,general
+Alexander Bridges,Senior Consultant,Blue Chip Consulting Group®,"Cleveland, OH",Shivani Shenoy,Design Engineer,Schneider Electric,Udipi,87.7,general
+Alexander Bridges,Senior Consultant,Blue Chip Consulting Group®,"Cleveland, OH",Robert Sengillo Jr,RF Optimization Engineer,ATT Mobility,"Rochester, NY",81.5,general
+Alexander Bridges,Senior Consultant,Blue Chip Consulting Group®,"Cleveland, OH",Alison Bruce,student,Edinburgh Napier University,Kirkcaldy,80.4,general
+Alexander Bridges,Senior Consultant,Blue Chip Consulting Group®,"Cleveland, OH",MARY DAY,Professional,Technology Company,"Houston, TX",78.0,general
+Trevor Eckhoff,Professional,Technology Company,"San Francisco, CA",Melissa Ruhl,Professional,Technology Company,"San Francisco, CA",94.0,general
+Trevor Eckhoff,Professional,Technology Company,"San Francisco, CA",Kevin Morgenstern,Professional,Technology Company,"Winnipeg, MB",94.0,general
+Trevor Eckhoff,Professional,Technology Company,"San Francisco, CA",Kubilay Kadioglu,Accelerating Business Growth,Technology Company,"San Francisco, CA",94.0,general
+Trevor Eckhoff,Professional,Technology Company,"San Francisco, CA",Shankar Shelunke,Professional,Technology Company,Bangalore Urban,94.0,general
+Trevor Eckhoff,Professional,Technology Company,"San Francisco, CA",Nikesh Vishak,Product Solutions Manager,Robert Bosch GmbH,Waiblingen,78.5,general
+Trevor Eckhoff,Professional,Technology Company,"San Francisco, CA",David Hall,Professional,Technology Company,"Sacramento, CA",86.5,general
+Trevor Eckhoff,Professional,Technology Company,"San Francisco, CA",Joe Del Giudice,Chief Radio Engineer,City of Providence,"Providence, RI",79.4,general
+Trevor Eckhoff,Professional,Technology Company,"San Francisco, CA",Yoshida. Kazushi,COO,Subaru Motor LLC,Россия,87.7,general
+Trevor Eckhoff,Professional,Technology Company,"San Francisco, CA",Emma Bailey,Agency Sales Executive,Volkswagen Group Ireland,Drogheda,83.9,general
+Trevor Eckhoff,Professional,Technology Company,"San Francisco, CA",Nicole Tsang,Service Year Design Senior Director,City Year,New York City Metropolitan Area,85.0,general
+Morayo Akinsanya,Seasoned Project Manager,Technology Company,"Lagos State, Nigeria",Brian Thornhill,Service Technician,Carolina Chillers,"Beaufort, SC",84.9,general
+Morayo Akinsanya,Seasoned Project Manager,Technology Company,"Lagos State, Nigeria",Jerry Nelson,Field Coordinator,McGough Construction,"San Francisco, CA",81.1,general
+Morayo Akinsanya,Seasoned Project Manager,Technology Company,"Lagos State, Nigeria",Ольга Новикова,Professional,Technology Company,Москва,89.3,general
+Morayo Akinsanya,Seasoned Project Manager,Technology Company,"Lagos State, Nigeria",Rory Matchett,President,River J Management Ltd.,Bermuda,80.9,general
+Morayo Akinsanya,Seasoned Project Manager,Technology Company,"Lagos State, Nigeria",michelle luongo,inspect,Unknown Vector,"Lynn, MA",78.2,general
+Morayo Akinsanya,Seasoned Project Manager,Technology Company,"Lagos State, Nigeria",Blake Donnelly,Electrical Supervisor,Haines Electrical,Greater Brisbane Area,83.6,general
+Morayo Akinsanya,Seasoned Project Manager,Technology Company,"Lagos State, Nigeria",Dr. Rizwana Rafiq,Assistant professor,Central University of Kashmir,"San Francisco, CA",79.7,general
+Morayo Akinsanya,Seasoned Project Manager,Technology Company,"Lagos State, Nigeria",Anthony Young,Cyber Security,Technology Company,Reading,92.8,general
+Morayo Akinsanya,Seasoned Project Manager,Technology Company,"Lagos State, Nigeria",Kanika Manchanda,Professional,Technology Company,Sahibzada Ajit Singh Nagar,93.9,general
+Morayo Akinsanya,Seasoned Project Manager,Technology Company,"Lagos State, Nigeria",Greg Nixon,Bilingual Customer Support Coordinator,Flair Airlines,"Bridgewater, NS",82.2,general
+Florin Avram,Test Engineer,Plexus Corp.,Romania,Aly Shapanus,Sales Support Administrator,Cenorin,Greater Seattle Area,85.5,general
+Florin Avram,Test Engineer,Plexus Corp.,Romania,Kabir Goel,Data Science and Business Economics,University of Chicago,"San Francisco, CA",80.7,general
+Florin Avram,Test Engineer,Plexus Corp.,Romania,"Clarence L. Fisher, Jr.",Professional,Technology Company,Charlotte Metro,84.9,general
+Florin Avram,Test Engineer,Plexus Corp.,Romania,Bryan Lucas,Project Manager / LNP - Provisioning / RCF,Apex Systems,"San Francisco, CA",84.0,general
+Florin Avram,Test Engineer,Plexus Corp.,Romania,Hendry Nurhalim,CTO,PT Suryamas Dutamakmur Tbk,Jakarta,86.0,general
+Florin Avram,Test Engineer,Plexus Corp.,Romania,Dayne Foresman,"Epic Integration - Senior, UPMC",Technology Company,"Williamsport, PA",80.4,general
+Florin Avram,Test Engineer,Plexus Corp.,Romania,Bei Morrison,Project Scientist Staff,Cleveland Clinic,"Cleveland, OH",80.0,general
+Florin Avram,Test Engineer,Plexus Corp.,Romania,Terri Turner Murray,VP of Customer Service & Sales Operations,Turning Point Solutions,"San Francisco, CA",79.3,general
+Florin Avram,Test Engineer,Plexus Corp.,Romania,Akansha Jhamb,Quality Engineer,Junglee Games,Gurgaon,83.5,general
+Florin Avram,Test Engineer,Plexus Corp.,Romania,Eduardo A. Busca,Professional,Technology Company,"San Francisco, CA",85.1,general
+Purba Bhattacharjee,Field Research Assistant,icddr,Chattogram,Aaron Carter,Professional,Technology Company,"San Francisco, CA",79.7,general
+Purba Bhattacharjee,Field Research Assistant,icddr,Chattogram,Sarah S.,Professional,Technology Company,United Kingdom,81.0,general
+Purba Bhattacharjee,Field Research Assistant,icddr,Chattogram,Aaron Ricardo Cuevas Tapia,Professional,Technology Company,Mexico,80.3,general
+Purba Bhattacharjee,Field Research Assistant,icddr,Chattogram,Santosh Babu,Vice President,Axis Bank,Mumbai,78.6,general
+Purba Bhattacharjee,Field Research Assistant,icddr,Chattogram,Ivan Bahatka,Professional,Technology Company,Wrocław,83.6,general
+Purba Bhattacharjee,Field Research Assistant,icddr,Chattogram,Golam sarawer,Senior Engineer,Meghna Group of Industries,Bangladesh,86.9,general
+Purba Bhattacharjee,Field Research Assistant,icddr,Chattogram,Ulla Norri,Senior Development Manager - Procure to Pay,UPM - The Biofore Company,"San Francisco, CA",84.8,general
+Purba Bhattacharjee,Field Research Assistant,icddr,Chattogram,Emante Washington Mobley,Professional,Technology Company,New York City Metropolitan Area,84.0,general
+Purba Bhattacharjee,Field Research Assistant,icddr,Chattogram,Sharan Athiyadath,Sr Front end developer,Technology Company,Bangalore Urban,81.0,general
+Purba Bhattacharjee,Field Research Assistant,icddr,Chattogram,Corey Maillette,Program Director,2U,Denver Metropolitan Area,85.0,general
+ALI AHMED,National Sales Manager (NSM,Karnaphuli Automobiles Limited,Bangladesh,Monica Jones,COMMUNITY HEALTH WORKER - CHILD & TEEN CHECKUP PROGRAM,Hennepin County,"Minneapolis, MN",79.2,general
+ALI AHMED,National Sales Manager (NSM,Karnaphuli Automobiles Limited,Bangladesh,Жанна Белоконь,Professional,Technology Company,"Новосибирская область, Россия",87.6,general
+ALI AHMED,National Sales Manager (NSM,Karnaphuli Automobiles Limited,Bangladesh,Angela Garner,Professional,Technology Company,"Indianapolis, IN",82.7,general
+ALI AHMED,National Sales Manager (NSM,Karnaphuli Automobiles Limited,Bangladesh,Clive Watling,Driver Liaison Manager,Carlton Cars,London,86.9,general
+ALI AHMED,National Sales Manager (NSM,Karnaphuli Automobiles Limited,Bangladesh,Rouben Meschian,Programmer,Technology Company,"San Francisco, CA",86.1,general
+ALI AHMED,National Sales Manager (NSM,Karnaphuli Automobiles Limited,Bangladesh,Adela Reyes reyes,Professional,Technology Company,"Oaxaca, OAX",85.1,general
+ALI AHMED,National Sales Manager (NSM,Karnaphuli Automobiles Limited,Bangladesh,Shanna Ramsey,Professional,Technology Company,"Lake Mary, FL",78.4,general
+ALI AHMED,National Sales Manager (NSM,Karnaphuli Automobiles Limited,Bangladesh,Meraj Sasoli,Founder - CEO @MassEditx,Technology Company,"San Francisco, CA",86.6,general
+ALI AHMED,National Sales Manager (NSM,Karnaphuli Automobiles Limited,Bangladesh,Sarah Baggaley,HE & Adult Learning Marketing Manager,Bridgwater & Taunton College,"San Francisco, CA",87.9,general
+ALI AHMED,National Sales Manager (NSM,Karnaphuli Automobiles Limited,Bangladesh,Sherry Feldpausch,Mechanical Engineer,Chrysler,"Clarkston, MI",81.6,general
