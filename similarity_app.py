@@ -240,7 +240,7 @@ def main():
                     
                     with col2:
                         st.metric("Connected Professionals", profile['similar_count'])
-                        st.caption("Premium similarity matches")
+                        st.caption("Similarity matches")
                     
                     with col3:
                         if st.button(f"👥 View Network", key=f"featured_{i}", type="secondary"):
