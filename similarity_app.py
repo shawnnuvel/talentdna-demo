@@ -159,8 +159,8 @@ def main():
         stats = demo.get_demo_stats()
         
         if stats:
-            st.metric("Premium Relationships", f"{stats['total_relationships']:,}")
-            st.metric("Senior Professionals", f"{stats['unique_source_profiles']:,}")
+            st.metric("Relationships", f"{stats['total_relationships']:,}")
+            st.metric("Professionals", f"{stats['unique_source_profiles']:,}")
             st.metric("Similar Candidates", f"{stats['unique_similar_professionals']:,}")
             st.metric("Avg Similarity Score", f"{stats['average_similarity']:.1f}%")
             
@@ -173,7 +173,7 @@ def main():
                 st.write(f"• {location}")
     
     # Main tabs
-    tab1, tab2, tab3, tab4 = st.tabs(["🔍 Search Professionals", "⭐ Featured Profiles", "📊 Market Insights", "🚀 Quick Demo"])
+    tab1, tab2, tab3, tab4 = st.tabs(["🔍 Search Professionals", "⭐ Sample Profiles", "📊 Market Insights", "🚀 Quick Demo"])
     
     with tab1:
         st.header("🔍 Search Professionals")
@@ -195,7 +195,7 @@ def main():
                     results = demo.search_professionals(search_query, max_results)
                 
                 if results:
-                    st.success(f"✅ Found **{len(results)}** premium professionals matching '{search_query}'")
+                    st.success(f"✅ Found **{len(results)}** professionals with similarity to '{search_query}'")
                     
                     for i, result in enumerate(results, 1):
                         with st.container():
@@ -219,11 +219,11 @@ def main():
                 
                 else:
                     st.warning("No premium professionals found for this search.")
-                    st.info("💡 Try: 'google engineer', 'goldman sachs director', 'salesforce vp', 'meta product manager'")
+                    st.info("💡 Try: 'google engineer', 'salesforce vp', 'meta product manager'")
     
     with tab2:
-        st.header("⭐ Featured Premium Profiles")
-        st.markdown("**Explore our most connected senior professionals and their similarity networks:**")
+        st.header("⭐ Sample Profiles")
+        st.markdown("**Explore some professionals and their similarity networks:**")
         
         featured_profiles = demo.get_featured_profiles(10)
         
@@ -263,7 +263,7 @@ def main():
                     st.divider()
     
     with tab3:
-        st.header("📊 Premium Market Insights")
+        st.header("📊 Demo Data Insights")
         
         stats = demo.get_demo_stats()
         
@@ -277,7 +277,7 @@ def main():
                     st.write(f"**{i}. {company}** - {connections} senior professional connections")
         
         with col2:
-            st.subheader("🌍 Premium Markets Covered")
+            st.subheader("🌍 Markets Covered")
             if stats.get('top_locations'):
                 for i, location in enumerate(stats['top_locations'], 1):
                     st.write(f"**{i}. {location}**")
@@ -286,11 +286,11 @@ def main():
         col1, col2, col3 = st.columns(3)
         
         with col1:
-            st.metric("Total Premium Relationships", f"{stats['total_relationships']:,}")
+            st.metric("Total Relationships", f"{stats['total_relationships']:,}")
         with col2:
             st.metric("Average Similarity Score", f"{stats['average_similarity']:.1f}%")
         with col3:
-            st.metric("Senior Professional Coverage", f"{stats['unique_source_profiles']:,}")
+            st.metric("Professional Coverage", f"{stats['unique_source_profiles']:,}")
     
     with tab4:
         st.header("🚀 Quick Demo - Try These Searches")
@@ -300,7 +300,6 @@ def main():
             "software engineer google",
             "product manager meta", 
             "director amazon",
-            "goldman sachs",
             "vp salesforce",
             "data scientist",
             "engineering manager"
@@ -326,9 +325,9 @@ def main():
     
     with col1:
         st.markdown("""
-        **⚠️ Premium Demo Limitations:**
+        **⚠️ Demo Limitations:**
         - Showcases random professionals
-        - Full database: **475M professionals** across **244 countries**  
+        - Full database: **475+M professionals** across **244 countries**  
         - Complete profiles available
         - Advanced filtering, bulk export, and API access in full version
         """)
@@ -340,7 +339,7 @@ def main():
         **[Schedule Demo Call →](mailto:hello@nuvel.ai)**
         
         Get unlimited access to our complete professional database with:
-        - Real-time contact information
+        - AI/ML-powered network similarity engine
         - Advanced search filters  
         - Bulk export capabilities
         - API integration for your tools
