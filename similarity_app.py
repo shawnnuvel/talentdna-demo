@@ -89,16 +89,35 @@ def main():
                 else:
                     st.warning("No matches found. Try different keywords like 'engineer', 'manager', or company names.")
     
-    # Quick test searches
-    st.markdown("### 🚀 Try These Demo Searches:")
-    test_searches = ["software engineer google", "product manager", "data scientist", "director", "sales manager"]
-    
-    cols = st.columns(len(test_searches))
-    for i, search_term in enumerate(test_searches):
-        with cols[i]:
-            if st.button(f"🔍 {search_term}", key=f"test_{i}"):
-                st.session_state.main_search = search_term
-                st.rerun()
+# Replace the problematic section with this:
+st.markdown("### 🚀 Try These Demo Searches:")
+test_searches = ["software engineer google", "product manager", "data scientist", "director", "sales manager"]
+
+cols = st.columns(len(test_searches))
+for i, search_term in enumerate(test_searches):
+    with cols[i]:
+        if st.button(f"🔍 {search_term}", key=f"test_{i}"):
+            # Instead of modifying session state, run search directly
+            with st.spinner("Searching professional database..."):
+                results = demo.search_similar_professionals(search_term, 15)
+                
+                if results:
+                    st.success(f"✅ Found {len(results)} similar professionals for '{search_term}':")
+                    
+                    for j, result in enumerate(results[:10], 1):  # Show first 10
+                        with st.container():
+                            col1, col2 = st.columns([4, 1])
+                            with col1:
+                                st.markdown(f"#{j} {result['name']}")
+                                st.markdown(f"*{result['title']}*")
+                                st.markdown(f"🏢 {result['company']}")
+                                st.caption(result['source_match'])
+                            with col2:
+                                st.metric("Match", result['similarity'])
+                        if j < 10:  # Don't add divider after last item
+                            st.divider()
+                else:
+                    st.warning(f"No matches found for '{search_term}'. The demo dataset may need more data for this search.")
 
 if __name__ == "__main__":
     main()
