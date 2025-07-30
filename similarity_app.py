@@ -3,7 +3,7 @@ import pandas as pd
 from typing import List, Dict
 
 class NuvelSimilarityDemo:
-    def __init__(self, csv_file='similarity_data_sample.csv'):
+    def __init__(self, csv_file='premium_similarity_data.csv'):
         self.df = self.load_data(csv_file)
         
     def load_data(self, csv_file):
