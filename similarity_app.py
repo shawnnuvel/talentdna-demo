@@ -24,7 +24,7 @@ class NuvelSimilarityDemo:
     def load_sample_profiles(self):
         """Load the high-quality sample profiles with people also viewed"""
         try:
-            sample_file = os.path.expanduser("~/nuvel_demo/demo_sample_profiles.json")
+            sample_file = 'demo_sample_profiles.json'
             with open(sample_file, 'r') as f:
                 return json.load(f)
         except FileNotFoundError:
