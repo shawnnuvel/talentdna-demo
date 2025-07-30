@@ -1,0 +1,387 @@
+source_name,source_title,source_company,source_location,similar_name,similar_title,similar_company,similar_location,similarity_score,source_category,similar_category
+Global Account,Global Account Operations Manager,Hewlett-Packard,"Roseville, CA",Senior Vice,"Senior Vice President, Retail Merchandising",Bath & Body Works,"Sonoma, CA",80.4,general,executive
+Global Account,Global Account Operations Manager,Hewlett-Packard,"Roseville, CA",Marketing Science,Marketing Science Partner,Facebook,Los Angeles Metropolitan Area,86.1,general,marketing
+Principal Software,Principal Software Engineer,Technology Company,None,Distributed Storage,Distributed Storage Engineer,Technology Company,None,95.0,software_engineer,software_engineer
+Principal Software,Principal Software Engineer,Technology Company,None,Engineering Leader,Engineering Leader - Performance engineering,Technology Company,None,85.7,software_engineer,software_engineer
+Field Service,Field Service Technician,PepsiCo,"Colorado Springs, CO",Crew Trainer,Crew Trainer,Culver's Restaurants,Greater Colorado Springs Area,84.8,general,general
+Field Service,Field Service Technician,PepsiCo,"Colorado Springs, CO",Professional_7528,PepsiCo - Pepsi Beverages Company,PepsiCo - Pepsi Beverages Company,"Fort Mitchell, KY",95.0,general,general
+Senior Vice,Senior Vice President,FinTrU,United Kingdom,Field Services,Field Services Manager,Echo Managed Services,Belfast Metropolitan Area,78.9,executive,general
+Senior Vice,Senior Vice President,FinTrU,United Kingdom,Academic Associate,Academic Associate,the Chartered Banker Institute of Scotland,Dunblane,78.6,executive,general
+Assistant Manager,Assistant Manager,Nagsun Apparel Fiji Limited,Fiji,Digital Retail,Digital Retail Consultant,Bank of South Pacific Ltd,Fiji,86.9,general,general
+Assistant Manager,Assistant Manager,Nagsun Apparel Fiji Limited,Fiji,Student,Student,The University of the South Pacific,Suva,90.2,general,general
+Lecturer,"Lecturer,Mechanical Engineering",HITEC University.,Pakistan,Data Analyst,Data Analyst & Scrutiny Officer,Sindh Building Control Authority (SBCA),Pakistan,86.6,software_engineer,general
+Lecturer,"Lecturer,Mechanical Engineering",HITEC University.,Pakistan,Finance,Finance and Administration Manager,Asiatic Public Relations Network (Pvt.) Ltd.,Pakistan,77.4,software_engineer,general
+Product Manager,Product Manager,ICICI Bank,Kurla,Senior Manager,Senior Manager - Product and Strategy,L&T Financial Services,Mumbai,88.2,product_manager,product_manager
+Product Manager,Product Manager,ICICI Bank,Kurla,Product Manager,Product Manager,Technology Company,Pune,86.7,product_manager,product_manager
+Software Engineer,Software Engineer Intern,University of Windsor,"Windsor, ON",Actively,Actively searching for full-time opportunities starting from January 2021,Technology Company,"Windsor, ON",84.2,software_engineer,software_engineer
+Software Engineer,Software Engineer Intern,University of Windsor,"Windsor, ON",Associate Consultant,Associate Consultant,Ultragenic Research and Technologies,None,77.2,software_engineer,general
+Unskill,Unskill worker,"SAMEER (R&D of DIT, Govt of India)",Hajo,FEA,"FEA, NVH Senior Engineer with Simulation driven Product development",Bosch,منطقة شتوتغارت,88.9,general,software_engineer
+Unskill,Unskill worker,"SAMEER (R&D of DIT, Govt of India)",Hajo,Phd,"Phd student in Signal Processing, Machine Learning and Wearable Health Technology",Imperial College London,لندن,82.1,general,data_scientist
+Student,Student,Carlisle College,Wigton,Student,Student,University of Central Lancashire,Warrington,84.3,general,general
+Student,Student,Carlisle College,Wigton,PhD,PhD student,"the University of Birmingham, developing a career in academia as Senior Lecturer at Ravensbourne University. Particular interest in social enterprise and food waste research, marketing and digital culture.",Royal Leamington Spa,88.0,general,marketing
+Performance Test,Performance Test Engineer,Comcast,"King of Prussia, PA",Corporate Access,Corporate Access Associate,Handelsbanken Capital Markets,London,88.2,software_engineer,general
+Performance Test,Performance Test Engineer,Comcast,"King of Prussia, PA",Business Analyst,Business Analyst,Deutsche Bank,London,81.3,software_engineer,general
+Founder,Founder of EcoStory,Technology Company,"Lilyfield, NSW",Tour,Tour & Event Designer,Leisure Time Group NZ,Hamilton,79.9,marketing,general
+Founder,Founder of EcoStory,Technology Company,"Lilyfield, NSW",Senior CRM,Senior CRM & Insight Manager,Everton Football Club,London,84.2,marketing,general
+Hub Manager,Hub Manager,Technology Company,Greater Duluth Area,Agile,"Agile, Fintech, Digital, EX, Chief Digital Office",U.S. Bank,Dallas-Fort Worth Metroplex,84.9,executive,general
+Hub Manager,Hub Manager,Technology Company,Greater Duluth Area,Omnichannel Manager,"Omnichannel Manager - Unilever Target Team, Drug, Value & Emerging eCommerce Channels",Technology Company,Greater Minneapolis-St. Paul Area,80.1,executive,general
+Student,Student,"University of Tennessee, Knoxville",Knoxville Metropolitan Area,CTC Manager,CTC Manager,Walden Security,Greater Chattanooga,80.0,general,general
+Student,Student,"University of Tennessee, Knoxville",Knoxville Metropolitan Area,Assistant Director,Assistant Director - Head of Business Development,SAGE OUTPATIENT SERVICES,"Baton Rouge, LA",82.5,general,product_manager
+Regional  Manager,Regional  Manager - Document & Information Management,Technology Company,Mumbai,Head,Head -Business Development,"Ventois, Inc",Hyderabad,76.2,general,product_manager
+Regional  Manager,Regional  Manager - Document & Information Management,Technology Company,Mumbai,Software Engineer,Software Engineer,eMids Technologies,Bangalore Urban,82.8,general,software_engineer
+Audit Manager,Audit Manager,PwC UK,Manchester,Senior Manager,Senior Manager,PwC,London,95.0,general,general
+Audit Manager,Audit Manager,PwC UK,Manchester,Assistant Manager,Assistant Manager,KPMG UK,London,85.1,general,product_manager
+Software Engineer,Software Engineer Intern,Siemens,Hisar,SWE Intern,HackerRank,Technology Company,Aligarh,94.3,software_engineer,software_engineer
+Software Engineer,Software Engineer Intern,Siemens,Hisar,Software Engineer,Google,Technology Company,Kolkata,80.8,software_engineer,software_engineer
+Sr,Sr. Design Engineer At Mahle Engineering services Pvt Ltd,Technology Company,Pune,Sr,Sr-Engineer- HVAC Projects,Technology Company,Pune,95.0,software_engineer,software_engineer
+Sr,Sr. Design Engineer At Mahle Engineering services Pvt Ltd,Technology Company,Pune,Design Engineer,Design Engineer,MAHLE,Pune,88.4,software_engineer,software_engineer
+Talent Acquisition,Talent Acquisition - Human Resources,Cast and Crew,None,System,System specialist Fujitsu- Oracle apps Dba,Technology Company,None,80.3,general,general
+Talent Acquisition,Talent Acquisition - Human Resources,Cast and Crew,None,HR Manager,HR Manager - Recruitment & Operations,CAPS Payroll (A Cast & Crew Entertainment Company),None,91.1,general,general
+Fresher,Fresher  searching for job,fresher,Hyderabad,Professional_6736,Professional,Technology Company,Tsundur,90.6,general,general
+Fresher,Fresher  searching for job,fresher,Hyderabad,Mechanical Engineer,Mechanical Engineer,Cervini Farms North Carolina Inc,"Farmington, MI",82.2,general,software_engineer
+Senior Regional,Senior Regional HUB Recruiter,Eni International Resources Ltd,مصر,International R,International R&M Supervisor,"Well Logging Energy Technology Co.,LTD",شيان,88.5,general,general
+Senior Regional,Senior Regional HUB Recruiter,Eni International Resources Ltd,مصر,Ass,Ass. Gen. Mgr.,Agiba petroleum co.,مصر,91.0,general,general
+Technical Director,Technical Director,AF Switchgear Ltd.,Greater Nottingham,Application Engineer,"Application Engineer,  Rail and Underground, TSO, Technology and Data",Transport for London,London,86.2,executive,software_engineer
+Technical Director,Technical Director,AF Switchgear Ltd.,Greater Nottingham,Credit Underwriter,Credit Underwriter,Hero FinCorp.,West Delhi,86.3,executive,general
+Restaurant Owner,Restaurant Owner,Mexican Restaurant,"Cumming, GA",Restaurant,Restaurant owner,Frankie's Italian,"Woodstock, GA",93.5,general,general
+Restaurant Owner,Restaurant Owner,Mexican Restaurant,"Cumming, GA",CEO,CEO/Owner,International Restaurant and Bakery Equipment,"Carrollton, GA",83.6,general,product_manager
+Engineer,Engineer,British Gas,"London Area, United Kingdom",Desktop Support,Desktop Support Analyst,Arthur J. Gallagher & Co.,London,85.7,software_engineer,general
+Engineer,Engineer,British Gas,"London Area, United Kingdom",Desktop Support,Desktop Support Analyst,UNKNOWN,London,76.8,software_engineer,general
+Client Partner,Client Partner,Facebook & Instagram,"Greater Toronto Area, Canada",Content Marketing,"Content Marketing Copywriter - Helping businesses build relationships, generate more leads and sales-  #Video Script Writer  #Content Marketing Specialist",Technology Company,Greater Chicago Area,88.4,general,sales
+Client Partner,Client Partner,Facebook & Instagram,"Greater Toronto Area, Canada",Construction Lending,"Construction Lending Coach, NMLS#1995108","Residential Mortgage Services, Inc. -- NMLS#1760","Salem, NH",88.5,general,general
+Energy Planning,Energy Planning intern,IRENA,The Hague,Director,Director - Europe,Technology Company,Aix-en-Provence,82.8,general,executive
+Energy Planning,Energy Planning intern,IRENA,The Hague,Professional_3268,Building the sales development team,Payfit UK,Wooburn Green,81.9,general,product_manager
+Biology,Biology and Computing Student,the University of Waterloo,"Baden, ON",Student,Student,University of Waterloo,"Waterloo, ON",90.2,general,general
+Biology,Biology and Computing Student,the University of Waterloo,"Baden, ON",Student,Student,the University of Waterloo,"Calgary, AB",90.1,general,general
+Executive Producer,Executive Producer,PlanetSport,Croatia,Sports Journalist,Sports Journalist,PlanetSport/ArenaSport,Croatia,89.5,general,general
+Executive Producer,Executive Producer,PlanetSport,Croatia,Community Manager,Community Manager,Nova TV,Zagreb,88.0,general,general
+CTO,CTO,Via.Delivery (ex Via Sarcina),Moscow,Lead Back,Lead Back End Developer,Fluz Fluz Global,New York City Metropolitan Area,85.3,executive,software_engineer
+CTO,CTO,Via.Delivery (ex Via Sarcina),Moscow,Procurement Manager,Procurement Manager,U.S. Army Network Enterprise Technology Command,"San Leandro, CA",79.6,executive,general
+Student,Student,the riverina anglican college,Greater Sydney Area,Education,Education student,UNSW Sydney,Australia,93.7,general,general
+Student,Student,the riverina anglican college,Greater Sydney Area,Business Analyst,Business Analyst,Westpac,Greater Sydney Area,83.6,general,general
+Mobile Software,Mobile Software Engineer,Technology Company,Greater Sydney Area,Owner,Owner,PressStopProductions,Greater Adelaide Area,89.0,software_engineer,product_manager
+Mobile Software,Mobile Software Engineer,Technology Company,Greater Sydney Area,Professional_8534,OS Developer since 2012,Technology Company,Greater Sydney Area,92.1,software_engineer,software_engineer
+CLO Middle,CLO Middle office Analyst,U.S. Bank,Wexford,Client Associate,Client Associate,Clearstream Global Security Services,Cork,95.0,general,general
+CLO Middle,CLO Middle office Analyst,U.S. Bank,Wexford,Front End,Front End Javascript Developer,Clearstream,Ireland,88.0,general,software_engineer
+Communications Specialist,Communications Specialist,Royal Navy,Fareham,Submarine Escape,Submarine Escape Rescue Abandonment Survival Instructor,Royal Navy,Lee-on-the-Solent,92.0,general,executive
+Communications Specialist,Communications Specialist,Royal Navy,Fareham,Trainee Duty,Trainee Duty Manager,Superbowl UK,Hull,85.7,general,general
+Leasing Consultant,Leasing Consultant,Autopia,Greater Brisbane Area,Customer Platform,Customer Platform Specialist,Stockland,"Sydney, NSW",90.2,general,general
+Leasing Consultant,Leasing Consultant,Autopia,Greater Brisbane Area,Professional_9437,Commerce Analyst II,Teikametrics,Miami-Fort Lauderdale Area,94.1,general,general
+Manufacters Representative,Manufacters Representative to the Design Trade - M Design Home,Technology Company,"Nashville, TN",Owner,Owner/Senior Advisor,A Source for Excellence,None,91.4,general,general
+Manufacters Representative,Manufacters Representative to the Design Trade - M Design Home,Technology Company,"Nashville, TN",Outside Sales,Outside Sales Representative,North East Technical Sales,"Norristown, PA",87.1,general,sales
+Senior Associate,Senior Associate,J.P. Morgan,Bengaluru,Senior Software,Senior Software Engineer,Sift,San Francisco Bay Area,81.0,general,software_engineer
+Senior Associate,Senior Associate,J.P. Morgan,Bengaluru,Senior SWE,Senior SWE - Payments Experience,Best Buy,Greater Minneapolis-St. Paul Area,80.2,general,software_engineer
+Education Professional,Education Professional,Groupe MRP India Private Limited,"Luanda, Angola",Customer Service,Customer Service Representative,Paragon Testing Enterprises Inc,Canada,82.7,general,general
+Education Professional,Education Professional,Groupe MRP India Private Limited,"Luanda, Angola",Marketing Team,Marketing Team,GroupHEALTH Benefit Solutions,Canada,79.7,general,marketing
+Manager,"Manager, Social Media Marketing",The Pokémon Company International,"Seattle, WA",Marketing Director,Marketing Director,Aegis Living,"Sammamish, WA",88.7,marketing,executive
+Manager,"Manager, Social Media Marketing",The Pokémon Company International,"Seattle, WA",General Manager,General Manager,Aegis Living,Greater Seattle Area,86.6,marketing,general
+Motor Assessing,Motor Assessing Team Manager,Technology Company,Greater Sydney Area,Chairman,Chairman,Infinitewater (New Zealand) Limited,Auckland,91.8,general,general
+Motor Assessing,Motor Assessing Team Manager,Technology Company,Greater Sydney Area,Specialist Motor,Specialist Motor Assessor,IAG,Greater Newcastle Area,90.1,general,general
+Key Account,Key Account Manager,DHL Global Mail UK Limited,Slough,First Line,First Line Manager,DHL,Birmingham,86.1,sales,general
+Key Account,Key Account Manager,DHL Global Mail UK Limited,Slough,Business Development,Business Development Manager,TY Logistics,London,80.2,sales,product_manager
+Student,Student,The University of Waikato,Hamilton,Mechanical Design,Mechanical Design Engineer,Alton Drilling LTD,"Waikato, New Zealand",85.6,general,software_engineer
+Student,Student,The University of Waikato,Hamilton,Manufacturing Manager,Manufacturing Manager,Golden Bay Cement,"Northland, New Zealand",95.0,general,general
+Senior Accounting,Senior Accounting Manager,Utopian Luxury Vacation Homes,"Park City, UT",Complex Industrial,Complex Industrial Director,Technology Company,"Houston, TX",78.9,general,executive
+Senior Accounting,Senior Accounting Manager,Utopian Luxury Vacation Homes,"Park City, UT",Office Manager,Office Manager,Confidential,"Yonkers, NY",87.8,general,general
+Producer,Producer,Discovery Communications,United Kingdom,Admin Accounts,Admin Accounts,Pikes Services,Tonbridge,89.3,general,general
+Producer,Producer,Discovery Communications,United Kingdom,Non Executive,Non Executive Director,Technology Company,Edinburgh,88.4,general,executive
+Night Auditor,Night Auditor,Marriott Hotels,"Honolulu County, HI",Student,Student,University of Central Florida,"Winter Garden, FL",95.0,general,general
+Night Auditor,Night Auditor,Marriott Hotels,"Honolulu County, HI",BS,"BS, Hospitality and Tourism Management Student",Florida State University,Greater Orlando,84.0,general,general
+Country Manager,Country Manager - Wacker Chemicals South Asia Philippine Representative Office,Technology Company,Metro Manila,Communications Manager,Communications Manager - MEA Region,Technology Company,"Dubai, Vereinigte Arabische Emirate",86.9,general,marketing
+Country Manager,Country Manager - Wacker Chemicals South Asia Philippine Representative Office,Technology Company,Metro Manila,BEKO PLC,BEKO PLC şirketinde IT Manager,Technology Company,Watford,95.0,general,general
+VP,"VP, Strategy & Operations",Commit,Canada,Partner,"Partner and Chair, Canadian Corporate Group",DLA Piper (Canada) LLP,None,89.5,executive,general
+VP,"VP, Strategy & Operations",Commit,Canada,Partner,Partner,McMillan LLP,"Toronto, ON",89.5,executive,general
+Engineering Test,Engineering Test Manager,Technology Company,"Niceville, FL",Communications Coordinator,Communications Coordinator,Potomac Appalachian Trail Club,"Vienna, VA",85.6,software_engineer,general
+Engineering Test,Engineering Test Manager,Technology Company,"Niceville, FL",Government Affairs,Government Affairs Coordinator,Duane Morris Government Strategies,"Harrisburg, PA",89.1,software_engineer,general
+Business Development,Business Development,Ready to Support Your Business,"Clarence Center, NY",Business Development,Business Development,Mail Works,"Perrysburg, OH",93.7,product_manager,product_manager
+Business Development,Business Development,Ready to Support Your Business,"Clarence Center, NY",Managing Director,Managing Director,Printing & Graphic Machinery Ltd,Bourne End,85.7,product_manager,executive
+Management Consultant,Management Consultant,McKinsey & Company,静安区,PHD Student,PHD Student,"Senses Lab, Department of Computer Science, University of Rome ""La Sapienza""",罗马,90.0,general,general
+Management Consultant,Management Consultant,McKinsey & Company,静安区,Associate,Associate,Welltower™ Inc. (NYSE:WELL),"紐約, NY",88.0,general,general
+Customer Service,Customer Service Representative,Chewy,Dallas-Fort Worth Metroplex,Professional Photographer,Professional Photographer,Zlight Photography,"South Lake Tahoe, CA",81.5,general,general
+Customer Service,Customer Service Representative,Chewy,Dallas-Fort Worth Metroplex,MARKET MANAGER,MARKET MANAGER / TRAINER,Technology Company,"Birmingham, AL",87.2,general,general
+Assistant Fire,Assistant Fire Chief,Boone Fire Department,"Boone, NC",Engineering Technician,Engineering Technician,Texas Instruments,"McKinney, TX",79.3,general,software_engineer
+Assistant Fire,Assistant Fire Chief,Boone Fire Department,"Boone, NC",Field Services,Field Services Engineer,Unisys,"McKinney, TX",80.8,general,software_engineer
+Associate Nurse,Associate Nurse Director Workforce Planning,Technology Company,"County Dublin, Ireland",Health Care,Health Care Assistant,Mater Misericordiae University Hospital,Ireland,80.9,executive,general
+Associate Nurse,Associate Nurse Director Workforce Planning,Technology Company,"County Dublin, Ireland",Clinical,Clinical nurse manager,CareChoice Group Ireland,Ireland,81.4,executive,general
+Head Program,Head Program Management Office,Nikola Motor Company,"Phoenix, AZ",Sr,Sr. Vehicle Engineering Mechanical Technician,Nikola Motor Company,Greater Phoenix Area,89.1,general,software_engineer
+Head Program,Head Program Management Office,Nikola Motor Company,"Phoenix, AZ",Executive Assistant,Executive Assistant,Nikola Motor Company,"Gilbert, AZ",86.7,general,general
+Professional_5346,Feilden+Mawson,Feilden+Mawson,"Prague, Czechia",Assistant Architect,Assistant Architect,Chapman Taylor,Nottinghamshire,85.9,general,product_manager
+Professional_5346,Feilden+Mawson,Feilden+Mawson,"Prague, Czechia",Consultant,Consultant,Feilden+Mawson,London,91.0,general,general
+Designer,Designer,Penguin Random House,New York City Metropolitan Area,Graphic Design,Graphic Design & Marketing Specialist,Technology Company,"Los Angeles, CA",79.1,general,marketing
+Designer,Designer,Penguin Random House,New York City Metropolitan Area,Sr,Sr. Product Designer,Emerge,"Broomfield, CO",84.3,general,product_manager
+Senior Accountant,Senior Accountant,Positive Venture Group Inc.,Greater Ottawa Metropolitan Area,Office Manager,Office Manager/Accountant,Point to Point Communications Ltd.,"Barrie, ON",94.4,general,general
+Senior Accountant,Senior Accountant,Positive Venture Group Inc.,Greater Ottawa Metropolitan Area,AP Specialist,AP Specialist,Positive Venture Group,Greater Ottawa Metropolitan Area,93.5,general,general
+Applications Coordinator,Applications Coordinator,The University of Tennessee at Chattanooga,"Chattanooga, TN",Mental Health,Mental Health Technician,Lakeside Behavioral Health Sys,"Memphis, TN",90.9,general,general
+Applications Coordinator,Applications Coordinator,The University of Tennessee at Chattanooga,"Chattanooga, TN",Student,Student,The University of Memphis,"Germantown, TN",81.8,general,general
+Computer Software,Computer Software Consultant and Contractor,Technology Company,"Raymond, AB",Director General,Director General Linux/Unix Operation,Shared Services Canada,"Ottawa, ON",86.4,executive,executive
+Computer Software,Computer Software Consultant and Contractor,Technology Company,"Raymond, AB",Senior System,Senior System Administrator,CRH Canada,"Greater Toronto Area, Canada",80.0,executive,general
+Realtor,Realtor,Forest Hill Real Estate Brokerage: Boutique --,"Toronto, ON",Developer,Developer / Systems Analyst,Technology Company,"Greater Toronto Area, Canada",79.0,general,software_engineer
+Realtor,Realtor,Forest Hill Real Estate Brokerage: Boutique --,"Toronto, ON",Web Application,Web Application Developer,Technology Company,"Mississauga, ON",87.2,general,software_engineer
+Portfolio Manager,Portfolio Manager,Independent Brokers FX,"Baldwin, NY",Senior Sales,Senior Sales Consultant,Christian Louboutin,London,84.4,general,sales
+Portfolio Manager,Portfolio Manager,Independent Brokers FX,"Baldwin, NY",Operations Manager,Operations Manager,CaravanCloud,Tenby,85.3,general,general
+Technical Customer,Technical Customer Success Manager,Azure,Dublin,Enterprise Architect,Enterprise Architect,MATRIXX Software,Greater Melbourne Area,91.9,general,general
+Technical Customer,Technical Customer Success Manager,Azure,Dublin,Senior BSS,Senior BSS Specialist,Globalive Communications Corp.,"Mississauga, ON",87.2,general,general
+Project Manager,Project Manager,NextGen Healthcare,"Wentzville, MO",Client Services,Client Services Manager,DiJiFi,"Brooklyn, NY",83.5,general,general
+Project Manager,Project Manager,NextGen Healthcare,"Wentzville, MO",HRIS Manager,HRIS Manager,Christmas Tree Shops,"Nazareth, PA",86.4,general,general
+Director,Director of Operations,Essential Skills Manitoba,"Winnipeg, MB",Professional_8965,Blue ocean contact centers,Blue ocean contact centers,"Halifax, NS",85.1,executive,general
+Director,Director of Operations,Essential Skills Manitoba,"Winnipeg, MB",Manager,"Manager, Talent Acquisition Medavie Blue Cross / Croix Bleue Medavie",Technology Company,"Moncton, NB",78.0,executive,general
+Regional Director,Regional Director of Sales-skilled nursing,Brookdale Senior Living,"Kansas City, MO",Director Of,"Director Of Rehabilitation, Ensign Sevices",Technology Company,"Olathe, KS",87.5,executive,executive
+Regional Director,Regional Director of Sales-skilled nursing,Brookdale Senior Living,"Kansas City, MO",Sales,Sales/Account Manager for Guardian Pharmacy,Technology Company,Kansas City Metropolitan Area,84.1,executive,sales
+Warehouse Team,Warehouse Team Member,KFC,Greater Sheffield Area,Manager,Manager,Turtle Bay Restaurants,London,80.6,general,general
+Warehouse Team,Warehouse Team Member,KFC,Greater Sheffield Area,Deputy Manager,Deputy Manager,AMBIENTE TAPAS LIMITED,York,87.6,general,general
+Customer Service,Customer Service Specialist,Commonwealth Bank,Greater Melbourne Area,Customer Experience,Customer Experience and Marketing,Tyro Payments,Greater Sydney Area,76.1,general,marketing
+Customer Service,Customer Service Specialist,Commonwealth Bank,Greater Melbourne Area,Head,Head of Customer Experience,Up,Greater Melbourne Area,84.1,general,executive
+Audit Associate,Audit Associate,Deloitte,London,General Manager,General Manager,F45 Training Gwanghwamun,"Seoul, South Korea",94.7,general,general
+Audit Associate,Audit Associate,Deloitte,London,Student,Student,Loughborough University,Hersham,83.0,general,general
+Associate Director,Associate Director Of Sales,"The Beekman, a Thompson Hotel","New York, NY",Vice President,Vice President of Rooms Operations,White Lodging Services,"Merrillville, IN",90.9,executive,executive
+Associate Director,Associate Director Of Sales,"The Beekman, a Thompson Hotel","New York, NY",Corporate VP,Corporate VP Food and Beverage,Gila River Hotels & Casinos,Greater Phoenix Area,89.5,executive,executive
+Senior Consultant,Senior Consultant,Figure 8 New Zealand,Auckland,IT Operations,IT Operations Lead,Figure8 New Zealand,Auckland,88.4,general,general
+Senior Consultant,Senior Consultant,Figure 8 New Zealand,Auckland,Director,Director - Producer - Architect,Technology Company,Auckland,85.5,general,executive
+Mechanical Engineering,Mechanical Engineering MEng (Hons) student,University of Bath,Pamplona,Senior Receptionist,Senior Receptionist,The Ivy Collection and Full Time student at the University of Bath,United Kingdom,92.3,software_engineer,general
+Mechanical Engineering,Mechanical Engineering MEng (Hons) student,University of Bath,Pamplona,Summer Intern,Summer Intern,Jindal Saw Limited,Bath,87.0,software_engineer,general
+Care Navigator,Care Navigator,WellMed Medical Management,"San Antonio, TX",Director Of,Director Of Operations,Fresenius Medical Care North America,Greater Harrisburg Area,77.5,general,executive
+Care Navigator,Care Navigator,WellMed Medical Management,"San Antonio, TX",Clinic Administrator,Clinic Administrator,WellMed Medical Management,"San Antonio, Texas Metropolitan Area",92.2,general,general
+Associate Consultant,Associate Consultant,Dalberg,"Dar es Salaam, Tanzania",Chief Growth,Chief Growth Officer,"PennyDrops, Economics and International Development Student at McGill University","Arlington, MA",77.4,general,product_manager
+Associate Consultant,Associate Consultant,Dalberg,"Dar es Salaam, Tanzania",Finance Director,Finance Director,EDC (Education Development Center),Egypt,85.2,general,product_manager
+Close Protection,Close Protection Officer and Maritime Security Consultant,Technology Company,Dalton,Marine Instructor,Marine Instructor,Clyde Training Solutions,Rutherglen,89.8,general,executive
+Close Protection,Close Protection Officer and Maritime Security Consultant,Technology Company,Dalton,Director,Director,Vigor Doors Limited,Barton,85.4,general,executive
+Director,Director of Program Management,SYNCREON,"Murfreesboro, TN",Operations Director,Operations Director,Crossroads Christian Church,"Newburgh, IN",88.7,executive,executive
+Director,Director of Program Management,SYNCREON,"Murfreesboro, TN",Sales Cashier,Sales Cashier,ARMY & AIRFORCE EXCHANGE SERVICE - AAFES,Afghanistan,87.2,executive,sales
+Managing Director,Managing Director,Global Creative at EF Education First,"Zürich, Schweiz",Director,Director of Product Management,Technology Company,Metropolregion Lausanne,82.4,executive,product_manager
+Managing Director,Managing Director,Global Creative at EF Education First,"Zürich, Schweiz",Senior Product,Senior Product & UX Consultant,Technology Company,"Zürich, Schweiz",76.0,executive,product_manager
+Managing Director,Managing Director,Global Creative at EF Education First,"Zürich, Schweiz",Sales Manager,Sales Manager SMB bei Ricoh Schweiz AG,Technology Company,Seuzach,84.0,executive,sales
+Student,Student,Benedictine University,"Plano, IL",Personal Shopper,Personal Shopper,Walmart and Student at Aurora University,Greater Chicago Area,84.4,general,general
+Student,Student,Benedictine University,"Plano, IL",Delivery Specialist,Delivery Specialist,Cooper Home Furnishings,Greater Chicago Area,81.5,general,general
+Financial Analyst,Financial Analyst,Government of Canada,Greater Ottawa Metropolitan Area,Founder,Founder,Accounting Re-Imagined,"Vancouver, BC",89.4,general,general
+Financial Analyst,Financial Analyst,Government of Canada,Greater Ottawa Metropolitan Area,Business Owner,Business Owner,Morales & Co,"Perth East, ON",85.8,general,general
+Junior,Junior digital manager - dentsu international,Technology Company,"Sea Cliff, NY",Director Of,Director Of Communications,Greenwood Community Church,"Parker, CO",85.6,general,executive
+Junior,Junior digital manager - dentsu international,Technology Company,"Sea Cliff, NY",Creative Director,Creative Director,Madwell,"New York, NY",87.0,general,executive
+Air Conditioning,Air Conditioning Engineer,Salisbury Group,Hyde,Export Sales,Export Sales Manager,Thales,West Linton,81.3,software_engineer,sales
+Air Conditioning,Air Conditioning Engineer,Salisbury Group,Hyde,Senior Software,Senior Software Developer,iVendi Limited,Manchester,83.7,software_engineer,software_engineer
+Associate Account,Associate Account Manager,Yardi,"Dallas, TX",Financial Advisor,Financial Advisor,Edward Jones,Dallas-Fort Worth Metroplex,88.7,sales,general
+Associate Account,Associate Account Manager,Yardi,"Dallas, TX",Sales Representative,Sales Representative,FiltrationPlus MARVIN@CLEANAIRMATTERS.COM,"Kaufman, TX",94.5,sales,sales
+Senior Scientist,Senior Scientist,Johnson Matthey,Reading,Sr,Sr. HR Advisor,Johnson Matthey,"Washington, NJ",89.6,general,general
+Senior Scientist,Senior Scientist,Johnson Matthey,Reading,Lean Leader,Lean Leader,"Johnson Matthey Refinery & Chemicals, West Deptford, NJ",Greater Philadelphia,84.2,general,general
+Assistant Manager,"Assistant Manager, Operations - Irvine Company",Technology Company,"Orange County, CA",If,"If you're here looking for an advertising creative, thank you for your consideration, but please also consider the great talent",CreativeWomenofColor.com for some much-needed perspective in the industry,"San Francisco, CA",81.6,general,general
+Assistant Manager,"Assistant Manager, Operations - Irvine Company",Technology Company,"Orange County, CA",Owner,"Owner, Hairstylist, Makeup and Extension specialist",Kelly Bortolussi Beauty Bar/ Sola Salons Irvine studio 10,"Irvine, CA",91.0,general,general
+Switchman,Switchman/Engineer,Watco Companies LLC,Greater Kennewick Area,Head,Head of Information Technology,"Mondetta Canada, Inc.",Greater Winnipeg Metropolitan Area,85.1,software_engineer,executive
+Switchman,Switchman/Engineer,Watco Companies LLC,Greater Kennewick Area,Revenue Accounting,Revenue Accounting Specialist,Watco Companies LLC,"Liberty, MO",86.7,software_engineer,general
+Data Science,Microsoft,Technology Company,None,Principal Applied,Principal Applied Science Manager- Artificial Intelligence and Research,Microsoft,None,86.2,data_scientist,general
+Data Science,Microsoft,Technology Company,None,Senior Software,Senior Software Engineer,Microsoft,None,80.3,data_scientist,software_engineer
+Data Science,Microsoft,Technology Company,None,Software Engineer,Software Engineer,Microsoft,None,89.5,data_scientist,software_engineer
+CEO,"CEO, Operator, Integrator & Coach.  I am an expert",helping business Owners and Visionaries get the results they desire and achieve their VTO period!,"Alpharetta, GA",Private Wealth,"Private Wealth Financial Advisor
+PIM® Portfolio Manager 
+Managing Director - Investments",Technology Company,Greater Philadelphia,81.3,executive,executive
+CEO,"CEO, Operator, Integrator & Coach.  I am an expert",helping business Owners and Visionaries get the results they desire and achieve their VTO period!,"Alpharetta, GA",Territory Representative,Territory Representative for Benco Dental,Technology Company,"Burbank, CA",85.8,executive,general
+Licensed Strata,Licensed Strata Manager,Technology Company,Greater Sydney Area,Strata Manager,Strata Manager,Strata Sense,Greater Sydney Area,94.2,general,general
+Licensed Strata,Licensed Strata Manager,Technology Company,Greater Sydney Area,Senior Strata,Senior Strata Manager,Bright & Duggan                                   - 2020-2021 SCA Australasia Strata Community Manager Finalist- 2020 SCA (ACT) Strata Community Manager Winner,"Canberra, CT",80.9,general,general
+Field Sales,Field Sales Execution Manager,Labatt Breweries of Canada,"Alberta, Canada",Senior Consultant,"Senior Consultant, Risk Advisory Services",BDO Canada,"Ottawa, ON",82.4,sales,general
+Field Sales,Field Sales Execution Manager,Labatt Breweries of Canada,"Alberta, Canada",Director,Director & District Manager,"Roynat Capital, Southwestern Ontario","Kitchener, ON",79.4,sales,executive
+Field Service,"Field Service / Clinical Engineer, Diagnostica Stago",Technology Company,None,Engineer Union,Engineer Union Pacific Railroad,Technology Company,None,87.5,software_engineer,software_engineer
+Field Service,"Field Service / Clinical Engineer, Diagnostica Stago",Technology Company,None,Clinical Engineer,Clinical Engineer Manager,Intermountain Healthcare,None,84.6,software_engineer,software_engineer
+Information Technology,Information Technology Manager,IT Strategic,"Tasmania, Australia",IT Support,IT Support Level 2 & Level 3,Unisys,"Canberra, CT",90.2,general,general
+Information Technology,Information Technology Manager,IT Strategic,"Tasmania, Australia",Managed Services,Managed Services Specialist,Centra Networks,"Burpengary, QL",85.3,general,general
+Executive Director,Executive Director of Business Development,"The Corsair Executive Group, LLC",None,Founder,Founder,"TropicStar Films, Inc.",None,86.3,product_manager,general
+Executive Director,Executive Director of Business Development,"The Corsair Executive Group, LLC",None,Founder,"The Inclusive Societies For Fair Markets: A Female Mentorship Network And Fund For National Unity; A Torch For Freedom And Torch For Equality, Advocating At Board Of Directors Meetings.",Technology Company,None,79.2,product_manager,executive
+Energy Advisor,Energy Advisor,Make it Cheaper Australia,Australia,Fashion Management,Fashion Management & Marketing Graduate,Technology Company,London,87.2,general,marketing
+Energy Advisor,Energy Advisor,Make it Cheaper Australia,Australia,CyberSOC Junior,CyberSOC Junior Security Analyst,Orange Cyberdefense,Maidstone,85.4,general,general
+Deskside Support,Deskside Support Engineer III,Hewlett Packard CDS Ltd - Enterprise Infrastructure Services.,Greater Derby Area,Support Analyst,Support Analyst,University of Kent,Canterbury,79.9,software_engineer,general
+Deskside Support,Deskside Support Engineer III,Hewlett Packard CDS Ltd - Enterprise Infrastructure Services.,Greater Derby Area,Professional_8301,Line Support Engineer,ADM Computing,Margate,88.1,software_engineer,software_engineer
+Co,Gen Two,Technology Company,London,Chief Operating,Chief Operating Officer,"SPS Conferences, the European Pension Fund Investment Forum and PIA",London,83.9,software_engineer,general
+Co,Gen Two,Technology Company,London,Director,"Director of Property, Fund Manager",Henderson Global Investors,London,86.0,software_engineer,executive
+VP Human,VP Human Resources-Outdoor and Recreation Division,Newell Brands,"Fountain Hills, AZ",National Account,National Account Manager,Newell Brands,"Orange County, CA",84.4,executive,sales
+VP Human,VP Human Resources-Outdoor and Recreation Division,Newell Brands,"Fountain Hills, AZ",Key Account,Key Account Manager,Newell Brands,"Minneapolis, MN",85.7,executive,sales
+Membership Recruitment,Membership Recruitment Manager,"Girl Scouts, Hornets'​ Nest Council","Fort Mill, SC",Assistant Supervisor,Assistant Supervisor,LINCOLN COUNTY EMS,"Charlotte, NC",91.9,general,general
+Membership Recruitment,Membership Recruitment Manager,"Girl Scouts, Hornets'​ Nest Council","Fort Mill, SC",Officer,Officer,"Greensfelder, Hemker & Gale, P.C.","St Louis, MO",83.3,general,general
+Visual,Visual support manager,JD Sports Fashion plc,Wakefield,Senior Manager,Senior Manager,Hays Specialist Recruitment,London,87.3,general,general
+Visual,Visual support manager,JD Sports Fashion plc,Wakefield,Senior Programme,Senior Programme Manager,HSBC,Kingston upon Thames,90.7,general,general
+Video Intern,Video Intern,Miami HEAT,"Miami, FL",Minor League,Minor League Video Intern,Milwaukee Brewers,"San Antonio, Texas Metropolitan Area",84.6,general,general
+Video Intern,Video Intern,Miami HEAT,"Miami, FL",Minor League,Minor League Video Intern,Tampa Bay Rays,"Columbus, OH",84.3,general,general
+Sr Loan,Sr Loan Officer,CMG Financial,None,Mortgage Loan,Mortgage Loan Officer,CMG Home Loans #403859,None,88.3,general,general
+Sr Loan,Sr Loan Officer,CMG Financial,None,Mortgage Loan,Mortgage Loan Originator/Your Mortgage Gal,CMG Financial Inc. NMLS #487451,None,95.0,general,general
+Maintenance Technician,Maintenance Technician,"DS Smith, Plastics Division",Sunderland,Director,Director,Oscar Compliance Solutions,Stockport,77.6,general,executive
+Maintenance Technician,Maintenance Technician,"DS Smith, Plastics Division",Sunderland,Engineering Specialist,Engineering Specialist,Babcock International Group,Edinburgh,82.5,general,software_engineer
+AV Design,AV Design Engineer,E2 Optics,"Denver, CO",Program Manager,"Program Manager, Vendor Management, US Services",Technology Company,"Carolina, RI",80.6,software_engineer,general
+AV Design,AV Design Engineer,E2 Optics,"Denver, CO",Security Design,Security Design Engineer,E2 Optics,Denver Metropolitan Area,89.6,software_engineer,software_engineer
+Web,Web developer,Careeristic,Thane,Student,Student,University of Pune,Pune,80.8,software_engineer,general
+Web,Web developer,Careeristic,Thane,Asst,Asst. Manager - HR,"Famy Care Ltd., Sarigam",Valsad,87.6,software_engineer,general
+Musician,Musician/Band leader,Retroactive,None,Maintenance Manager,Maintenance Manager II,Rise Baking Company,"York, PA",88.2,general,general
+Musician,Musician/Band leader,Retroactive,None,Senior Specialist,Senior Specialist - HR Technology,Arconic,"Lancaster, PA",95.0,general,general
+Consultant,Consultant,K&H Precision Products Inc.,"Honeoye Falls, NY",General Manager,General Manager,MetALLsource LLC.,United States,83.9,product_manager,general
+Consultant,Consultant,K&H Precision Products Inc.,"Honeoye Falls, NY",Production Shift,Production Shift Supervisor,Seneca Foods Corporation,"Janesville, WI",92.6,product_manager,product_manager
+Associate,Associate - Business Analyst,JPMorgan Chase & Co.,"Columbus, OH",Professional_2778,Professional,..,Perth,88.8,product_manager,general
+Associate,Associate - Business Analyst,JPMorgan Chase & Co.,"Columbus, OH",Sales,Sales and Events,"MCKAYS HOTEL, BAR AND RESTAURANT LIMITED",Perth,81.8,product_manager,sales
+Merchant Services,Merchant Services Specialist,Bank of North Dakota,"Bismarck, ND",Credit Manager,Credit Manager,Hummert International,"St Charles, MO",81.5,general,general
+Merchant Services,Merchant Services Specialist,Bank of North Dakota,"Bismarck, ND",Lending Project,Lending Project Specialist,Bank of North Dakota,"Bismarck, ND",93.6,general,general
+Director,Director,Swiss ILC Services DMCC (Swissgroup.ae),United Arab Emirates,Managing Consultant,Managing Consultant,CCL - Governance Risk Compliance,United Arab Emirates,77.9,executive,general
+Director,Director,Swiss ILC Services DMCC (Swissgroup.ae),United Arab Emirates,Freelance Business,Freelance Business Development Consultant,Technology Company,London,88.1,executive,product_manager
+Prosvetni,Prosvetni savetnik,"Ministarstvo prosvete, nauke i tehnološkog razvoja, Školska uprava Kruševac",صربيا,Senior Structural,Senior Structural Engineer,Technology Company,السعودية,83.0,general,software_engineer
+Prosvetni,Prosvetni savetnik,"Ministarstvo prosvete, nauke i tehnološkog razvoja, Školska uprava Kruševac",صربيا,Project Coordinator,Project Coordinator,Ranhill Worley Parsons,الفلبين,86.1,general,general
+Analyst,Analyst,Morgan Stanley,"New York, NY",Senior Vice,Senior Vice President,RGP,New York City Metropolitan Area,78.0,general,executive
+Analyst,Analyst,Morgan Stanley,"New York, NY",Director,"Director of Marketing and Communications, Capital Markets",Technology Company,New York City Metropolitan Area,77.0,general,executive
+Production Manager,Production Manager,Babcox Publications LLC,"Akron, OH",CRM Specialist,CRM Specialist/Biller,Babcox Media,"Akron, OH",87.5,product_manager,general
+Production Manager,Production Manager,Babcox Publications LLC,"Akron, OH",Professional_7290,Petco,Petco,"Grants Pass, OR",85.4,product_manager,general
+Program,"Program/Project Manager – expert in leading large-scale, complex software implementations and migration projects",Technology Company,None,Owner,"Owner of Flashpoint Lasertag and Project Manager, Systems",HSBC Bank Bermuda Limited,None,87.5,general,general
+Program,"Program/Project Manager – expert in leading large-scale, complex software implementations and migration projects",Technology Company,None,Service Cloud,Service Cloud Manager,John Lewis Partnership,Letchworth,95.0,general,general
+Senior HR,Senior HR Business Partner,Robert Bosch Power Tools,Bayan Lepas,Regional Brand,Regional Brand Manager,Bosch Power Tools,Petaling Jaya,89.7,general,marketing
+Senior HR,Senior HR Business Partner,Robert Bosch Power Tools,Bayan Lepas,Senior Talent,Senior Talent Management And Employer Branding Specialist,Technology Company,Gise,78.4,general,marketing
+Sr,Sr. Principal Quality Engineer,BAE Systems,"Massachusetts, United States",Product Engineer,"Product Engineer, Sanmina, Owego, NY",Technology Company,"New York, United States",93.0,software_engineer,software_engineer
+Sr,Sr. Principal Quality Engineer,BAE Systems,"Massachusetts, United States",Site Engineering,Site Engineering Manager,Moog Inc.,"Salt Lake City, UT",89.8,software_engineer,software_engineer
+Director,Director of Front Office Operations,"Hotel 50 Bowery, a Joie de Vivre Hotels at Hyatt Hotels Corporation",United States,IT Specialist,IT Specialist,Quest Diagnostics Inc,"Venus, PA",87.7,executive,general
+Director,Director of Front Office Operations,"Hotel 50 Bowery, a Joie de Vivre Hotels at Hyatt Hotels Corporation",United States,Account Manager,Account Manager,"ADNET Technologies, Inc.","Suffield, CT",88.5,executive,sales
+IT Project,IT Project Manager,GSA,"Washington, DC",Pre,Pre-Sales Functional Solution Architect,HSO,Greater Pittsburgh Region,78.3,general,sales
+IT Project,IT Project Manager,GSA,"Washington, DC",VP Compliance,VP Compliance Program Manager Sr.,PNC,"Pittsburgh, PA",86.9,general,executive
+Professional_4823,Professional,police department,Grenada,Detective Constable,Detective Constable,Police Federation of England and Wales,Stevenage,82.8,general,general
+Professional_4823,Professional,police department,Grenada,Inspector,Inspector,Dyfed-Powys Police,United Kingdom,87.7,general,executive
+Monitoring Support,Monitoring Support Officer,Capita,Greenwich,Learning Support,Learning Support Assistant,Capita,London,94.0,general,general
+Monitoring Support,Monitoring Support Officer,Capita,Greenwich,Digital Executive,Digital Executive,Capita,London,83.4,general,general
+Technology Risk,Technology Risk Senior Manager,"Ameriprise Financial Services, Inc.","Minneapolis, MN",Audit Manager,"Audit Manager, GRC Program","Ameriprise Financial Services, Inc.","Minneapolis, MN",86.1,general,general
+Technology Risk,Technology Risk Senior Manager,"Ameriprise Financial Services, Inc.","Minneapolis, MN",SVP,"SVP, Audit Director",Bank of America,"Rock Hill, SC",83.7,general,executive
+Environmental Engineer,Environmental Engineer 2,Indiana Department of Environmental Management,Greater Indianapolis,Environmental Manager,Environmental Manager,State of Indiana,"Indianapolis, IN",79.3,software_engineer,general
+Environmental Engineer,Environmental Engineer 2,Indiana Department of Environmental Management,Greater Indianapolis,Environmental Manager,Environmental Manager,Indiana Department of Environmental Management,Greater Indianapolis,85.3,software_engineer,general
+Head,Head of People,KILLSTAR,"Galesburg, IL",Digital Assistant,Digital Assistant,KILLSTAR,Derby,83.1,executive,general
+Head,Head of People,KILLSTAR,"Galesburg, IL",Merchandiser,Merchandiser,KILLSTAR,Hamilton,88.3,executive,general
+Director,Director of Talent Acquisition,Avalign Technologies,Greater Chicago Area,Diabetes Prevention,Diabetes Prevention Program Coach Educator,WellSpark,"Mead, OK",76.4,executive,general
+Director,Director of Talent Acquisition,Avalign Technologies,Greater Chicago Area,AVP,"AVP, Public Relations & Corporate Communications",ConnectiCare & WellSpark Health,"Farmington, CT",92.4,executive,executive
+Assistant Medical,Assistant Medical Center Administrator,Kaiser Permanente,"Los Angeles, CA",Senior Regulatory,Senior Regulatory Consultant,Kaiser Foundation Health Plan,"Pasadena, CA",82.9,general,general
+Assistant Medical,Assistant Medical Center Administrator,Kaiser Permanente,"Los Angeles, CA",Senior Staff,Senior Staff Software Engineer,Disney Interactive Media Group,"Los Angeles County, CA",86.6,general,software_engineer
+Senior Project,Senior Project Manager,Specific Environments Ltd,Newcastle upon Tyne,Vertical Transportation,Vertical Transportation Consulting Engineer,Technology Company,Greater Brisbane Area,81.8,general,software_engineer
+Senior Project,Senior Project Manager,Specific Environments Ltd,Newcastle upon Tyne,Now Retired,Now Retired,"Not employed,i’m retired",Brighouse,88.4,general,general
+Managing Director,"Managing Director, Alternative Capital Markets & Strategy Group, Goldman Sachs Merchant Banking Division",Technology Company,United Kingdom,Financial Controller,Financial Controller,17Capital,United Kingdom,81.3,executive,general
+Managing Director,"Managing Director, Alternative Capital Markets & Strategy Group, Goldman Sachs Merchant Banking Division",Technology Company,United Kingdom,Associate,Associate,17Capital,London,83.5,executive,general
+Project Manager,"Project Manager, Development and Capital Projects",Calgary Drop In & Rehab Centre Society,"Calgary, AB",Machine Operator,Machine Operator,Shawcor,"Toronto, ON",78.9,product_manager,general
+Project Manager,"Project Manager, Development and Capital Projects",Calgary Drop In & Rehab Centre Society,"Calgary, AB",System Analyst,System Analyst,Canadian Natural Resources Limited (CNRL),"Calgary, AB",78.8,product_manager,general
+Project Manager,"Project Manager, Development and Capital Projects",Calgary Drop In & Rehab Centre Society,"Calgary, AB",Business Systems,"Business Systems Analyst, SAFe Agilist, ITIL, Maximo, SAP PM/FICO, OIA, PI System",Technology Company,"Calgary, AB",85.5,product_manager,product_manager
+System Analyst,System Analyst,ServicePower,"Baltimore City County, MD",Senior Program,Senior Program Manager,Microsoft,Greater Chicago Area,94.9,general,general
+System Analyst,System Analyst,ServicePower,"Baltimore City County, MD",Core Engineer,Core Engineer,Dyson Network,San Francisco Bay Area,84.1,general,software_engineer
+Manufacturing Technician,Manufacturing Technician,Tesla,"Tracy, CA",Sr,Sr. Dyno Technician,SF Motors Inc,"San Jose, CA",94.0,general,general
+Manufacturing Technician,Manufacturing Technician,Tesla,"Tracy, CA",AST,AST - Seating and Safety Engineering,Tesla,San Francisco Bay Area,83.8,general,software_engineer
+Global Supply,Global Supply Planner,Lubrizol,"Strongsville, OH",National Call,National Call Center Manager,After Hours Formalwear,"Atlanta, GA",91.3,general,general
+Global Supply,Global Supply Planner,Lubrizol,"Strongsville, OH",Senior Account,Senior Account Manager,Inspired Thinking Group (ITG),Hertford,79.3,general,sales
+Software Engineer,Software Engineer,Capula,Stone,Senior Project,Senior Project Manager,Capula,Shrewsbury,78.8,software_engineer,general
+Software Engineer,Software Engineer,Capula,Stone,Senior EC,Senior EC&I Engineer,Capula,Telford,94.9,software_engineer,software_engineer
+Bursar,Bursar,Bournes Green Infant School,Southend-on-Sea,Principal Consultant,"Principal Consultant, Materials",Technology Company,St. Albans,84.7,general,general
+Bursar,Bursar,Bournes Green Infant School,Southend-on-Sea,Professional_2663,Getjar Limited,Getjar Limited,London,95.0,general,general
+Enterprise Account,Enterprise Account Executive,Dell EMC,"Marietta, GA",Executive Assistant,Executive Assistant,Constant Contact,"Longmont, CO",95.0,general,general
+Enterprise Account,Enterprise Account Executive,Dell EMC,"Marietta, GA",Customer Success,Customer Success Manager,Morningstar,"Chicago, IL",94.7,general,general
+Wellness Coach,Wellness Coach - Invigorate Nutrition/PT,Unit8 Gym,Greater Plymouth Area,Print,"Print editor, Herald Sport",The Plymouth Herald,United Kingdom,93.1,general,general
+Wellness Coach,Wellness Coach - Invigorate Nutrition/PT,Unit8 Gym,Greater Plymouth Area,Office Manager,Office Manager,KDP Tools Ltd,Willand,92.9,general,general
+Hairstylist,Hairstylist,Boulder,"Arvada, CO",Jewelry Designer,Jewelry Designer,Jewelry Time,"Arvada, CO",95.0,general,general
+Hairstylist,Hairstylist,Boulder,"Arvada, CO",Owner,Owner & Designer,Reece Salinas Art Co.,"Arvada, CO",87.7,general,general
+Client Manager,Client Manager,Adrians Chartered Accountants,Greater Brisbane Area,Tax,Tax & Business Consultant,Technology Company,Greater Melbourne Area,86.6,general,general
+Client Manager,Client Manager,Adrians Chartered Accountants,Greater Brisbane Area,Vice President,Vice President of Product Management,Intapp,Greater Minneapolis-St. Paul Area,79.3,general,product_manager
+Accountant,Accountant,Oshkosh/Winnebago County Housing Authority,"Neenah, WI",Executive,Executive director,Ohio Department of Education,"Columbus, OH",77.7,general,executive
+Accountant,Accountant,Oshkosh/Winnebago County Housing Authority,"Neenah, WI",Campus Facilities,Campus Facilities Planner,University of Wisconsin - Green Bay,"Green Bay, WI",92.7,general,general
+Director,Director of Operations,Hoffmann Hospice,"Bakersfield, CA",Anesthesia Resident,Anesthesia Resident Physician,Vanderbilt University Medical Center,"Nashville, TN",84.5,executive,general
+Director,Director of Operations,Hoffmann Hospice,"Bakersfield, CA",Health Systems,Health Systems Account Manager,McKesson,"Houston, TX",83.8,executive,sales
+Customer Service,Customer Service Representative,Pratt Industries,"Greenville, OH",Co,Co-Founder,IceStorm LLC,"Phoenix, AZ",94.5,general,general
+Customer Service,Customer Service Representative,Pratt Industries,"Greenville, OH",Certified Tour,Certified Tour Director & Guide Independent Meeting & Event Management,Technology Company,United States,79.5,general,executive
+Senior Software,Senior Software Engineer,Microsoft,"Snohomish, WA",Cloud,Cloud support Engineer,Amazon Web Services (AWS),Dallas-Fort Worth Metroplex,83.6,software_engineer,software_engineer
+Senior Software,Senior Software Engineer,Microsoft,"Snohomish, WA",Senior Manager,Senior Manager,Accenture,Hyderabad,84.2,software_engineer,general
+Finance Director,Finance Director / Novasep,Technology Company,France,IT Application,IT Application Manager,Technology Company,Mantoue,87.8,executive,general
+Finance Director,Finance Director / Novasep,Technology Company,France,OFFICE MANAGER,OFFICE MANAGER chez abrdn,Technology Company,Paris et périphérie,83.3,executive,general
+Consultant,Consultant,Encore Business Solutions,Canada,Director,Director,Laxmi computer services,Hyderabad,76.3,general,executive
+Consultant,Consultant,Encore Business Solutions,Canada,Senior New,Senior New Business Strategist bei Google,Technology Company,Ireland,90.0,general,general
+Director,Director,Top Compliance (Pty)Ltd - Occupational Health and Safety Consultancy and Training,City of Johannesburg,Business Owner,Business Owner,Amlec,City of Cape Town,82.1,executive,general
+Director,Director,Top Compliance (Pty)Ltd - Occupational Health and Safety Consultancy and Training,City of Johannesburg,VP Government,"VP Government Affairs & Trade Development SA, SSA, CQCIL & CGA",Cipla,City of Cape Town,86.2,executive,product_manager
+Compliance Assurance,Compliance Assurance Engineer w EPAM Systems,Technology Company,Krakow Metropolitan Area,European Head,European Head of Equity Finance,CANTOR FITZGERALD EUROPE,London,87.8,software_engineer,executive
+Compliance Assurance,Compliance Assurance Engineer w EPAM Systems,Technology Company,Krakow Metropolitan Area,Senior Government,Senior Government Relations Adviser,UNSW,Greater Sydney Area,76.7,software_engineer,general
+Concessions Supervisor,Concessions Supervisor,Citizens Bank Park,"Philadelphia, PA",Program Coordinator,Program Coordinator,GE Healthcare,"Atlanta, GA",90.6,general,general
+Concessions Supervisor,Concessions Supervisor,Citizens Bank Park,"Philadelphia, PA",Biomedical Equipment,Biomedical Equipment Technician,CACI International Inc,"Okinawa, Japan",77.7,general,product_manager
+Data,Data driven Install Base Sales and Customer Success leader,Technology Company,"Austin, TX",Director,Director of Coca-Cola Freestyle Sales and Commercialization,The Coca-Cola Company,Kansas City Metropolitan Area,79.5,sales,executive
+Data,Data driven Install Base Sales and Customer Success leader,Technology Company,"Austin, TX",Global Sales,Global Sales Operations,Notified,"Chicago, IL",85.1,sales,sales
+Student,Student,PANORAMA RIDGE SECONDARY,"Surrey, BC",Truck Driver,Truck Driver,Sunrise Kitchens Ltd.,"Surrey, BC",88.8,general,general
+Student,Student,PANORAMA RIDGE SECONDARY,"Surrey, BC",Technical Support,Technical Support,Seon,Canada,83.5,general,general
+Manager,"Manager, Enterprise Content Management and Development",Hillsborough County,None,Messaging,Messaging and Collaboration Administrator,Tata Consultancy Services,"Jharkhand, India",84.0,product_manager,general
+Manager,"Manager, Enterprise Content Management and Development",Hillsborough County,None,Solutions Engineer,Solutions Engineer,Hillsborough County,None,91.4,product_manager,software_engineer
+Loyalty,Loyalty marketing consultant,Technology Company,Sofia,Director,Director - Data Services,Dynamo Software,Greater Boston,89.1,marketing,executive
+Loyalty,Loyalty marketing consultant,Technology Company,Sofia,Principal Partner,"Principal Partner Solutions Architect - Engineering, Construction & Real Estate",Amazon Web Services (AWS),"New York, NY",83.0,marketing,software_engineer
+Engineering,Engineering student,National School of Computer Science (ENSI),Qeebiyyah,Owner,Owner,The Vintage Nation,"Schofields, NS",83.5,software_engineer,general
+Engineering,Engineering student,National School of Computer Science (ENSI),Qeebiyyah,Health,"Health &Beauty Consultant,Interested in Entrepreneurship",Technology Company,Greater Melbourne Area,86.8,software_engineer,general
+VP,"VP, Product & Engineering",Augintel,None,Software Engineer,Software Engineer,Google,"Ames, IA",83.1,software_engineer,software_engineer
+VP,"VP, Product & Engineering",Augintel,None,Lead Software,Lead Software Developer,"Expedia, Inc.",None,85.0,software_engineer,software_engineer
+Research Executive,Research Executive,Feedback Business Consulting,Mumbai,Analyst,Analyst,AGR knowledge services pvt ltd,Mumbai,89.7,general,general
+Research Executive,Research Executive,Feedback Business Consulting,Mumbai,Senior Executive,Senior Executive,Feedback Advisory,Mumbai,93.6,general,general
+Sales Executive,Sales Executive,Mercedes-Benz Retail Group,London,Student,Student,"Guru Nanak Dev University, Amritsar",Palampur,84.7,sales,general
+Sales Executive,Sales Executive,Mercedes-Benz Retail Group,London,Digital Health,Digital Health Operations Manager,Janssen,London,89.5,sales,general
+Chemical Engineer,Chemical Engineer,Technology Company,Medford-Grants Pass Area,Quality Assurance,Quality Assurance Technician,PRO Unlimited,"Columbia Cross Roads, PA",83.2,software_engineer,general
+Chemical Engineer,Chemical Engineer,Technology Company,Medford-Grants Pass Area,Program,Program and Management Analyst (Remote),Technology Company,United States,81.6,software_engineer,general
+Graphic Designer,Graphic Designer,Blade HQ,"Pleasant Grove, UT",Senior Analytics,Senior Analytics Manager - North America Value Stores Insights,Nike,None,79.9,general,data_scientist
+Graphic Designer,Graphic Designer,Blade HQ,"Pleasant Grove, UT",Student Advocate,Student Advocate,Oak Canyon Junior High School,"Pleasant Grove, UT",91.2,general,general
+Technical Sales,Technical Sales Account Manager,Convergint Technologies,Greater Dublin,Construction Project,Construction Project Manager,Northland Controls Inc,"Hayward, CA",77.3,sales,general
+Technical Sales,Technical Sales Account Manager,Convergint Technologies,Greater Dublin,Sales Business,Sales Business Development chez Convergint Technologies,Technology Company,Paris,89.9,sales,product_manager
+Manager,Manager of Strategic Planning,"Bridgestone Retail Operations, LLC","Nashville, TN",Vice President,"Vice President & GM, Original Equipment,  NA",The Goodyear Tire & Rubber Company,"Uniontown, OH",80.7,general,product_manager
+Manager,Manager of Strategic Planning,"Bridgestone Retail Operations, LLC","Nashville, TN",Director,Nitto Tire,Technology Company,"Los Angeles, CA",88.6,general,executive
+Assistant Project,Assistant Project Manager,NIT'S CONSTRUCTION LTD,"London Area, United Kingdom",Consultant,Consultant,Atos Syntel,Glasgow,89.3,general,general
+Assistant Project,Assistant Project Manager,NIT'S CONSTRUCTION LTD,"London Area, United Kingdom",Data Analyst,Data Analyst At Perfality Business Solutions,Technology Company,None,91.4,general,general
+Sr,Sr. Manager Manufacturing Engineering,Tata Motor Ltd,"Uttarakhand, India",Engine,Engine testing Engineer,Tata motors Ltd.,"Jharkhand, India",90.6,software_engineer,software_engineer
+Sr,Sr. Manager Manufacturing Engineering,Tata Motor Ltd,"Uttarakhand, India",Student,Student,"Indian Institute of Technology, Guwahati","Assam, India",82.2,software_engineer,general
+Brand Intern,Brand Intern with Native,Procter & Gamble,Cincinnati Metropolitan Area,Machine Leader,Machine Leader,Procter & Gamble,"Cape Girardeau, MO",80.5,marketing,general
+Brand Intern,Brand Intern with Native,Procter & Gamble,Cincinnati Metropolitan Area,Associate Underwriter,Associate Underwriter,HDI Global SE,Greater Chicago Area,88.6,marketing,general
+Sr,Sr. Quality Auditor – APAC Regional,Zoetis Inc.,"上海市, 中国",Legal Counsel,Legal Counsel,Pharmaron Group,"北京市, 中国",93.6,general,general
+Sr,Sr. Quality Auditor – APAC Regional,Zoetis Inc.,"上海市, 中国",Legal Counsel,Legal Counsel,CARVAL INVESTORS ASSETS CONSULTING (BEIJING) LTD.,"北京市, 中国",84.2,general,general
+Quality Assurance,Quality Assurance Coordinator,Diversey,"Sturtevant, WI",Especialista,Especialista en Higiene Alimentaria y TCOs del Sector Bebidas en Diversey España,Technology Company,Greater Barcelona Metropolitan Area,80.6,general,executive
+Quality Assurance,Quality Assurance Coordinator,Diversey,"Sturtevant, WI",Marketing,Marketing en IMAGINETELECOM,Technology Company,Benidorm,79.7,general,marketing
+Civil Engineer,Civil Engineer,YIT Slovakia,Slovakia,Sales,Sales manager,Schüco International KG,"Kosice, Slovakia",83.0,software_engineer,sales
+Civil Engineer,Civil Engineer,YIT Slovakia,Slovakia,Application Specialist,Application Specialist,Viva Energy Australia,"Melbourne, VIC",78.4,software_engineer,general
+Business Owner,Business Owner,MNP LTD,Ankara,Director,"Director, Financial Planning and Analysis",Teranet Inc.,"Toronto, ON",86.4,general,executive
+Business Owner,Business Owner,MNP LTD,Ankara,Facilities Manager,Facilities Manager,Irdeto,Greater Ottawa Metropolitan Area,93.0,general,general
+IDS Specimen,"IDS Specimen Management Marketing Manager - Middle East, North Africa and Turkey",Technology Company,None,Sr,Sr. Loyalty Operations Manager,"Expedia, Inc.",None,89.3,marketing,general
+IDS Specimen,"IDS Specimen Management Marketing Manager - Middle East, North Africa and Turkey",Technology Company,None,Senior Manager,"Senior Manager, Partnerships",QuoteWizard by LendingTree,None,76.9,marketing,general
+COO,COO,BioRepublic SkinCare,"Atlanta, GA",M,M.Arch Student,The University of Kansas,"St Louis, MO",81.8,general,general
+COO,COO,BioRepublic SkinCare,"Atlanta, GA",Project Director,Project Director,Brand Bureau (An AvroKO Company),New York City Metropolitan Area,78.3,general,executive
+Fullstack Software,Fullstack Software Engineer,Technology Company,"Seattle, WA",Product Manager,Product Manager,tastyworks,"Chicago, IL",87.3,software_engineer,product_manager
+Fullstack Software,Fullstack Software Engineer,Technology Company,"Seattle, WA",Software Engineer,Software Engineer,Amazon,"Seattle, WA",87.4,software_engineer,software_engineer
+Analyst,Analyst,Ooredoo Qatar,Qatar,General Manager,General Manager,World Oriental Trading & Cont.,Qatar,92.9,general,general
+Analyst,Analyst,Ooredoo Qatar,Qatar,Enterprise Data,Enterprise Data Science Manager,Technology Company,Amsterdam,82.1,general,data_scientist
+Process Engineering,Process Engineering,Technology Company,"Woodridge, IL",Product Manager,Product Manager,Levi Strauss & Co.,"San Francisco, CA",78.9,software_engineer,product_manager
+Process Engineering,Process Engineering,Technology Company,"Woodridge, IL",Vice President,"Vice President, Festival Operations & Experience",Insomniac Events,"Los Angeles, CA",78.0,software_engineer,executive
+Senior Client,Senior Client Executive,Tableau Software,"Toronto, ON",Strategic Alliance,Strategic Alliance Manager,Entrust,"Omaha, NE",92.6,general,general
+Senior Client,Senior Client Executive,Tableau Software,"Toronto, ON",Senior Principal,Senior Principal Solutions Consultant,ACI Worldwide,"Westminster, MD",90.1,general,general
+Senior Relationship,Senior Relationship Manager Commercial Banking,The Royal Bank of Scotland,Edinburgh,Intermediate Procurement,Intermediate Procurement Specialist,Vertex Downhole,"Olds, AB",85.7,general,general
+Senior Relationship,Senior Relationship Manager Commercial Banking,The Royal Bank of Scotland,Edinburgh,Director,Director,Adepto Technical Recruitment Limited,Warrington,76.8,general,executive
+Administrative Assistant,Administrative Assistant,the University of Texas at Dallas,"Plano, TX",Professor,"Professor, & Louis A. Beecherl Jr. Chair, Mechanical Engineering, The University of Texas",Dallas,"Richardson, TX",88.9,general,software_engineer
+Administrative Assistant,Administrative Assistant,the University of Texas at Dallas,"Plano, TX",Associate Professor,Associate Professor,The University of Texas at Dallas,United States,95.0,general,general
+Student,Student,University of Alberta,Greater Edmonton Metropolitan Area,Student,Student,University of Alberta,"Edmonton, AB",95.0,general,general
+Student,Student,University of Alberta,Greater Edmonton Metropolitan Area,Student,Student,University of Alberta,"Edmonton, AB",91.7,general,general
+Student,Student,University of Alberta,Greater Edmonton Metropolitan Area,Student,Student,University of Alberta,"Edmonton, AB",94.0,general,general
+Director,"Director, Human Resources",Mount Nittany Health,"State College, PA",Purchasing Project,Purchasing Project Manager,St. Luke's University Health Network,"Allentown, PA",77.2,executive,general
+Director,"Director, Human Resources",Mount Nittany Health,"State College, PA",Human Resources,Human Resources Business Partner,Tufts Medical Center,Greater Boston,82.1,executive,general
+Community Operation,Community Operation Analyst,Covalen,Frankfurt,Quality Manager,Quality Manager,St Vincent's Private Hospital,Ireland,82.4,general,general
+Community Operation,Community Operation Analyst,Covalen,Frankfurt,Senior Homewares,Senior Homewares lifestyle buyer,Michael Murphy Home Furnishing,Ireland,87.5,general,general
+Primary School,Primary School Teacher,Rush N.S,Ireland,Primary School,Primary School Teacher,Balbriggan Educate Together,Ireland,89.1,general,general
+Primary School,Primary School Teacher,Rush N.S,Ireland,Primary School,Primary School Teacher,Department Of Eduacation,Greater Dublin,82.2,general,general
+Retail Sales,Retail Sales Consultant,Truworths,South Africa,Digital Director,Digital Director,triyoga uk,None,76.0,sales,executive
+Retail Sales,Retail Sales Consultant,Truworths,South Africa,Chief Executive,Chief Executive Officer,EBM AFRICA INSURANCE,None,89.0,sales,general
+Management Consultant,Management Consultant,Accenture,"Banten, Indonesia",Country HR,Country HR Lead,Accenture Indonesia,Jakarta,95.0,general,general
+Management Consultant,Management Consultant,Accenture,"Banten, Indonesia",Managing Director,"Managing Director - Accenture Applied Intelligence, Indonesia",Technology Company,Jakarta,88.3,general,executive
+QS Manager,QS Manager,Integra LifeSciences,Puerto Rico,Experienced Aerospace,Experienced Aerospace Engineering & Safety Leader; Former Astronaut,Technology Company,"College Station, TX",79.2,general,software_engineer
+QS Manager,QS Manager,Integra LifeSciences,Puerto Rico,Senior Electrical,Senior Electrical Engineer,NASA Glenn Research Center,"Avon, OH",77.0,general,software_engineer
+Professional_9893,Ltd sales,Technology Company,None,Service Manager,Service Manager,Levi Strauss & Co.,"Portland, Oregon Metropolitan Area",86.9,sales,general
+Professional_9893,Ltd sales,Technology Company,None,Sales Manager,"Sales Manager - Construction, Agriculture",Technology Company,Constance,93.7,sales,sales
+Trader,Trader,JANA Partners LLC,"New York, NY",Investor Relations,Investor Relations,Tiger Global Management,"New York, NY",94.2,general,general
+Trader,Trader,JANA Partners LLC,"New York, NY",Managing Director,Managing Director of Investor Relations,Summit Partners,"Boston, MA",89.3,general,executive
+Regional Operating,Regional Operating Director,"Greenberg Traurig, LLP",New York City Metropolitan Area,Senior Director,Senior Director of Administration,ArentFox Schiff LLP,"Boston, MA",84.3,executive,executive
+Regional Operating,Regional Operating Director,"Greenberg Traurig, LLP",New York City Metropolitan Area,Associate,Associate,Nixon Peabody LLP,"Vienna, VA",85.2,executive,general
+Professional_1740,Fidelity Investments,Fidelity Investments,"Reading, MA",Principal Software,Principal Software Engineer/Developer,Fidelity Investments,"Boston, MA",95.0,software_engineer,software_engineer
+Professional_1740,Fidelity Investments,Fidelity Investments,"Reading, MA",Principal Software,Principal Software Engineer,Fidelity Investments,Chennai,95.0,software_engineer,software_engineer
+Integrated Logistic,Integrated Logistic Support Manager,Soucy Defense,Warrington,Professional_5336,Professional,phillip orr flooring,"Kingston upon Hull, England Metropolitan Area",90.6,general,general
+Integrated Logistic,Integrated Logistic Support Manager,Soucy Defense,Warrington,Security,Security and Access Manager,ECO SURREY LTD,Watford,95.0,general,general
+Fire,Fire alarm Technician,JCI,San Francisco Bay Area,Engineer,Engineer,SimplexGrinnell,"Westlake, OH",85.2,general,software_engineer
+Fire,Fire alarm Technician,JCI,San Francisco Bay Area,Field Service,Field Service Technician,Redhawk Fire and Security,"Los Angeles, CA",90.7,general,general
+Healthcare Revenue,Healthcare Revenue Cycle Consultant,Technology Company,"Dallas, TX",OPERATIONS TECHNICIAN,OPERATIONS TECHNICIAN 3,CenturyLink,"Denver, CO",86.0,general,general
+Healthcare Revenue,Healthcare Revenue Cycle Consultant,Technology Company,"Dallas, TX",Systems Test,Systems Test Specalist,Avid Technology,"Mountain View, CA",87.2,general,general
+Senior Claims,Senior Claims Adjuster,Enstar Group,London,Director,Director of UK Client Relations,YOUNG & Associates,Essex,85.9,general,executive
+Senior Claims,Senior Claims Adjuster,Enstar Group,London,Senior Claims,Senior Claims Underwriter,HAMILTON UNDERWRITING LIMITED,Enfield,88.0,general,general
+Senior Principal,Senior Principal Clinical Database Programmer,Parexel,Hyderabad,Sr,Sr. CDM Programmer ll,PPD,Bangalore Urban,80.2,product_manager,general
+Senior Principal,Senior Principal Clinical Database Programmer,Parexel,Hyderabad,Licensed Pharmacy,Licensed Pharmacy Researcher,Cerner Corporation,Bangalore Urban,87.3,product_manager,general
+Scheduling Program,Scheduling Program Manager,Technology Company,"Rochester, New York Metropolitan Area",Regional Manager,Regional Manager - Division Operations Manager Trainer,Technology Company,Greater Sacramento,88.2,general,general
+Scheduling Program,Scheduling Program Manager,Technology Company,"Rochester, New York Metropolitan Area",Clinical Director,Clinical Director/Lead BCBA,"Kadiant, LLC.","Sacramento, CA",80.5,general,executive
+Operations Manager,Operations Manager,Lacrosse Victoria,Greater Melbourne Area,Manager,"Manager, Financial Operations",The University of Notre Dame Australia,"Fremantle, WA",81.0,executive,general
+Operations Manager,Operations Manager,Lacrosse Victoria,Greater Melbourne Area,Sports Manager,Sports Manager,Coles Little Athletics Australia,Greater Melbourne Area,87.1,executive,general
+Professor,Professor of economics,The University of Nottingham,Greater Nottingham,Professor Emeritus,Professor Emeritus,Hogwarts School of Witchcraft and Wizardry,Coventry,91.1,general,general
+Professor,Professor of economics,The University of Nottingham,Greater Nottingham,Minister,Minister of Magic,MAGIC,Greater Cleveland,86.4,general,general
+Mechanical Engineer,Mechanical Engineer,Advanced Energy,None,Mechanical Engineer,Mechanical Engineer,Cincinnati Milacron,None,84.1,software_engineer,software_engineer
+Mechanical Engineer,Mechanical Engineer,Advanced Energy,None,Senior Program,Senior Program Assistant - Canine Recreation,City of Durham,"Knightdale, NC",78.6,software_engineer,general
+Freelance Graphic,Freelance Graphic Designer,Self Employed,"Ewing, NJ",Graphic Designer,Graphic Designer,Maximilian Communications,"Hightstown, NJ",95.0,general,general
+Freelance Graphic,Freelance Graphic Designer,Self Employed,"Ewing, NJ",Junior Graphic,Junior Graphic Designer,Genesis Biotechnology Group,"Trenton, NJ",90.7,general,general
