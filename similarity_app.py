@@ -1,108 +1,108 @@
 import streamlit as st
 import pandas as pd
 from typing import List, Dict
-import json
 import os
-import random
 
-class NuvelSimilarityDemo:
-    def __init__(self, csv_file='premium_similarity_data.csv'):
-        self.df = self.load_data(csv_file)
-        self.sample_profiles = self.load_sample_profiles()
+class PremiumWesternSimilarityDemo:
+    def __init__(self, csv_file='premium_western_demo.csv'):
+        self.csv_file = csv_file
+        self.df = self.load_data()
         
-    def load_data(self, csv_file):
+    def load_data(self) -> pd.DataFrame:
+        """Load the premium Western professional data"""
         try:
-            df = pd.read_csv(csv_file)
-            if df.empty:
-                st.error("Demo dataset is empty")
+            if not os.path.exists(self.csv_file):
+                st.error(f"❌ Demo data file '{self.csv_file}' not found. Please run the data preparation script first.")
                 return pd.DataFrame()
+            
+            df = pd.read_csv(self.csv_file)
+            if df.empty:
+                st.error("❌ Demo dataset is empty")
+                return pd.DataFrame()
+                
+            # Validate required columns
+            required_cols = ['source_name', 'source_title', 'source_company', 'source_location',
+                           'similar_name', 'similar_title', 'similar_company', 'similar_location', 
+                           'similarity_score']
+            missing_cols = [col for col in required_cols if col not in df.columns]
+            if missing_cols:
+                st.error(f"❌ Missing required columns: {missing_cols}")
+                return pd.DataFrame()
+                
             return df
-        except FileNotFoundError:
-            st.error(f"Demo dataset '{csv_file}' not found")
+        except Exception as e:
+            st.error(f"❌ Error loading demo data: {e}")
             return pd.DataFrame()
     
-    def load_sample_profiles(self):
-        """Load the high-quality sample profiles with people also viewed"""
-        try:
-            sample_file = 'demo_sample_profiles.json'
-            with open(sample_file, 'r') as f:
-                return json.load(f)
-        except FileNotFoundError:
-            return {}
-    
-    def get_data_stats(self):
-        """Return key statistics about the dataset"""
+    def get_demo_stats(self) -> Dict:
+        """Get key statistics about the premium demo dataset"""
         if self.df.empty:
             return {}
         
         return {
             'total_relationships': len(self.df),
-            'unique_source_profiles': self.df['source_name'].nunique() if 'source_name' in self.df.columns else 0,
-            'unique_similar_professionals': self.df['similar_name'].nunique() if 'similar_name' in self.df.columns else 0,
-            'data_completeness': {
-                'source_names': (self.df['source_name'].notna() & (self.df['source_name'] != '')).sum() if 'source_name' in self.df.columns else 0,
-                'similar_names': (self.df['similar_name'].notna() & (self.df['similar_name'] != '')).sum() if 'similar_name' in self.df.columns else 0,
-                'similarity_scores': (self.df['similarity_score'].notna()).sum() if 'similarity_score' in self.df.columns else 0
-            }
+            'unique_source_profiles': self.df['source_name'].nunique(),
+            'unique_similar_professionals': self.df['similar_name'].nunique(),
+            'average_similarity': self.df['similarity_score'].mean(),
+            'top_companies': list(self.df['source_company'].value_counts().head(8).index),
+            'top_locations': list(self.df['source_location'].value_counts().head(8).index),
+            'company_counts': dict(self.df['source_company'].value_counts().head(5))
         }
     
-    def search_by_keywords(self, keywords: str, max_results: int = 20) -> List[Dict]:
-        """Search for professionals matching keywords in both source and similar profiles"""
+    def search_professionals(self, query: str, max_results: int = 15) -> List[Dict]:
+        """Search for professionals matching query keywords"""
         if self.df.empty:
             return []
         
-        keywords_lower = keywords.lower()
+        query_lower = query.lower()
+        query_words = [word.strip() for word in query_lower.split() if len(word.strip()) > 2]
+        
+        if not query_words:
+            return []
+        
         matching_results = []
         
-        # Search in both source and similar profiles
+        # Search through both source and similar profiles
         for _, row in self.df.iterrows():
-            # Create searchable text for both source and similar profiles
-            source_text = f"{row.get('source_name', '')} {row.get('source_title', '')} {row.get('source_company', '')} {row.get('source_location', '')}".lower()
-            similar_text = f"{row.get('similar_name', '')} {row.get('similar_title', '')} {row.get('similar_company', '')} {row.get('similar_location', '')}".lower()
+            # Combine all searchable fields
+            searchable_text = f"{row['source_name']} {row['source_title']} {row['source_company']} {row['source_location']} {row['similar_name']} {row['similar_title']} {row['similar_company']} {row['similar_location']}".lower()
             
-            # Check if keywords match either source or similar profile
-            if any(word in source_text for word in keywords_lower.split()) or any(word in similar_text for word in keywords_lower.split()):
-                # Add both source and similar as potential results
+            # Count word matches for relevance scoring
+            match_score = sum(1 for word in query_words if word in searchable_text)
+            
+            if match_score > 0:
                 matching_results.append({
-                    'name': row.get('source_name', 'Unknown'),
-                    'title': row.get('source_title', 'Professional'),
-                    'company': row.get('source_company', 'Company'),
-                    'location': row.get('source_location', 'Location'),
-                    'profile_type': 'Source Profile',
-                    'similarity_info': f"Connected to {row.get('similar_name', 'Unknown')} ({row.get('similarity_score', 0):.1f}% similarity)"
-                })
-                
-                matching_results.append({
-                    'name': row.get('similar_name', 'Unknown'),
-                    'title': row.get('similar_title', 'Professional'),
-                    'company': row.get('similar_company', 'Company'),
-                    'location': row.get('similar_location', 'Location'),
-                    'profile_type': 'Similar Professional',
-                    'similarity_info': f"Similar to {row.get('source_name', 'Unknown')} ({row.get('similarity_score', 0):.1f}% similarity)"
+                    'source_name': row['source_name'],
+                    'source_title': row['source_title'],
+                    'source_company': row['source_company'],
+                    'source_location': row['source_location'],
+                    'similar_name': row['similar_name'],
+                    'similar_title': row['similar_title'],
+                    'similar_company': row['similar_company'],
+                    'similar_location': row['similar_location'],
+                    'similarity_score': row['similarity_score'],
+                    'match_score': match_score
                 })
         
-        # Remove duplicates and limit results
-        seen = set()
-        unique_results = []
-        for result in matching_results:
-            key = f"{result['name']}_{result['company']}"
-            if key not in seen:
-                seen.add(key)
-                unique_results.append(result)
-                
-        return unique_results[:max_results]
+        # Sort by match relevance, then by similarity score
+        matching_results.sort(key=lambda x: (-x['match_score'], -x['similarity_score']))
+        
+        return matching_results[:max_results]
     
-    def get_sample_profiles(self, count: int = 10) -> List[Dict]:
-        """Get sample source profiles with their similar counts"""
+    def get_featured_profiles(self, count: int = 12) -> List[Dict]:
+        """Get featured source profiles with their similar professional counts"""
         if self.df.empty:
             return []
         
-        # Group by source profile to get unique source professionals
-        source_profiles = self.df.groupby(['source_name', 'source_title', 'source_company', 'source_location']).size().reset_index(name='similar_count')
+        # Group by source profile to get unique featured professionals
+        source_groups = self.df.groupby(['source_name', 'source_title', 'source_company', 'source_location']).size().reset_index(name='similar_count')
         
-        samples = []
-        for _, profile in source_profiles.head(count).iterrows():
-            samples.append({
+        # Sort by similar_count descending to get most connected profiles first
+        source_groups = source_groups.sort_values('similar_count', ascending=False)
+        
+        featured = []
+        for _, profile in source_groups.head(count).iterrows():
+            featured.append({
                 'name': profile['source_name'],
                 'title': profile['source_title'],
                 'company': profile['source_company'],
@@ -110,10 +110,10 @@ class NuvelSimilarityDemo:
                 'similar_count': profile['similar_count']
             })
         
-        return samples
+        return featured
     
-    def find_similar_to_profile(self, source_name: str) -> List[Dict]:
-        """Find people similar to a specific source profile"""
+    def get_similar_to_profile(self, source_name: str) -> List[Dict]:
+        """Get all professionals similar to a specific source profile"""
         if self.df.empty:
             return []
         
@@ -122,273 +122,235 @@ class NuvelSimilarityDemo:
         results = []
         for _, row in similar_profiles.iterrows():
             results.append({
-                'name': row.get('similar_name', 'Unknown'),
-                'title': row.get('similar_title', 'Professional'),
-                'company': row.get('similar_company', 'Company'),
-                'location': row.get('similar_location', 'Location'),
-                'similarity_score': row.get('similarity_score', 0)
+                'name': row['similar_name'],
+                'title': row['similar_title'],
+                'company': row['similar_company'],
+                'location': row['similar_location'],
+                'similarity_score': row['similarity_score']
             })
         
+        # Sort by similarity score descending
+        results.sort(key=lambda x: -x['similarity_score'])
+        
         return results
-    
-    def get_top_locations(self, top_n: int = 10) -> Dict[str, int]:
-        """Get top locations from both source and similar profiles"""
-        if self.df.empty:
-            return {}
-        
-        # Combine both source and similar locations
-        all_locations = pd.concat([
-            self.df['source_location'].dropna(),
-            self.df['similar_location'].dropna()
-        ])
-        
-        return dict(all_locations.value_counts().head(top_n))
-    
-    def get_company_mentions(self) -> Dict[str, int]:
-        """Count mentions of major companies in both source and similar profiles"""
-        if self.df.empty:
-            return {}
-        
-        companies = ['Google', 'Microsoft', 'Apple', 'Amazon', 'Meta', 'Tesla', 'Netflix', 'Uber', 'LinkedIn', 'Salesforce', 'Goldman Sachs', 'McKinsey', 'BCG', 'Deloitte']
-        
-        # Combine both source and similar companies
-        all_companies = pd.concat([
-            self.df['source_company'].dropna(),
-            self.df['similar_company'].dropna()
-        ]).str.lower()
-        
-        mentions = {}
-        for company in companies:
-            count = all_companies.str.contains(company.lower(), na=False).sum()
-            if count > 0:
-                mentions[company] = count
-        
-        return mentions
 
 def main():
     st.set_page_config(
-        page_title="Nuvel.ai Professional Similarity Engine",
+        page_title="Nuvel.ai - Premium Professional Similarity Engine",
         page_icon="🎯",
         layout="wide"
     )
     
-    # Header
-    st.title("🎯 Nuvel Professional Similarity API Demo")
-    st.markdown("**Discover professionals similar to your best candidates**")
-    
     # Initialize demo
-    demo = NuvelSimilarityDemo()
+    demo = NetworkSimilarityDemo()
+    
+    # Header
+    st.title("🎯 Nuvel.ai Network Similarity Engine")
+    st.markdown("**Find senior professionals similar to your best candidates instantly**")
     
     if demo.df.empty:
-        st.error("Unable to load demo data. Please ensure your CSV file is available.")
+        st.error("Unable to load premium demo data. Please ensure 'premium_western_demo.csv' exists in your directory.")
+        st.info("Run the data preparation script to generate the premium Western demo dataset.")
         return
     
-    # Sidebar with data overview
+    # Sidebar with impressive stats
     with st.sidebar:
-        st.header("📊 Demo Dataset Overview")
-        stats = demo.get_data_stats()
+        st.header("📊 Demo Dataset")
+        stats = demo.get_demo_stats()
         
         if stats:
-            st.metric("Similarity Relationships", f"{stats['total_relationships']:,}")
-            st.metric("Unique Source Profiles", f"{stats['unique_source_profiles']:,}")
-            st.metric("Similar Professionals", f"{stats['unique_similar_professionals']:,}")
+            st.metric("Premium Relationships", f"{stats['total_relationships']:,}")
+            st.metric("Senior Professionals", f"{stats['unique_source_profiles']:,}")
+            st.metric("Similar Candidates", f"{stats['unique_similar_professionals']:,}")
+            st.metric("Avg Similarity Score", f"{stats['average_similarity']:.1f}%")
             
-            st.subheader("Data Quality")
-            total_records = stats['total_relationships']
-            if total_records > 0:
-                source_pct = (stats['data_completeness']['source_names'] / total_records) * 100
-                similar_pct = (stats['data_completeness']['similar_names'] / total_records) * 100
-                score_pct = (stats['data_completeness']['similarity_scores'] / total_records) * 100
-                
-                st.write(f"**Source Names:** {stats['data_completeness']['source_names']:,} ({source_pct:.1f}%)")
-                st.write(f"**Similar Names:** {stats['data_completeness']['similar_names']:,} ({similar_pct:.1f}%)")
-                st.write(f"**Similarity Scores:** {stats['data_completeness']['similarity_scores']:,} ({score_pct:.1f}%)")
+            st.subheader("🏢 Top Companies")
+            for company, count in stats['company_counts'].items():
+                st.write(f"**{company}:** {count} connections")
+            
+            st.subheader("🌍 Key Markets")
+            for location in stats['top_locations'][:5]:
+                st.write(f"• {location}")
     
-    # Main content tabs - THIS IS WHERE TABS ARE CREATED
-    tab1, tab2, tab3, tab4 = st.tabs(["🔍 Search Professionals", "👤 Browse Sample Profiles", "📊 Dataset Insights", "🎮 Interactive Demo"])
+    # Main tabs
+    tab1, tab2, tab3, tab4 = st.tabs(["🔍 Search Professionals", "⭐ Featured Profiles", "📊 Market Insights", "🚀 Quick Demo"])
     
     with tab1:
-        st.header("🔍 Search for Similar Professionals")
+        st.header("🔍 Search Professionals")
+        st.markdown("Search professionals from top companies:")
         
         col1, col2 = st.columns([3, 1])
         with col1:
             search_query = st.text_input(
-                "Enter search keywords:",
-                placeholder="software engineer, Google, Goldman Sachs, marketing manager, McKinsey",
-                help="Search across names, job titles, companies, and locations"
+                "Search professionals:",
+                placeholder="software engineer google, director amazon, vp salesforce",
+                help="Search by name, title, company, or location"
             )
         with col2:
-            max_results = st.selectbox("Max Results:", [10, 15, 20, 30], index=1)
+            max_results = st.selectbox("Results to show:", [10, 15, 20, 25], index=1)
         
-        if st.button("🔍 Search", type="primary") or search_query:
+        if st.button("🔍 Find Similar Professionals", type="primary") or search_query:
             if search_query:
                 with st.spinner("Searching professional database..."):
-                    results = demo.search_by_keywords(search_query, max_results)
+                    results = demo.search_professionals(search_query, max_results)
                 
                 if results:
-                    st.success(f"✅ Found **{len(results)}** professionals matching '{search_query}'")
+                    st.success(f"✅ Found **{len(results)}** premium professionals matching '{search_query}'")
                     
-                    # Display results in clean format
-                    for idx, result in enumerate(results, 1):
+                    for i, result in enumerate(results, 1):
                         with st.container():
-                            st.markdown(f"**{idx}. 👤 {result['name']}**")
-                            st.markdown(f"💼 {result['title']} at **{result['company']}**")
-                            st.markdown(f"📍 {result['location']}")
-                            st.markdown(f"🔗 {result['similarity_info']}")
-                            st.caption(f"Profile Type: {result['profile_type']}")
+                            col1, col2 = st.columns([4, 1])
+                            
+                            with col1:
+                                st.markdown(f"### {i}. 👤 {result['similar_name']}")
+                                st.markdown(f"**{result['similar_title']}** at **{result['similar_company']}**")
+                                st.markdown(f"📍 {result['similar_location']}")
+                                st.caption(f"Similar to: {result['source_name']} ({result['source_title']} @ {result['source_company']})")
+                            
+                            with col2:
+                                st.metric("Similarity", f"{result['similarity_score']:.1f}%")
+                                st.button("📧 Contact", key=f"contact_{i}", help="Full contact info in paid version")
+                            
                             st.divider()
-                else:
-                    st.warning("No professionals found matching your search.")
-                    st.info("💡 Try different keywords like: Google, software engineer, Goldman Sachs, McKinsey, product manager")
-    
-    # THIS IS THE CORRECT PLACE FOR TAB2 CODE
-    with tab2:
-        st.header("👤 Browse Premium Sample Profiles")
-        st.markdown("**Explore real professionals from our database and their similarity relationships:**")
-        
-        if demo.sample_profiles:
-            # Display sample profiles in professional format
-            for i, (profile_id, profile_data) in enumerate(demo.sample_profiles.items(), 1):
-                main_profile = profile_data['main_profile']
-                people_also_viewed = profile_data['people_also_viewed']
+                    
+                    # Conversion hook
+                    if len(results) >= max_results:
+                        st.info("🔥 **Showing top matches only.** Full database contains 475M professionals with complete contact information.")
                 
-                # Main profile card
+                else:
+                    st.warning("No premium professionals found for this search.")
+                    st.info("💡 Try: 'google engineer', 'goldman sachs director', 'salesforce vp', 'meta product manager'")
+    
+    with tab2:
+        st.header("⭐ Featured Premium Profiles")
+        st.markdown("**Explore our most connected senior professionals and their similarity networks:**")
+        
+        featured_profiles = demo.get_featured_profiles(10)
+        
+        if featured_profiles:
+            for i, profile in enumerate(featured_profiles, 1):
                 with st.container():
                     col1, col2, col3 = st.columns([3, 2, 1])
                     
                     with col1:
-                        st.markdown(f"### 👤 {main_profile['name']}")
-                        st.markdown(f"**{main_profile['title']}**")
-                        st.markdown(f"🏢 {main_profile['company']}")
-                        if main_profile['location'] != 'Not specified':
-                            st.markdown(f"📍 {main_profile['location']}")
+                        st.markdown(f"### {i}. 👤 {profile['name']}")
+                        st.markdown(f"**{profile['title']}**")
+                        st.markdown(f"🏢 {profile['company']}")
+                        st.markdown(f"📍 {profile['location']}")
                     
                     with col2:
-                        st.metric("Similar Professionals", len(people_also_viewed))
-                        if len(main_profile['full_summary']) > 100:
-                            st.caption(f"💼 {main_profile['full_summary'][:100]}...")
+                        st.metric("Connected Professionals", profile['similar_count'])
+                        st.caption("Premium similarity matches")
                     
                     with col3:
-                        if st.button(f"👥 View Similar", key=f"profile_{i}", type="secondary"):
-                            st.session_state[f'show_similar_{i}'] = not st.session_state.get(f'show_similar_{i}', False)
-                    
-                    # Show "People Also Viewed" when button is clicked
-                    if st.session_state.get(f'show_similar_{i}', False):
-                        st.markdown("#### 🔍 People Also Viewed:")
-                        
-                        if people_also_viewed:
-                            # Display similar profiles in a clean grid
-                            for j, similar in enumerate(people_also_viewed, 1):
-                                with st.expander(f"#{j} {similar['name']} - {similar['company']}", expanded=True):
-                                    col_a, col_b = st.columns(2)
-                                    with col_a:
-                                        st.markdown(f"**Title:** {similar['title']}")
-                                        st.markdown(f"**Company:** {similar['company']}")
-                                    with col_b:
-                                        if similar['location'] != 'Not specified':
+                        if st.button(f"👥 View Network", key=f"featured_{i}", type="secondary"):
+                            similar_pros = demo.get_similar_to_profile(profile['name'])
+                            
+                            if similar_pros:
+                                st.success(f"**{len(similar_pros)}** professionals in {profile['name']}'s network:")
+                                
+                                # Show top similar professionals
+                                for j, similar in enumerate(similar_pros[:6], 1):
+                                    with st.expander(f"#{j} {similar['name']} - {similar['company']}", expanded=True):
+                                        col_a, col_b = st.columns(2)
+                                        with col_a:
+                                            st.markdown(f"**Title:** {similar['title']}")
+                                            st.markdown(f"**Company:** {similar['company']}")
                                             st.markdown(f"**Location:** {similar['location']}")
-                                        # Calculate a demo similarity score
-                                        similarity_score = random.randint(85, 94)
-                                        st.metric("Similarity", f"{similarity_score}%")
-                        else:
-                            st.info("No similar professionals found in demo dataset")
+                                        with col_b:
+                                            st.metric("Similarity", f"{similar['similarity_score']:.1f}%")
                     
                     st.divider()
-        else:
-            # Fallback to regular sample profiles from CSV data
-            st.info("Using sample profiles from CSV data (JSON sample profiles not available)")
-            sample_profiles = demo.get_sample_profiles(10)
-            
-            if sample_profiles:
-                for i, profile in enumerate(sample_profiles, 1):
-                    with st.container():
-                        col1, col2, col3 = st.columns([3, 2, 1])
-                        
-                        with col1:
-                            st.markdown(f"### 👤 {profile['name']}")
-                            st.markdown(f"**{profile['title']}**")
-                            st.markdown(f"🏢 {profile['company']}")
-                            if profile['location'] != 'Location':
-                                st.markdown(f"📍 {profile['location']}")
-                        
-                        with col2:
-                            st.metric("Similar Professionals", profile['similar_count'])
-                        
-                        with col3:
-                            if st.button(f"👥 View Similar", key=f"csv_profile_{i}", type="secondary"):
-                                similar_results = demo.find_similar_to_profile(profile['name'])
-                                
-                                if similar_results:
-                                    st.success(f"Found {len(similar_results)} similar professionals:")
-                                    for j, similar in enumerate(similar_results[:5], 1):
-                                        st.markdown(f"**{j}.** {similar['name']} - {similar['title']} @ {similar['company']} ({similar['similarity_score']:.1f}%)")
-                        
-                        st.divider()
     
     with tab3:
-        st.header("📊 Dataset Insights")
+        st.header("📊 Premium Market Insights")
+        
+        stats = demo.get_demo_stats()
         
         col1, col2 = st.columns(2)
         
         with col1:
-            st.subheader("🌍 Top Locations")
-            locations = demo.get_top_locations(10)
-            if locations:
-                for location, count in locations.items():
-                    st.write(f"**{location}:** {count:,} professionals")
-            else:
-                st.info("No location data available")
+            st.subheader("🏢 Top Companies Represented")
+            if stats.get('top_companies'):
+                for i, company in enumerate(stats['top_companies'], 1):
+                    connections = stats['company_counts'].get(company, 0)
+                    st.write(f"**{i}. {company}** - {connections} senior professional connections")
         
         with col2:
-            st.subheader("🏢 Company Mentions")
-            companies = demo.get_company_mentions()
-            if companies:
-                for company, count in sorted(companies.items(), key=lambda x: x[1], reverse=True):
-                    st.write(f"**{company}:** {count:,} mentions")
-            else:
-                st.info("No company mentions found")
+            st.subheader("🌍 Premium Markets Covered")
+            if stats.get('top_locations'):
+                for i, location in enumerate(stats['top_locations'], 1):
+                    st.write(f"**{i}. {location}**")
         
-        # Average similarity score
-        if not demo.df.empty and 'similarity_score' in demo.df.columns:
-            avg_similarity = demo.df['similarity_score'].mean()
-            st.subheader("📈 Data Quality Metrics")
-            st.write(f"**Average Similarity Score:** {avg_similarity:.1f}%")
-            st.write(f"**Total Professional Relationships:** {len(demo.df):,}")
+        st.subheader("📈 Data Quality Metrics")
+        col1, col2, col3 = st.columns(3)
+        
+        with col1:
+            st.metric("Total Premium Relationships", f"{stats['total_relationships']:,}")
+        with col2:
+            st.metric("Average Similarity Score", f"{stats['average_similarity']:.1f}%")
+        with col3:
+            st.metric("Senior Professional Coverage", f"{stats['unique_source_profiles']:,}")
     
     with tab4:
-        st.header("🎮 Interactive Demo")
-        st.markdown("Try these pre-configured searches to see the similarity engine in action:")
+        st.header("🚀 Quick Demo - Try These Searches")
+        st.markdown("**Click any button below to see instant results:**")
         
         demo_searches = [
-            "software engineer Google",
-            "Goldman Sachs",
-            "McKinsey consultant", 
-            "product manager Meta",
-            "director Amazon",
+            "software engineer google",
+            "product manager meta", 
+            "director amazon",
+            "goldman sachs",
+            "vp salesforce",
             "data scientist",
-            "CEO"
+            "engineering manager"
         ]
         
         cols = st.columns(3)
         for i, search_term in enumerate(demo_searches):
             with cols[i % 3]:
-                if st.button(f"🔍 {search_term}", key=f"demo_{search_term}"):
-                    results = demo.search_by_keywords(search_term, 5)
+                if st.button(f"🔍 {search_term.title()}", key=f"quick_{i}"):
+                    results = demo.search_professionals(search_term, 5)
                     
                     if results:
-                        st.success(f"**{len(results)}** results for '{search_term}':")
-                        for idx, result in enumerate(results[:3], 1):  # Show top 3
-                            st.write(f"**{idx}.** {result['name']} - {result['title']} @ {result['company']}")
+                        st.success(f"**{len(results)}** matches for '{search_term}':")
+                        for j, result in enumerate(results[:3], 1):
+                            st.write(f"**{j}.** {result['similar_name']} - *{result['similar_title']}* @ **{result['similar_company']}** ({result['similarity_score']:.1f}%)")
                     else:
-                        st.warning(f"No results for '{search_term}'")
+                        st.warning(f"No results found for '{search_term}'")
     
-    # Footer
+    # Footer with conversion messaging
     st.markdown("---")
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.markdown("""
+        **⚠️ Premium Demo Limitations:**
+        - Showcases random professionals
+        - Full database: **475M professionals** across **244 countries**  
+        - Complete profiles available
+        - Advanced filtering, bulk export, and API access in full version
+        """)
+    
+    with col2:
+        st.markdown("""
+        **🚀 Ready for Full Access?**
+        
+        **[Schedule Demo Call →](mailto:hello@nuvel.ai)**
+        
+        Get unlimited access to our complete professional database with:
+        - Real-time contact information
+        - Advanced search filters  
+        - Bulk export capabilities
+        - API integration for your tools
+        """)
+    
     st.markdown("""
-    <div style='text-align: center; color: #666;'>
+    <div style='text-align: center; color: #666; margin-top: 2rem;'>
     <p><strong>Nuvel.ai Professional Similarity Engine</strong></p>
     <p>🌐 <em>Powered by 1.8+ billion professional relationships</em></p>
-    <p><strong>This demo represents a small sample of our full 475M professional database</strong></p>
+    <p><strong>This demo represents less than 0.1% of our full premium database</strong></p>
     </div>
     """, unsafe_allow_html=True)
 
