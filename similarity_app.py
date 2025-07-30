@@ -325,7 +325,7 @@ def main():
         
         Get unlimited access to our complete similarity engine:
         - Real-time professional similarity matching
-        - Complete contact information and LinkedIn profiles
+        - Complete profiles
         - Advanced search filters and bulk export
         - API integration for your recruiting tools
         """)
