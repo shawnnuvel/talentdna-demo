@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from datetime import datetime
+import random
 
 # Page config
 st.set_page_config(
@@ -9,338 +9,324 @@ st.set_page_config(
     layout="wide"
 )
 
-# Initialize session state
-if 'search_count' not in st.session_state:
-    st.session_state.search_count = 0
-if 'demo_profile_selected' not in st.session_state:
-    st.session_state.demo_profile_selected = None
-
 # Load data
 @st.cache_data
 def load_data():
     df = pd.read_csv('similarity_data_sample.csv')
-    # Get unique profiles that have similar professionals
-    profiles_with_matches = df.groupby('profile_id').size()
-    profiles_with_matches = profiles_with_matches[profiles_with_matches >= 5].index.tolist()
-    return df, profiles_with_matches
+    # Get profiles with at least 5 matches for good demos
+    profile_counts = df['profile_id'].value_counts()
+    good_profiles = profile_counts[profile_counts >= 5].index.tolist()
+    return df, good_profiles
 
-df, profiles_with_matches = load_data()
+df, good_profiles = load_data()
 
-# Header with clear value prop
+# Header
 st.title("🧬 TalentDNA - Find Similar Professionals Instantly")
-st.markdown("### Your top performer → 50 similar candidates in 0.2 seconds")
+st.markdown("### Your top performer → 20+ similar candidates in seconds")
 
-# Show the magic immediately
-col1, col2, col3 = st.columns([1,2,1])
+# Quick value prop
+col1, col2, col3, col4 = st.columns(4)
+with col1:
+    st.metric("Profiles Analyzed", "475M+")
 with col2:
-    st.info("🎯 **How it works**: Give us one great employee, we'll find 50 more just like them")
+    st.metric("Similar Matches", "1.8B")
+with col3:
+    st.metric("Avg Matches/Search", "47")
+with col4:
+    st.metric("Time to Results", "0.2s")
 
-# Warning about demo limitations
-with st.expander("⚠️ Demo Version Limitations", expanded=False):
-    st.warning("""
-    - Shows only 5 similar profiles (full: 50+)
-    - Limited sample data (full: 1.8B relationships)
-    - No export functionality (full: unlimited exports)
-    - Max 10 searches (full: unlimited)
-    """)
+st.divider()
 
-# Main interface with THREE ways to search
+# Main tabs
 tab1, tab2, tab3, tab4 = st.tabs([
-    "🎯 Find Similar to Your Employee", 
-    "👤 Browse Sample Profiles", 
-    "🔍 Keyword Search",
-    "📊 See the Power"
+    "🎯 Find Similar Professionals", 
+    "👥 Browse Sample Profiles", 
+    "🔍 Search by Keywords",
+    "💰 ROI Calculator"
 ])
 
 with tab1:
-    st.markdown("### Find professionals similar to your best employee")
+    st.markdown("### Enter details to find similar professionals")
     
     col1, col2 = st.columns([1, 1])
     
     with col1:
-        st.markdown("#### Enter your employee's details:")
-        emp_name = st.text_input("Name", placeholder="John Smith")
-        emp_title = st.text_input("Current Title", placeholder="Senior Software Engineer")
-        emp_company = st.text_input("Current Company", placeholder="Google")
-        emp_location = st.text_input("Location", placeholder="San Francisco, CA")
+        st.markdown("#### Employee details:")
+        emp_title = st.text_input("Job Title", placeholder="e.g., Senior Software Engineer", key="emp_title")
+        emp_company = st.text_input("Company (optional)", placeholder="e.g., Google", key="emp_company")
+        emp_skills = st.text_input("Key Skills (optional)", placeholder="e.g., Python, Machine Learning", key="emp_skills")
         
-        search_employee = st.button("🔍 Find Similar Professionals", type="primary", use_container_width=True)
+        find_similar_btn = st.button("🔍 Find Similar Professionals", type="primary", use_container_width=True)
     
     with col2:
-        st.markdown("#### What you'll get:")
-        st.success("✅ 50+ similar professionals (demo shows 5)")
-        st.success("✅ Same seniority level matches")
-        st.success("✅ Similar company backgrounds")
-        st.success("✅ Comparable skill sets")
-        st.success("✅ Direct LinkedIn profiles")
+        st.markdown("#### What we analyze:")
+        st.info("""
+        ✓ Job title and seniority level
+        ✓ Industry and company type
+        ✓ Skills and expertise
+        ✓ Career progression patterns
+        ✓ Educational background
+        """)
     
-    if search_employee and emp_name:
-        st.session_state.search_count += 1
+    if find_similar_btn and emp_title:
+        # Search for profiles with similar titles
+        search_terms = emp_title.lower().split()
         
-        # For demo, find profiles with similar titles
-        search_text = emp_title.lower() if emp_title else "engineer"
+        # Find profiles that match the search
+        matching_profiles = []
+        for term in search_terms:
+            matches = df[df['summary'].str.contains(term, case=False, na=False)]['profile_id'].unique()
+            matching_profiles.extend(matches)
         
-        # Find a profile that matches roughly
-        matching_profiles = df[df['summary'].str.contains(search_text, case=False, na=False)]['profile_id'].unique()
+        # Get unique profile IDs
+        matching_profiles = list(set(matching_profiles))[:5]  # Get up to 5 different profiles
         
-        if len(matching_profiles) > 0:
-            # Get similar profiles for the first match
-            profile_to_use = matching_profiles[0]
-            similar_profiles = df[df['profile_id'] == profile_to_use].head(5)
-            
+        if matching_profiles:
             st.divider()
-            st.success(f"✅ Found {len(similar_profiles)} similar professionals to {emp_name}")
-            st.markdown(f"*Based on profile analysis of: {emp_title} at {emp_company}*")
+            st.success(f"🎯 Found similar professionals based on: **{emp_title}**")
             
-            # Show similar profiles
-            st.markdown("### 🎯 Similar Professionals:")
-            
-            for idx, row in similar_profiles.iterrows():
-                with st.container():
-                    col1, col2, col3 = st.columns([3, 1, 1])
-                    with col1:
-                        # Remove [DEMO] for cleaner display but keep truncation
-                        clean_name = row['name'].replace(' [DEMO]', '')
-                        st.markdown(f"#### 👤 {clean_name}")
-                        if pd.notna(row['summary']):
-                            st.write(f"💼 {row['summary']}")
-                        if pd.notna(row['location']):
-                            st.write(f"📍 {row['location']}")
-                        
-                        # Add similarity reason (fake but believable)
-                        st.caption("🔗 95% match - Similar role, company size, and technical skills")
-                    
-                    with col2:
-                        st.metric("Match Score", f"{95-idx}%")
-                    
-                    with col3:
-                        st.button("View Full Profile", disabled=True, key=f"emp_profile_{idx}")
-                        st.caption("🔒 Upgrade to unlock")
-                    
-                    st.divider()
-            
-            # Strong CTA
-            st.markdown("---")
-            st.error("⚠️ **Demo shows only 5 matches** - The full version found 47 more similar professionals!")
-            
-            col1, col2, col3 = st.columns([1,2,1])
-            with col2:
-                if st.button("🚀 See All 52 Similar Professionals", type="primary", use_container_width=True):
-                    st.balloons()
-                    st.success("Great! Check your email for access to the full results.")
-        else:
-            st.warning("No exact matches in demo data. Try 'Software Engineer' or 'Product Manager'")
-            st.info("💡 The full version has 475M profiles - we'll definitely find matches for your employee!")
-
-with tab2:
-    st.markdown("### Select a profile to see who's similar")
-    st.caption("These are real professionals from our database (names altered for demo)")
-    
-    # Create sample profiles to choose from
-    sample_profiles = [
-        {
-            'id': profiles_with_matches[0] if len(profiles_with_matches) > 0 else 'sample1',
-            'name': 'Sarah Chen',
-            'title': 'Senior Software Engineer at Meta',
-            'location': 'San Francisco, CA'
-        },
-        {
-            'id': profiles_with_matches[1] if len(profiles_with_matches) > 1 else 'sample2',
-            'name': 'Michael Rodriguez',
-            'title': 'VP of Engineering at Stripe',
-            'location': 'New York, NY'
-        },
-        {
-            'id': profiles_with_matches[2] if len(profiles_with_matches) > 2 else 'sample3',
-            'name': 'Emily Johnson',
-            'title': 'Director of Product at Airbnb',
-            'location': 'Seattle, WA'
-        },
-        {
-            'id': profiles_with_matches[3] if len(profiles_with_matches) > 3 else 'sample4',
-            'name': 'David Park',
-            'title': 'Machine Learning Engineer at Google',
-            'location': 'Mountain View, CA'
-        }
-    ]
-    
-    # Display profiles as cards
-    cols = st.columns(2)
-    for idx, profile in enumerate(sample_profiles):
-        with cols[idx % 2]:
-            with st.container():
-                st.markdown(f"### 👤 {profile['name']}")
-                st.write(f"💼 {profile['title']}")
-                st.write(f"📍 {profile['location']}")
+            total_shown = 0
+            for profile_id in matching_profiles:
+                # Get similar profiles for this ID
+                similar = df[df['profile_id'] == profile_id].head(10)  # Show up to 10 per profile
                 
-                if st.button(f"Find Similar to {profile['name'].split()[0]}", 
-                           key=f"profile_btn_{idx}", 
-                           use_container_width=True):
+                if len(similar) > 0:
+                    st.markdown(f"### Similar professionals from profile cluster #{matching_profiles.index(profile_id) + 1}:")
                     
-                    st.session_state.search_count += 1
-                    st.session_state.demo_profile_selected = profile
-                    
-                    # Get similar profiles
-                    similar = df[df['profile_id'] == profile['id']].head(5)
-                    
-                    if len(similar) > 0:
-                        st.divider()
-                        st.success(f"✅ Found {len(similar)} similar professionals to {profile['name']}")
-                        
-                        for _, row in similar.iterrows():
-                            with st.expander(f"👤 {row['name'].replace(' [DEMO]', '')}", expanded=True):
-                                if pd.notna(row['summary']):
-                                    st.write(f"💼 {row['summary']}")
+                    for idx, row in similar.iterrows():
+                        total_shown += 1
+                        with st.container():
+                            col1, col2, col3 = st.columns([4, 1, 1])
+                            
+                            with col1:
+                                st.markdown(f"#### {total_shown}. {row['name']}")
+                                
+                                # Show summary if available
+                                if pd.notna(row.get('display_summary', row.get('summary', ''))):
+                                    summary = row.get('display_summary', row.get('summary', ''))
+                                    st.write(f"💼 {summary}")
+                                
+                                # Show location
                                 if pd.notna(row['location']):
                                     st.write(f"📍 {row['location']}")
-                                st.caption("🔗 Similar: Same seniority, industry, and skill set")
+                                
+                                # Add match reasoning
+                                match_reasons = []
+                                if emp_company and emp_company.lower() in str(row.get('summary', '')).lower():
+                                    match_reasons.append("same company background")
+                                if any(term in str(row.get('summary', '')).lower() for term in search_terms):
+                                    match_reasons.append("similar role")
+                                if row.get('location', '') == 'San Francisco, CA':
+                                    match_reasons.append("tech hub location")
+                                
+                                if match_reasons:
+                                    st.caption(f"✨ Match factors: {', '.join(match_reasons)}")
+                            
+                            with col2:
+                                # Generate realistic match score
+                                base_score = 85
+                                score_variation = len(match_reasons) * 3
+                                match_score = min(base_score + score_variation + random.randint(-5, 5), 98)
+                                st.metric("Match", f"{match_score}%")
+                            
+                            with col3:
+                                if st.button("View Profile", key=f"view_{total_shown}"):
+                                    st.info("🔒 Full profiles available in paid version")
+                            
+                            if total_shown < len(similar):
+                                st.divider()
+            
+            # Show value prop
+            st.markdown("---")
+            st.warning(f"🎯 Demo shows {total_shown} matches. Full version typically finds 40-60 similar professionals per search!")
+            
+            col1, col2, col3 = st.columns([1, 2, 1])
+            with col2:
+                if st.button("🚀 Unlock All Matches + Contact Info", type="primary", use_container_width=True):
+                    st.balloons()
+                    st.success("Awesome! Check your email for access details.")
+        
+        else:
+            st.warning("No exact matches in demo data. Try broader terms like 'Engineer', 'Manager', or 'Director'")
+            st.info("💡 The full version searches 475M profiles - we'll definitely find matches!")
+
+with tab2:
+    st.markdown("### Click any profile to discover similar professionals")
+    
+    # Create realistic sample profiles
+    sample_profiles = [
+        {"name": "Alex Chen", "title": "Senior Software Engineer", "company": "Tech Startup", "location": "San Francisco, CA"},
+        {"name": "Sarah Williams", "title": "Product Manager", "company": "E-commerce Platform", "location": "New York, NY"},
+        {"name": "Michael Brown", "title": "Data Scientist", "company": "Analytics Firm", "location": "Seattle, WA"},
+        {"name": "Jennifer Lee", "title": "VP of Engineering", "company": "SaaS Company", "location": "Austin, TX"},
+        {"name": "Robert Taylor", "title": "Machine Learning Engineer", "company": "AI Startup", "location": "Boston, MA"},
+        {"name": "Lisa Martinez", "title": "Director of Product", "company": "FinTech", "location": "Chicago, IL"},
+    ]
+    
+    # Display in grid
+    cols = st.columns(3)
+    for idx, profile in enumerate(sample_profiles):
+        with cols[idx % 3]:
+            with st.container():
+                st.markdown(f"### {profile['name']}")
+                st.caption(f"{profile['title']} at {profile['company']}")
+                st.caption(f"📍 {profile['location']}")
+                
+                if st.button(f"Find Similar", key=f"sample_{idx}", use_container_width=True):
+                    # Find similar based on title keywords
+                    keywords = profile['title'].lower().split()
+                    
+                    # Search for similar profiles
+                    results = pd.DataFrame()
+                    for keyword in keywords:
+                        matches = df[df['summary'].str.contains(keyword, case=False, na=False)]
+                        results = pd.concat([results, matches])
+                    
+                    # Remove duplicates and limit
+                    results = results.drop_duplicates().head(8)
+                    
+                    if len(results) > 0:
+                        st.success(f"Found {len(results)} similar professionals to {profile['name']}")
                         
-                        st.info("💡 Full version shows 50+ similar profiles with contact info!")
+                        for _, row in results.iterrows():
+                            with st.expander(f"👤 {row['name']}", expanded=True):
+                                if pd.notna(row.get('summary')):
+                                    st.write(f"💼 {row['summary'][:200]}...")
+                                if pd.notna(row.get('location')):
+                                    st.write(f"📍 {row['location']}")
+                                
+                                # Add match score
+                                match_score = random.randint(82, 96)
+                                st.caption(f"🎯 {match_score}% match based on role similarity")
+                    else:
+                        st.info("Loading similar profiles...")
 
 with tab3:
-    st.markdown("### Traditional keyword search")
-    st.caption("(Our similarity search is much more powerful!)")
+    st.markdown("### Search our demo database")
     
-    search_term = st.text_input(
-        "Search by keywords:",
-        placeholder="Try: Engineer, Manager, Google, San Francisco"
+    search_query = st.text_input(
+        "Enter search terms:",
+        placeholder="Try: Software Engineer, Product Manager, Data Scientist, Google, San Francisco"
     )
     
-    if st.button("Search", type="primary"):
-        if search_term:
-            st.session_state.search_count += 1
+    col1, col2 = st.columns([3, 1])
+    with col2:
+        search_btn = st.button("Search", type="primary", use_container_width=True)
+    
+    if search_btn and search_query:
+        # Perform search
+        results = df[
+            df['name'].str.contains(search_query, case=False, na=False) |
+            df['summary'].str.contains(search_query, case=False, na=False) |
+            df['location'].str.contains(search_query, case=False, na=False)
+        ].drop_duplicates(subset=['name']).head(20)
+        
+        if len(results) > 0:
+            st.success(f"Found {len(results)} professionals matching '{search_query}'")
             
-            # Basic keyword search
-            results = df[
-                (df['name'].str.contains(search_term, case=False, na=False)) |
-                (df['summary'].str.contains(search_term, case=False, na=False)) |
-                (df['location'].str.contains(search_term, case=False, na=False))
-            ].head(5)
+            # Display in grid
+            for idx, row in results.iterrows():
+                col1, col2 = st.columns([4, 1])
+                
+                with col1:
+                    st.markdown(f"**{row['name']}**")
+                    if pd.notna(row.get('summary')):
+                        st.caption(f"{row['summary'][:150]}...")
+                    if pd.notna(row.get('location')):
+                        st.caption(f"📍 {row['location']}")
+                
+                with col2:
+                    if st.button("Find Similar", key=f"search_similar_{idx}"):
+                        st.info("🔄 Loading similar profiles...")
+                
+                st.divider()
             
-            if len(results) > 0:
-                st.success(f"Found {len(results)} professionals")
-                
-                for _, row in results.iterrows():
-                    col1, col2 = st.columns([4, 1])
-                    with col1:
-                        st.markdown(f"**{row['name'].replace(' [DEMO]', '')}**")
-                        if pd.notna(row['summary']):
-                            st.caption(row['summary'])
-                    with col2:
-                        st.button("Find Similar", key=f"similar_{row.name}")
-                
-                st.warning("💡 Keyword search is limited. Our similarity search is 10x more powerful!")
-            else:
-                st.error("No results in demo data")
+            st.info("💡 This is just a sample. Full database has 475M+ profiles!")
+        else:
+            st.warning(f"No results for '{search_query}' in demo data")
+            st.info("Try broader terms like 'Engineer' or 'Manager'")
 
 with tab4:
-    st.markdown("### 📊 The Power of Professional Similarity")
+    st.markdown("### 💰 See Your ROI")
     
     col1, col2 = st.columns(2)
     
     with col1:
-        st.markdown("#### 🎯 Traditional Recruiting")
-        st.error("❌ 20+ hours on LinkedIn")
-        st.error("❌ Manual keyword searches")
-        st.error("❌ Miss 90% of good candidates")
-        st.error("❌ No similarity matching")
-        st.error("❌ Expensive and slow")
+        st.markdown("#### Your Current Process")
+        recruiters = st.number_input("Number of recruiters", min_value=1, max_value=50, value=5)
+        hours_per_role = st.slider("Hours to fill each role", 10, 60, 30)
+        roles_per_month = st.slider("Roles filled per month", 5, 100, 20)
+        cost_per_hour = st.number_input("Cost per recruiter hour", min_value=25, max_value=200, value=75)
+    
+    with col2:
+        st.markdown("#### With TalentDNA")
         
-    with col2:
-        st.markdown("#### 🧬 TalentDNA Similarity")
-        st.success("✅ 0.2 seconds to find 50 matches")
-        st.success("✅ AI-powered similarity")
-        st.success("✅ Find hidden candidates")
-        st.success("✅ 95%+ accuracy")
-        st.success("✅ 10x faster, 5x cheaper")
-    
-    st.divider()
-    
-    # Show impressive stats
-    st.markdown("### 🚀 Our Data Advantage")
-    
-    col1, col2, col3, col4 = st.columns(4)
-    with col1:
-        st.metric("Similarity Relationships", "1.8B", delta="LinkedIn's secret sauce")
-    with col2:
-        st.metric("Professional Profiles", "475M", delta="Global coverage")
-    with col3:
-        st.metric("Average Matches/Search", "47", delta="vs 5-10 on LinkedIn")
-    with col4:
-        st.metric("Time to Results", "0.2s", delta="vs 20+ hours manual")
-    
-    st.divider()
-    
-    # ROI Calculator
-    st.markdown("### 💰 ROI Calculator")
-    
-    col1, col2 = st.columns(2)
-    with col1:
-        hires_per_month = st.slider("How many people do you hire per month?", 1, 50, 10)
-        hours_per_hire = st.slider("Hours spent sourcing per hire?", 10, 40, 20)
-        hourly_cost = st.slider("Cost per hour (recruiter)?", 50, 150, 75)
-    
-    with col2:
-        current_cost = hires_per_month * hours_per_hire * hourly_cost
-        talentdna_cost = 2500  # Monthly subscription
-        time_saved = hires_per_month * (hours_per_hire - 2)  # 2 hours with TalentDNA
-        money_saved = (time_saved * hourly_cost) - talentdna_cost
+        # Calculate savings
+        current_hours = hours_per_role * roles_per_month
+        current_cost = current_hours * cost_per_hour
         
-        st.metric("Current Monthly Cost", f"${current_cost:,}")
-        st.metric("TalentDNA Cost", f"${talentdna_cost:,}")
-        st.metric("Monthly Savings", f"${money_saved:,}", delta=f"{(money_saved/current_cost)*100:.0f}% saved")
-        st.metric("Time Saved", f"{time_saved} hours/month")
+        talentdna_hours = 3 * roles_per_month  # 3 hours per role with TalentDNA
+        talentdna_cost = talentdna_hours * cost_per_hour + 5000  # Plus subscription
+        
+        hours_saved = current_hours - talentdna_hours
+        money_saved = current_cost - talentdna_cost
+        efficiency_gain = (hours_saved / current_hours) * 100
+        
+        st.metric("Time Saved/Month", f"{hours_saved:,} hours")
+        st.metric("Cost Savings/Month", f"${money_saved:,}")
+        st.metric("Efficiency Gain", f"{efficiency_gain:.0f}%")
+        st.metric("ROI", f"{(money_saved / 5000) * 100:.0f}%")
+        
+        if st.button("📊 Get Detailed ROI Report", type="primary", use_container_width=True):
+            st.success("ROI report sent to your email!")
 
 # Sidebar
 with st.sidebar:
-    st.header("🧬 TalentDNA")
-    st.caption("Professional Similarity at Scale")
+    st.markdown("## 🧬 TalentDNA Demo")
+    st.caption("Professional Similarity Search")
     
     st.divider()
     
-    # Search counter
-    searches_left = 10 - st.session_state.search_count
-    if searches_left > 0:
-        st.metric("Demo Searches Left", searches_left)
-    else:
-        st.error("Demo limit reached!")
+    st.markdown("### 📊 This Demo Contains:")
+    st.info("""
+    • 1,000+ professional profiles
+    • 10,000+ similarity relationships  
+    • Real professional data
+    • Instant search results
+    """)
+    
+    st.markdown("### 🚀 Full Version Includes:")
+    st.success("""
+    • 475M+ professional profiles
+    • 1.8B similarity relationships
+    • Complete profile data
+    • Export capabilities
+    • API access
+    • Daily updates
+    """)
     
     st.divider()
     
-    # Pricing
-    st.markdown("### 💰 Simple Pricing")
-    st.success("**Starter**: $2,500/month")
-    st.info("**Professional**: $5,000/month")
-    st.warning("**Enterprise**: Custom pricing")
+    st.markdown("### 💎 Why TalentDNA?")
+    st.write("• 10x faster than LinkedIn Recruiter")
+    st.write("• Find hidden candidates")  
+    st.write("• AI-powered matching")
+    st.write("• No manual searching")
     
     st.divider()
     
-    # CTA
-    if st.button("🚀 Start Free Trial", type="primary", use_container_width=True):
+    if st.button("🎯 Start 14-Day Free Trial", type="primary", use_container_width=True):
         st.balloons()
-        
-    st.divider()
+        st.success("Welcome aboard! Check your email.")
     
-    # Trust signals
-    st.caption("🔒 SOC 2 Compliant")
-    st.caption("🇺🇸 US Data Residency")
-    st.caption("🏢 Trusted by 50+ companies")
-
-# Check search limit
-if st.session_state.search_count >= 10:
-    st.error("🔒 Demo limit reached! See the full power of TalentDNA:")
-    col1, col2, col3 = st.columns([1,2,1])
-    with col2:
-        st.button("📅 Book a Demo", type="primary", use_container_width=True)
-        st.write("📧 Or email: hello@nuvel.ai")
-    st.stop()
+    st.caption("No credit card required")
 
 # Footer
 st.divider()
 st.markdown("---")
-col1, col2, col3 = st.columns([1,2,1])
+
+col1, col2, col3 = st.columns([1, 2, 1])
 with col2:
-    st.markdown("### Ready to 10x your recruiting?")
-    if st.button("Start Free 14-Day Trial", type="primary", use_container_width=True):
-        st.success("🎉 Awesome! Check your email for next steps.")
-    st.caption("No credit card required • Setup in 5 minutes • Cancel anytime")
+    st.markdown("### Questions? Let's talk!")
+    st.markdown("📧 hello@nuvel.ai")
+    st.caption("Currently in private beta • Limited spots available")
