@@ -142,7 +142,7 @@ def main():
     )
     
     # Initialize demo
-    demo = NetworkSimilarityDemo()
+    demo = PremiumWesternSimilarityDemo()
     
     # Header
     st.title("🎯 Nuvel.ai Network Similarity Engine")
